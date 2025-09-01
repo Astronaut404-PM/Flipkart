@@ -1,0 +1,21 @@
+# Node
+node_modules/
+package-lock.json
+
+# Playwright outputs
+playwright-report/
+html-report/
+blob-report/
+playwright/.cache/
+test-results/
+traces/
+videos/
+screenshots/
+
+# Env
+.env
+
+# IDE
+.vscode/
+.DS_Store
+Thumbs.db

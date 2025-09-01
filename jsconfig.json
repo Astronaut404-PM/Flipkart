@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "checkJs": false,
+    "resolveJsonModule": true,
+    "types": ["@playwright/test"]
+  },
+  "include": ["./**/*.js"],
+  "exclude": ["node_modules", "playwright-report", "test-results", "blob-report", "traces"]
+}

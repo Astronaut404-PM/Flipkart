@@ -1,0 +1,23 @@
+{
+  "name": "flipkart-e2e-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "End-to-end Playwright test automation for Flipkart core workflows",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report",
+    "trace": "playwright show-trace traces/trace.zip",
+    "lint": "echo 'no lint'"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "allure-playwright": "^3.3.3",
+    "dotenv": "^16.4.5"
+  }
+}
