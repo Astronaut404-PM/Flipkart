@@ -29,13 +29,14 @@ pipeline {
             }
         }
     }
-/*    post {
+    post {
         always {
+            archiveArtifacts artifacts: 'allure-results/**', allowEmptyArchive: true
             archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
         }
         failure {
-            mail to: 'vipul.thawait@example.com', subject: 'Build Failed', body: 'The Jenkins build has failed.'
+            mail to: 'vipulthawait111@gmail.com', subject: 'Build Failed', body: 'The Jenkins build has failed.'
         }
     }
-*/
+
 }
