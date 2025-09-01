@@ -12,9 +12,9 @@ export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
   fullyParallel: true,
-  reporter: [['html', { open: 'always' }], ['list']],
+  reporter: [ ['line'], ['allure-playwright'] ],
 
-/*  reporter: [ ['line'], ['allure-playwright'] ],
+/*  reporter: [['html', { open: 'always' }], ['list']],
 // Step 1:  After a test execution is completed. allure playwright will create a folder as allure-results on the project level.
 We need to open html report from this folder; for this, run below command in CLI:
 allure generate ./allure-results --clean
