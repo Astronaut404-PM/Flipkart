@@ -29,12 +29,13 @@ pipeline {
             }
         }
     }
-    post {
+/*    post {
         always {
             archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
         }
         failure {
             mail to: 'vipul.thawait@example.com', subject: 'Build Failed', body: 'The Jenkins build has failed.'
         }
-    } */
+    }
+*/
 }
