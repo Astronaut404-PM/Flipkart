@@ -34,9 +34,9 @@ pipeline {
             archiveArtifacts artifacts: 'allure-results/**', allowEmptyArchive: true
             archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
         }
-        failure {
-            mail to: 'vipulthawait111@gmail.com', subject: 'Build Failed', body: 'The Jenkins build has failed.'
+/*        failure {
+            mail to: 'vipul.thawait@generativeai.com', subject: 'Build Failed', body: 'The Jenkins build has failed.'
         }
     }
-
+*/
 }
