@@ -29,7 +29,7 @@ pipeline {
             }
         }
     }
-/*    post {
+    post {
         always {
             archiveArtifacts artifacts: 'allure-report/**', allowEmptyArchive: true
         }
