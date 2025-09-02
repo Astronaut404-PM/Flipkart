@@ -37,6 +37,6 @@ pipeline {
 /*        failure {
             mail to: 'vipul.thawait@generativeai.com', subject: 'Build Failed', body: 'The Jenkins build has failed.'
         }
-    }
 */
+    }
 }
