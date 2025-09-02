@@ -1,4 +1,4 @@
-import { test, expect } from './fixtures.js';
+import { test, expect } from '../utils/fixtures.js';
 import { SearchPage } from '../pages/SearchPage.js';
 import { ProductPage } from '../pages/ProductPage.js';
 import { CartPage } from '../pages/CartPage.js';
