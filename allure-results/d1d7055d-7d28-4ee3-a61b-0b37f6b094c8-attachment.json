@@ -1,0 +1,6 @@
+{
+  "traceId": "llm-1757071020978-aog5hp",
+  "langfuseBaseUrl": "https://us.cloud.langfuse.com",
+  "projectKey": "[configured]",
+  "note": "Use this traceId to correlate in Langfuse. UI linking depends on your project configuration."
+}

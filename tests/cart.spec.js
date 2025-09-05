@@ -1,4 +1,6 @@
 import { test, expect } from '../utils/fixtures.js';
+import { createLlmTestTrace, attachLangfuseTraceRef } from '../utils/observability/langfuse.js';
+import { llmJsonCheck } from '../utils/observability/llm_check.js';
 import { SearchPage } from '../pages/SearchPage.js';
 import { ProductPage } from '../pages/ProductPage.js';
 import { CartPage } from '../pages/CartPage.js';
@@ -10,6 +12,16 @@ import { testData } from '../utils/testData.js';
 
 test.describe.serial('C. Cart Interactions', () => {
   test('C6: Open product details — capture product name and price', async ({ page, searchSetup }) => {
+    const ti = test.info();
+  const traceId = createLlmTestTrace({
+      sessionId: `${ti.project.name}-w${ti.workerIndex}-r${ti.retry}`,
+  prompt: `Search term: ${testData.search.term} -> open first product details`,
+  expectedOutput: 'PDP opens; title and price captured (> 0)',
+      testName: ti.title,
+      testId: `${ti.file || 'cart.spec.js'}::${ti.title}`,
+      metadata: { file: ti.file, spec: 'cart.spec.js', area: 'cart', action: 'open-pdp' }
+    });
+  await attachLangfuseTraceRef(ti, { traceId });
     // Step 1: Perform a search using the fixture
     await searchSetup.search(testData.search.term);
     const searchPage = new SearchPage(page);
@@ -36,9 +48,30 @@ test.describe.serial('C. Cart Interactions', () => {
       body: Buffer.from(JSON.stringify(details, null, 2)), 
       contentType: 'application/json' 
     });
+
+    // LLM validation: Is the captured price a valid positive number for a typical product?
+    const resC6 = await llmJsonCheck(test.info(), {
+      prompt: `Is ${details.numericPrice} a sensible positive price for a consumer product? Answer JSON: {"sensible": true|false, "reason": "short"}`,
+      sessionId: `${ti.project.name}-w${ti.workerIndex}-r${ti.retry}`,
+      attachName: 'llm-price-sanity'
+    });
+    if (resC6) {
+      expect(resC6.ok).toBeTruthy();
+      expect(resC6.parsed?.sensible === true).toBeTruthy();
+    }
   });
 
   test('C7: Add product to cart — verify it appears in cart', async ({ page, searchSetup }) => {
+    const ti = test.info();
+  const traceId = createLlmTestTrace({
+      sessionId: `${ti.project.name}-w${ti.workerIndex}-r${ti.retry}`,
+  prompt: `Search term: ${testData.search.term} -> add first product to cart`,
+  expectedOutput: 'Cart shows at least one item; product title snippet visible',
+      testName: ti.title,
+      testId: `${ti.file || 'cart.spec.js'}::${ti.title}`,
+      metadata: { file: ti.file, spec: 'cart.spec.js', area: 'cart', action: 'add-to-cart' }
+    });
+  await attachLangfuseTraceRef(ti, { traceId });
     // Step 1: Perform a search using the fixture
     await searchSetup.search(testData.search.term);
     const searchPage = new SearchPage(page);
@@ -69,9 +102,30 @@ test.describe.serial('C. Cart Interactions', () => {
       const escapedSnippet = titleSnippet.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
       await expect(cartPage.page.getByText(new RegExp(escapedSnippet, 'i')).first()).toBeVisible();
     }
+
+    // LLM validation: Does the product title snippet plausibly match the search intent?
+    const resC7 = await llmJsonCheck(test.info(), {
+      prompt: `Query: ${testData.search.term}. Product title snippet: ${titleSnippet}. Respond JSON: {"matchesIntent": true|false}`,
+      sessionId: `${ti.project.name}-w${ti.workerIndex}-r${ti.retry}`,
+      attachName: 'llm-cart-match'
+    });
+    if (resC7) {
+      expect(resC7.ok).toBeTruthy();
+      expect(typeof resC7.parsed?.matchesIntent === 'boolean').toBeTruthy();
+    }
   });
 
   test('C8: Remove product from cart — verify it\'s removed', async ({ page, searchSetup }) => {
+    const ti = test.info();
+  const traceId = createLlmTestTrace({
+      sessionId: `${ti.project.name}-w${ti.workerIndex}-r${ti.retry}`,
+  prompt: `Search term: ${testData.search.term} -> add first product and then remove from cart`,
+  expectedOutput: 'Cart item count decreases; empty-state shown if only one item',
+      testName: ti.title,
+      testId: `${ti.file || 'cart.spec.js'}::${ti.title}`,
+      metadata: { file: ti.file, spec: 'cart.spec.js', area: 'cart', action: 'remove-from-cart' }
+    });
+  await attachLangfuseTraceRef(ti, { traceId });
     // Step 1: Perform a search using the fixture
     await searchSetup.search(testData.search.term);
     const searchPage = new SearchPage(page);
@@ -100,6 +154,17 @@ test.describe.serial('C. Cart Interactions', () => {
       await expect(cartPage.page).toHaveURL(/\/viewcart(\?|$)/);
       const emptyMissingItems = cartPage.page.locator('div.s2gOFd', { hasText: 'Missing Cart items?' }).first();
       await expect(emptyMissingItems).toBeVisible();
+    }
+
+    // LLM validation: After removal, does an empty-state check make sense if initial count was 1?
+    const resC8 = await llmJsonCheck(test.info(), {
+      prompt: `Initial cart count was ${initialCount}. After removing one item, should an empty state be expected? Respond JSON: {"empty": true|false}`,
+      sessionId: `${ti.project.name}-w${ti.workerIndex}-r${ti.retry}`,
+      attachName: 'llm-cart-empty-check'
+    });
+    if (resC8) {
+      expect(resC8.ok).toBeTruthy();
+      expect(typeof resC8.parsed?.empty === 'boolean').toBeTruthy();
     }
   });
 });

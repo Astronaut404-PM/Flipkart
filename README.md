@@ -124,3 +124,32 @@ D. Checkout Simulation (Mock)
 
 ## GitHub Actions
 A workflow is included at `.github/workflows/ci.yml` that installs dependencies, Playwright browsers, runs tests, and uploads the HTML report.
+
+## Langfuse Tracing (LLM Observability)
+Configure environment variables in `.env` or CI secrets:
+
+```
+LANGFUSE_PUBLIC_KEY=your-public-key
+LANGFUSE_SECRET_KEY=your-secret-key
+LANGFUSE_BASE_URL=https://cloud.langfuse.com
+LANGFUSE_DEBUG=false
+```
+
+Initialize and use in code:
+
+```js
+import { getLangfuse, traceEvent } from './utils/observability/langfuse.js';
+
+// Initialize client on startup (optional)
+getLangfuse();
+
+// Trace a custom event
+traceEvent({
+	name: 'llm.call',
+	input: { prompt: 'hello' },
+	output: { text: 'world' },
+	metadata: { model: 'gpt-4o-mini' }
+});
+```
+
+If keys are missing, tracing is disabled silently (with a debug warning if `LANGFUSE_DEBUG=true`).

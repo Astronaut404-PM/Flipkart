@@ -54,19 +54,27 @@ export class SearchPage extends BasePage {
     // Ensure results strip is present
     await this.resultsReady.waitFor({ state: 'visible', timeout: 30000 });
 
-    // Fallback verification: ensure top tiles look ascending by price
-    await this.page.waitForFunction(() => {
-      const tiles = Array.from(document.querySelectorAll('a[href*="/p/"]')).slice(0, 2);
-      if (tiles.length < 2) return false;
-      const toNum = (t) => {
-        const m = (t || '').match(/₹\s*([\d,]+)/);
-        return m ? parseInt(m[1].replace(/,/g, ''), 10) : 0;
-      };
-      const texts = tiles.map((a) => a.textContent || '');
-      const p0 = toNum(texts[0]);
-      const p1 = toNum(texts[1]);
-      return p0 > 0 && p0 <= p1;
-    }, { timeout: 15000 });
+    // Fallback verification: ensure top tiles look ascending by price using locator polling
+    await expect.poll(
+      async () => {
+        const first = this.productCards.nth(0);
+        const second = this.productCards.nth(1);
+        const v0 = await first.isVisible().catch(() => false);
+        const v1 = await second.isVisible().catch(() => false);
+        if (!v0 || !v1) return 'waiting-visible';
+        const t0 = await first.innerText().catch(() => '');
+        const t1 = await second.innerText().catch(() => '');
+        const toNum = (t) => {
+          const m = (t || '').match(/₹\s*([\d,]+)/);
+          return m ? parseInt(m[1].replace(/,/g, ''), 10) : 0;
+        };
+        const p0 = toNum(t0);
+        const p1 = toNum(t1);
+        if (p0 === 0 || p1 === 0) return 'waiting-prices';
+        return p0 <= p1 ? 'ok' : `bad:${p0}>${p1}`;
+      },
+      { timeout: 25000, intervals: [250, 500, 750, 1000] }
+    ).toBe('ok');
   }
 
   // Override to avoid brittle, obfuscated class names

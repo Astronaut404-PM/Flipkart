@@ -1,0 +1,1346 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e7]:
+    - generic [ref=e9]:
+      - link "Flipkart" [ref=e10] [cursor=pointer]:
+        - /url: /
+        - img "Flipkart" [ref=e11] [cursor=pointer]
+      - link "Explore Plus" [ref=e12] [cursor=pointer]:
+        - /url: /plus
+        - text: Explore
+        - generic [ref=e13] [cursor=pointer]: Plus
+        - img [ref=e14] [cursor=pointer]
+    - generic [ref=e17]:
+      - textbox "Search for products, brands and more" [ref=e19]: Samsung mobile
+      - button [ref=e20] [cursor=pointer]:
+        - img [ref=e21] [cursor=pointer]
+    - link "Login" [ref=e29] [cursor=pointer]:
+      - /url: /account/login?ret=/search%3Fq%3DSamsung%2Bmobile%26otracker%3Dsearch%26otracker1%3Dsearch%26marketplace%3DFLIPKART%26as-show%3Doff%26as%3Doff%26sort%3Dprice_asc
+    - link "Become a Seller" [ref=e31] [cursor=pointer]:
+      - /url: https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect
+      - generic [ref=e32] [cursor=pointer]: Become a Seller
+    - generic [ref=e34] [cursor=pointer]:
+      - generic [ref=e37] [cursor=pointer]: More
+      - img [ref=e38] [cursor=pointer]
+    - link "Cart" [ref=e43] [cursor=pointer]:
+      - /url: /viewcart?exploreMode=true&preference=FLIPKART
+      - img [ref=e44] [cursor=pointer]
+      - generic [ref=e46] [cursor=pointer]: Cart
+  - generic [ref=e51]:
+    - generic [ref=e52] [cursor=pointer]:
+      - text: Electronics
+      - img [ref=e53] [cursor=pointer]
+    - generic [ref=e55] [cursor=pointer]:
+      - text: TVs & Appliances
+      - img [ref=e56] [cursor=pointer]
+    - generic [ref=e58] [cursor=pointer]:
+      - text: Men
+      - img [ref=e59] [cursor=pointer]
+    - generic [ref=e61] [cursor=pointer]:
+      - text: Women
+      - img [ref=e62] [cursor=pointer]
+    - generic [ref=e64] [cursor=pointer]:
+      - text: Baby & Kids
+      - img [ref=e65] [cursor=pointer]
+    - generic [ref=e67] [cursor=pointer]:
+      - text: Home & Furniture
+      - img [ref=e68] [cursor=pointer]
+    - generic [ref=e70] [cursor=pointer]:
+      - text: Sports, Books & More
+      - img [ref=e71] [cursor=pointer]
+    - link "Flights" [ref=e73] [cursor=pointer]:
+      - /url: /travel/flights?otracker=nmenu_Flights
+    - link "Offer Zone" [ref=e74] [cursor=pointer]:
+      - /url: /offers-list/top-deals?screen=dynamic&pk=themeViews%3DDT-OMU-A2%3ADT-OMU~widgetType%3DdealCard~contentType%3Dneo&otracker=nmenu_offer-zone
+  - generic [ref=e75]:
+    - generic [ref=e76]:
+      - generic [ref=e78]:
+        - generic [ref=e80]:
+          - generic [ref=e84]: Filters
+          - generic [ref=e86]:
+            - generic [ref=e88]: CATEGORIES
+            - generic [ref=e90]:
+              - img [ref=e92] [cursor=pointer]
+              - link "Mobiles & Accessories" [ref=e94] [cursor=pointer]:
+                - /url: /mobiles-accessories/pr?sid=tyy&q=Samsung+mobile&otracker=categorytree
+            - generic [ref=e96]:
+              - img [ref=e98] [cursor=pointer]
+              - link "Mobiles" [ref=e100] [cursor=pointer]:
+                - /url: /mobiles/pr?sid=tyy,4io&q=Samsung+mobile&otracker=categorytree
+          - generic [ref=e102] [cursor=pointer]:
+            - generic [ref=e103] [cursor=pointer]: Network Type
+            - img [ref=e104] [cursor=pointer]
+          - generic [ref=e106]:
+            - generic [ref=e109]: Price
+            - generic [ref=e125]:
+              - generic [ref=e126]: .
+              - generic [ref=e127]: .
+              - generic [ref=e128]: .
+              - generic [ref=e129]: .
+              - generic [ref=e130]: .
+              - generic: .
+            - generic [ref=e131]:
+              - combobox [ref=e133]:
+                - option "Min" [selected]
+                - option "₹10000"
+                - option "₹15000"
+                - option "₹20000"
+                - option "₹30000"
+              - generic [ref=e134]: to
+              - combobox [ref=e136]:
+                - option "₹10000"
+                - option "₹15000"
+                - option "₹20000"
+                - option "₹30000"
+                - option "₹30000+" [selected]
+          - generic [ref=e137]:
+            - generic [ref=e138] [cursor=pointer]:
+              - generic [ref=e139] [cursor=pointer]: Brand
+              - img [ref=e140] [cursor=pointer]
+            - generic [ref=e143]:
+              - generic [ref=e148] [cursor=pointer]: MOTOROLA
+              - generic [ref=e153] [cursor=pointer]: Infinix
+              - generic [ref=e158] [cursor=pointer]: POCO
+              - generic [ref=e163] [cursor=pointer]: realme
+              - generic [ref=e168] [cursor=pointer]: Samsung
+              - generic [ref=e173] [cursor=pointer]: OnePlus
+          - generic [ref=e174]:
+            - img [ref=e179] [cursor=pointer]
+            - generic [ref=e181] [cursor=pointer]: "?"
+          - generic [ref=e183] [cursor=pointer]:
+            - generic [ref=e184] [cursor=pointer]: Customer Ratings
+            - img [ref=e185] [cursor=pointer]
+          - generic [ref=e188] [cursor=pointer]:
+            - generic [ref=e189] [cursor=pointer]: GST Invoice Available
+            - img [ref=e190] [cursor=pointer]
+          - generic [ref=e192]:
+            - generic [ref=e193] [cursor=pointer]:
+              - generic [ref=e194] [cursor=pointer]: RAM
+              - img [ref=e195] [cursor=pointer]
+            - generic [ref=e198]:
+              - generic [ref=e203] [cursor=pointer]: 4 GB
+              - generic [ref=e208] [cursor=pointer]: 3 GB
+              - generic [ref=e213] [cursor=pointer]: 2 GB
+              - generic [ref=e218] [cursor=pointer]: 8 GB and Above
+              - generic [ref=e223] [cursor=pointer]: 6 GB
+              - generic [ref=e228] [cursor=pointer]: 1GB and Below
+              - generic [ref=e233] [cursor=pointer]: 6 GB Above
+          - generic [ref=e235] [cursor=pointer]:
+            - generic [ref=e236] [cursor=pointer]: Internal Storage
+            - img [ref=e237] [cursor=pointer]
+          - generic [ref=e240] [cursor=pointer]:
+            - generic [ref=e241] [cursor=pointer]: Battery Capacity
+            - img [ref=e242] [cursor=pointer]
+          - generic [ref=e245] [cursor=pointer]:
+            - generic [ref=e246] [cursor=pointer]: Screen Size
+            - img [ref=e247] [cursor=pointer]
+          - generic [ref=e250] [cursor=pointer]:
+            - generic [ref=e251] [cursor=pointer]: Primary Camera
+            - img [ref=e252] [cursor=pointer]
+          - generic [ref=e255] [cursor=pointer]:
+            - generic [ref=e256] [cursor=pointer]: Secondary Camera
+            - img [ref=e257] [cursor=pointer]
+          - generic [ref=e260] [cursor=pointer]:
+            - generic [ref=e261] [cursor=pointer]: Processor Brand
+            - img [ref=e262] [cursor=pointer]
+          - generic [ref=e265] [cursor=pointer]:
+            - generic [ref=e266] [cursor=pointer]: Speciality
+            - img [ref=e267] [cursor=pointer]
+          - generic [ref=e270] [cursor=pointer]:
+            - generic [ref=e271] [cursor=pointer]: Resolution Type
+            - img [ref=e272] [cursor=pointer]
+          - generic [ref=e275] [cursor=pointer]:
+            - generic [ref=e276] [cursor=pointer]: Operating System
+            - img [ref=e277] [cursor=pointer]
+          - generic [ref=e280] [cursor=pointer]:
+            - generic [ref=e281] [cursor=pointer]: Sim Type
+            - img [ref=e282] [cursor=pointer]
+          - generic [ref=e285] [cursor=pointer]:
+            - generic [ref=e286] [cursor=pointer]: Availability
+            - img [ref=e287] [cursor=pointer]
+          - generic [ref=e289]:
+            - generic [ref=e290] [cursor=pointer]:
+              - generic [ref=e291] [cursor=pointer]: Discount
+              - img [ref=e292] [cursor=pointer]
+            - generic [ref=e295]:
+              - generic [ref=e300] [cursor=pointer]: 50% or more
+              - generic [ref=e305] [cursor=pointer]: 40% or more
+              - generic [ref=e310] [cursor=pointer]: 30% or more
+              - generic [ref=e315] [cursor=pointer]: 20% or more
+              - generic [ref=e320] [cursor=pointer]: 10% or more
+          - generic [ref=e321]:
+            - generic [ref=e322] [cursor=pointer]:
+              - generic [ref=e323] [cursor=pointer]: Offers
+              - img [ref=e324] [cursor=pointer]
+            - generic [ref=e327]:
+              - generic [ref=e332] [cursor=pointer]: Special Price
+              - generic [ref=e337] [cursor=pointer]: Buy More, Save More
+              - generic [ref=e342] [cursor=pointer]: No Cost EMI
+          - generic [ref=e344] [cursor=pointer]:
+            - generic [ref=e345] [cursor=pointer]: Type
+            - img [ref=e346] [cursor=pointer]
+          - generic [ref=e349] [cursor=pointer]:
+            - generic [ref=e350] [cursor=pointer]: Operating System Version Name
+            - img [ref=e351] [cursor=pointer]
+          - generic [ref=e354] [cursor=pointer]:
+            - generic [ref=e355] [cursor=pointer]: Clock Speed
+            - img [ref=e356] [cursor=pointer]
+          - generic [ref=e359] [cursor=pointer]:
+            - generic [ref=e360] [cursor=pointer]: Features
+            - img [ref=e361] [cursor=pointer]
+          - generic [ref=e364] [cursor=pointer]:
+            - generic [ref=e365] [cursor=pointer]: Number of Cores
+            - img [ref=e366] [cursor=pointer]
+        - link "Need help? Help me decide Buying Guide" [ref=e369] [cursor=pointer]:
+          - /url: /buying-guide/mobiles?sid=tyy,4io&otracker=bg_from_browse_lhs
+          - generic [ref=e371] [cursor=pointer]: Need help?
+          - generic [ref=e372] [cursor=pointer]:
+            - generic [ref=e373] [cursor=pointer]: Help me decide
+            - img [ref=e374] [cursor=pointer]
+          - img "Buying Guide" [ref=e376] [cursor=pointer]
+      - generic [ref=e377]:
+        - generic [ref=e380]:
+          - generic [ref=e381]:
+            - generic [ref=e382]:
+              - link "Home" [ref=e383] [cursor=pointer]:
+                - /url: /
+              - img [ref=e384]
+            - generic [ref=e386]:
+              - link "Mobiles & Accessories" [ref=e387] [cursor=pointer]:
+                - /url: /mobiles-accessories/pr?sid=tyy&marketplace=FLIPKART
+              - img [ref=e388]
+            - link "Mobiles" [ref=e391] [cursor=pointer]:
+              - /url: /mobiles/pr?sid=tyy,4io&marketplace=FLIPKART
+          - generic [ref=e392]:
+            - text: Showing 1 – 24 of 1,053 results for "
+            - generic [ref=e393]: Samsung mobile
+            - text: "\""
+          - generic [ref=e394]:
+            - generic [ref=e395]: Sort By
+            - generic [ref=e396] [cursor=pointer]: Relevance
+            - generic [ref=e397] [cursor=pointer]: Popularity
+            - generic [ref=e398]: Price -- Low to High
+            - generic [ref=e399] [cursor=pointer]: Price -- High to Low
+            - generic [ref=e400] [cursor=pointer]: Newest First
+        - link "Samsung E1200 Add to Compare Samsung E1200 2.8 108 Ratings & 10 Reviews • 4 MB RAM | 4 MB ROM • 3.81 cm (1.5 inch) Display • 0.3MP Rear Camera • 800 mAh Battery • 2 Year ₹735 ₹1,599 54% off Only few left Bank Offer" [ref=e405] [cursor=pointer]:
+          - /url: /samsung-e1200/p/itm9657ab4b8d483?pid=MOBGZEGFK9BG6TKB&lid=LSTMOBGZEGFK9BG6TKBYT0J0W&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_1&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBGZEGFK9BG6TKB.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e406] [cursor=pointer]:
+            - img "Samsung E1200" [ref=e410] [cursor=pointer]
+            - generic [ref=e417] [cursor=pointer]: Add to Compare
+            - img [ref=e420] [cursor=pointer]
+          - generic [ref=e422] [cursor=pointer]:
+            - generic [ref=e423] [cursor=pointer]:
+              - generic [ref=e424] [cursor=pointer]: Samsung E1200
+              - generic [ref=e425] [cursor=pointer]:
+                - generic [ref=e427] [cursor=pointer]:
+                  - text: "2.8"
+                  - img [ref=e428] [cursor=pointer]
+                - generic [ref=e430] [cursor=pointer]:
+                  - generic [ref=e431] [cursor=pointer]: 108 Ratings
+                  - generic [ref=e432] [cursor=pointer]: "&"
+                  - generic [ref=e433] [cursor=pointer]: 10 Reviews
+              - list [ref=e435] [cursor=pointer]:
+                - listitem [ref=e436] [cursor=pointer]: • 4 MB RAM | 4 MB ROM
+                - listitem [ref=e437] [cursor=pointer]: • 3.81 cm (1.5 inch) Display
+                - listitem [ref=e438] [cursor=pointer]: • 0.3MP Rear Camera
+                - listitem [ref=e439] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e440] [cursor=pointer]: • 2 Year
+            - generic [ref=e441] [cursor=pointer]:
+              - generic [ref=e443] [cursor=pointer]:
+                - generic [ref=e444] [cursor=pointer]: ₹735
+                - generic [ref=e445] [cursor=pointer]: ₹1,599
+                - generic [ref=e447] [cursor=pointer]: 54% off
+              - generic [ref=e450] [cursor=pointer]: Only few left
+              - generic [ref=e453] [cursor=pointer]: Bank Offer
+        - 'link "Samsung 1207 Currently unavailable Add to Compare Samsung 1207 3.1 3,037 Ratings & 169 Reviews • 32 MB ROM • 3.81 cm (1.5 inch) Display • 800 mAh Battery • No Warrnty Price: Not Available" [ref=e458] [cursor=pointer]':
+          - /url: /samsung-1207/p/itmfdfbec07e7d22?pid=MOBHFWB35HMVFYAB&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_2&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHFWB35HMVFYAB.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e459] [cursor=pointer]:
+            - generic [ref=e460] [cursor=pointer]:
+              - img "Samsung 1207" [ref=e463] [cursor=pointer]
+              - generic:
+                - generic: Currently unavailable
+            - generic [ref=e470] [cursor=pointer]: Add to Compare
+            - img [ref=e473] [cursor=pointer]
+          - generic [ref=e475] [cursor=pointer]:
+            - generic [ref=e476] [cursor=pointer]:
+              - generic [ref=e477] [cursor=pointer]: Samsung 1207
+              - generic [ref=e478] [cursor=pointer]:
+                - generic [ref=e480] [cursor=pointer]:
+                  - text: "3.1"
+                  - img [ref=e481] [cursor=pointer]
+                - generic [ref=e483] [cursor=pointer]:
+                  - generic [ref=e484] [cursor=pointer]: 3,037 Ratings
+                  - generic [ref=e485] [cursor=pointer]: "&"
+                  - generic [ref=e486] [cursor=pointer]: 169 Reviews
+              - list [ref=e488] [cursor=pointer]:
+                - listitem [ref=e489] [cursor=pointer]: • 32 MB ROM
+                - listitem [ref=e490] [cursor=pointer]: • 3.81 cm (1.5 inch) Display
+                - listitem [ref=e491] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e492] [cursor=pointer]: • No Warrnty
+            - generic [ref=e497] [cursor=pointer]: "Price: Not Available"
+        - 'link "Samsung Guru1200 Currently unavailable Add to Compare Samsung Guru1200 3 1,868 Ratings & 153 Reviews • 10 MB RAM | 10 MB ROM • 4.57 cm (1.8 inch) Display • 800 mAh Battery • 1 year seller domestic warranty Price: Not Available" [ref=e502] [cursor=pointer]':
+          - /url: /samsung-guru1200/p/itm49788e7b3339b?pid=MOBH8F36FYTUT7PP&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_3&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH8F36FYTUT7PP.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e503] [cursor=pointer]:
+            - generic [ref=e504] [cursor=pointer]:
+              - img "Samsung Guru1200" [ref=e507] [cursor=pointer]
+              - generic:
+                - generic: Currently unavailable
+            - generic [ref=e514] [cursor=pointer]: Add to Compare
+            - img [ref=e517] [cursor=pointer]
+          - generic [ref=e519] [cursor=pointer]:
+            - generic [ref=e520] [cursor=pointer]:
+              - generic [ref=e521] [cursor=pointer]: Samsung Guru1200
+              - generic [ref=e522] [cursor=pointer]:
+                - generic [ref=e524] [cursor=pointer]:
+                  - text: "3"
+                  - img [ref=e525] [cursor=pointer]
+                - generic [ref=e527] [cursor=pointer]:
+                  - generic [ref=e528] [cursor=pointer]: 1,868 Ratings
+                  - generic [ref=e529] [cursor=pointer]: "&"
+                  - generic [ref=e530] [cursor=pointer]: 153 Reviews
+              - list [ref=e532] [cursor=pointer]:
+                - listitem [ref=e533] [cursor=pointer]: • 10 MB RAM | 10 MB ROM
+                - listitem [ref=e534] [cursor=pointer]: • 4.57 cm (1.8 inch) Display
+                - listitem [ref=e535] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e536] [cursor=pointer]: • 1 year seller domestic warranty
+            - generic [ref=e541] [cursor=pointer]: "Price: Not Available"
+        - 'link "Samsung SAM- 0B310 (Black) Currently unavailable Add to Compare Samsung SAM- 0B310 (Black) 2.9 88 Ratings & 3 Reviews • 100 MB RAM | 4 MB ROM | Expandable Upto 100 MB • 4.57 cm (1.8 inch) VGA Display • 0MP | 0MP Front Camera • 800 mAh Battery • NA Processor • No Warranty Price: Not Available" [ref=e546] [cursor=pointer]':
+          - /url: /samsung-sam-0b310-black/p/itmd163e463eb49e?pid=MOBHD563KWNRJHXK&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHD563KWNRJHXK.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e547] [cursor=pointer]:
+            - generic [ref=e548] [cursor=pointer]:
+              - img "Samsung SAM- 0B310 (Black)" [ref=e551] [cursor=pointer]
+              - generic:
+                - generic: Currently unavailable
+            - generic [ref=e558] [cursor=pointer]: Add to Compare
+            - img [ref=e561] [cursor=pointer]
+          - generic [ref=e563] [cursor=pointer]:
+            - generic [ref=e564] [cursor=pointer]:
+              - generic [ref=e565] [cursor=pointer]: Samsung SAM- 0B310 (Black)
+              - generic [ref=e566] [cursor=pointer]:
+                - generic [ref=e568] [cursor=pointer]:
+                  - text: "2.9"
+                  - img [ref=e569] [cursor=pointer]
+                - generic [ref=e571] [cursor=pointer]:
+                  - generic [ref=e572] [cursor=pointer]: 88 Ratings
+                  - generic [ref=e573] [cursor=pointer]: "&"
+                  - generic [ref=e574] [cursor=pointer]: 3 Reviews
+              - list [ref=e576] [cursor=pointer]:
+                - listitem [ref=e577] [cursor=pointer]: • 100 MB RAM | 4 MB ROM | Expandable Upto 100 MB
+                - listitem [ref=e578] [cursor=pointer]: • 4.57 cm (1.8 inch) VGA Display
+                - listitem [ref=e579] [cursor=pointer]: • 0MP | 0MP Front Camera
+                - listitem [ref=e580] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e581] [cursor=pointer]: • NA Processor
+                - listitem [ref=e582] [cursor=pointer]: • No Warranty
+            - generic [ref=e587] [cursor=pointer]: "Price: Not Available"
+        - 'link "Samsung SM-B310EZDDINS Currently unavailable Add to Compare Samsung SM-B310EZDDINS 3.2 9,558 Ratings & 593 Reviews • 100 MB RAM | 100 MB ROM | Expandable Upto 100 MB • 4.57 cm (1.8 inch) VGA Display • 0MP | 0MP Front Camera • 800 mAh Battery • NA Processor • No Warranty Price: Not Available" [ref=e592] [cursor=pointer]':
+          - /url: /samsung-sm-b310ezddins/p/itm369c4abaf7fbb?pid=MOBHCFPQEQRYSDZF&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_5&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHCFPQEQRYSDZF.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e593] [cursor=pointer]:
+            - generic [ref=e594] [cursor=pointer]:
+              - img "Samsung SM-B310EZDDINS" [ref=e597] [cursor=pointer]
+              - generic:
+                - generic: Currently unavailable
+            - generic [ref=e604] [cursor=pointer]: Add to Compare
+            - img [ref=e607] [cursor=pointer]
+          - generic [ref=e609] [cursor=pointer]:
+            - generic [ref=e610] [cursor=pointer]:
+              - generic [ref=e611] [cursor=pointer]: Samsung SM-B310EZDDINS
+              - generic [ref=e612] [cursor=pointer]:
+                - generic [ref=e614] [cursor=pointer]:
+                  - text: "3.2"
+                  - img [ref=e615] [cursor=pointer]
+                - generic [ref=e617] [cursor=pointer]:
+                  - generic [ref=e618] [cursor=pointer]: 9,558 Ratings
+                  - generic [ref=e619] [cursor=pointer]: "&"
+                  - generic [ref=e620] [cursor=pointer]: 593 Reviews
+              - list [ref=e622] [cursor=pointer]:
+                - listitem [ref=e623] [cursor=pointer]: • 100 MB RAM | 100 MB ROM | Expandable Upto 100 MB
+                - listitem [ref=e624] [cursor=pointer]: • 4.57 cm (1.8 inch) VGA Display
+                - listitem [ref=e625] [cursor=pointer]: • 0MP | 0MP Front Camera
+                - listitem [ref=e626] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e627] [cursor=pointer]: • NA Processor
+                - listitem [ref=e628] [cursor=pointer]: • No Warranty
+            - generic [ref=e633] [cursor=pointer]: "Price: Not Available"
+        - link "Samsung Guru 1200 Add to Compare Samsung Guru 1200 3 7,259 Ratings & 512 Reviews • 4 MB RAM | 10 MB ROM • 3.86 cm (1.52 inch) Display • 800 mAh Battery • NA ₹797 ₹1,480 46% off Only few left Bank Offer" [ref=e638] [cursor=pointer]:
+          - /url: /samsung-guru-1200/p/itm1f97edf0921dc?pid=MOBH8BMFNJ3BHQHY&lid=LSTMOBH8BMFNJ3BHQHYNJWQSR&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_6&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH8BMFNJ3BHQHY.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e639] [cursor=pointer]:
+            - img "Samsung Guru 1200" [ref=e643] [cursor=pointer]
+            - generic [ref=e650] [cursor=pointer]: Add to Compare
+            - img [ref=e653] [cursor=pointer]
+          - generic [ref=e655] [cursor=pointer]:
+            - generic [ref=e656] [cursor=pointer]:
+              - generic [ref=e657] [cursor=pointer]: Samsung Guru 1200
+              - generic [ref=e658] [cursor=pointer]:
+                - generic [ref=e660] [cursor=pointer]:
+                  - text: "3"
+                  - img [ref=e661] [cursor=pointer]
+                - generic [ref=e663] [cursor=pointer]:
+                  - generic [ref=e664] [cursor=pointer]: 7,259 Ratings
+                  - generic [ref=e665] [cursor=pointer]: "&"
+                  - generic [ref=e666] [cursor=pointer]: 512 Reviews
+              - list [ref=e668] [cursor=pointer]:
+                - listitem [ref=e669] [cursor=pointer]: • 4 MB RAM | 10 MB ROM
+                - listitem [ref=e670] [cursor=pointer]: • 3.86 cm (1.52 inch) Display
+                - listitem [ref=e671] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e672] [cursor=pointer]: • NA
+            - generic [ref=e673] [cursor=pointer]:
+              - generic [ref=e675] [cursor=pointer]:
+                - generic [ref=e676] [cursor=pointer]: ₹797
+                - generic [ref=e677] [cursor=pointer]: ₹1,480
+                - generic [ref=e679] [cursor=pointer]: 46% off
+              - generic [ref=e682] [cursor=pointer]: Only few left
+              - generic [ref=e685] [cursor=pointer]: Bank Offer
+        - link "Samsung SM-B310 EZBAPKS Add to Compare Samsung SM-B310 EZBAPKS 3.3 118 Ratings & 7 Reviews • 100 MB RAM | 100 MB ROM | Expandable Upto 100 MB • 4.57 cm (1.8 inch) VGA Display • 0MP | 0MP Front Camera • 800 mAh Battery • NA Processor • No Warranty ₹798 ₹1,499 46% off Only few left Bank Offer" [ref=e690] [cursor=pointer]:
+          - /url: /samsung-sm-b310-ezbapks/p/itmc06737032a511?pid=MOBHE36HF4FKKSVF&lid=LSTMOBHE36HF4FKKSVF9RLZYI&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_7&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHE36HF4FKKSVF.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e691] [cursor=pointer]:
+            - img "Samsung SM-B310 EZBAPKS" [ref=e695] [cursor=pointer]
+            - generic [ref=e702] [cursor=pointer]: Add to Compare
+            - img [ref=e705] [cursor=pointer]
+          - generic [ref=e707] [cursor=pointer]:
+            - generic [ref=e708] [cursor=pointer]:
+              - generic [ref=e709] [cursor=pointer]: Samsung SM-B310 EZBAPKS
+              - generic [ref=e710] [cursor=pointer]:
+                - generic [ref=e712] [cursor=pointer]:
+                  - text: "3.3"
+                  - img [ref=e713] [cursor=pointer]
+                - generic [ref=e715] [cursor=pointer]:
+                  - generic [ref=e716] [cursor=pointer]: 118 Ratings
+                  - generic [ref=e717] [cursor=pointer]: "&"
+                  - generic [ref=e718] [cursor=pointer]: 7 Reviews
+              - list [ref=e720] [cursor=pointer]:
+                - listitem [ref=e721] [cursor=pointer]: • 100 MB RAM | 100 MB ROM | Expandable Upto 100 MB
+                - listitem [ref=e722] [cursor=pointer]: • 4.57 cm (1.8 inch) VGA Display
+                - listitem [ref=e723] [cursor=pointer]: • 0MP | 0MP Front Camera
+                - listitem [ref=e724] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e725] [cursor=pointer]: • NA Processor
+                - listitem [ref=e726] [cursor=pointer]: • No Warranty
+            - generic [ref=e727] [cursor=pointer]:
+              - generic [ref=e729] [cursor=pointer]:
+                - generic [ref=e730] [cursor=pointer]: ₹798
+                - generic [ref=e731] [cursor=pointer]: ₹1,499
+                - generic [ref=e733] [cursor=pointer]: 46% off
+              - generic [ref=e736] [cursor=pointer]: Only few left
+              - generic [ref=e739] [cursor=pointer]: Bank Offer
+        - 'link "Samsung Guru FM Plus Currently unavailable Add to Compare Samsung Guru FM Plus 4.2 29,298 Ratings & 2,395 Reviews • NA ROM • 3.81 cm (1.5 inch) VGA Display • 800 mAh Battery • No Warranty Price: Not Available" [ref=e744] [cursor=pointer]':
+          - /url: /samsung-guru-fm-plus/p/itmf54p4tddnyf6a?pid=MOBF54P4Y285GZ4Y&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_8&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBF54P4Y285GZ4Y.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e745] [cursor=pointer]:
+            - generic [ref=e746] [cursor=pointer]:
+              - img "Samsung Guru FM Plus" [ref=e749] [cursor=pointer]
+              - generic:
+                - generic: Currently unavailable
+            - generic [ref=e756] [cursor=pointer]: Add to Compare
+            - img [ref=e759] [cursor=pointer]
+          - generic [ref=e761] [cursor=pointer]:
+            - generic [ref=e762] [cursor=pointer]:
+              - generic [ref=e763] [cursor=pointer]: Samsung Guru FM Plus
+              - generic [ref=e764] [cursor=pointer]:
+                - generic [ref=e766] [cursor=pointer]:
+                  - text: "4.2"
+                  - img [ref=e767] [cursor=pointer]
+                - generic [ref=e769] [cursor=pointer]:
+                  - generic [ref=e770] [cursor=pointer]: 29,298 Ratings
+                  - generic [ref=e771] [cursor=pointer]: "&"
+                  - generic [ref=e772] [cursor=pointer]: 2,395 Reviews
+              - list [ref=e774] [cursor=pointer]:
+                - listitem [ref=e775] [cursor=pointer]: • NA ROM
+                - listitem [ref=e776] [cursor=pointer]: • 3.81 cm (1.5 inch) VGA Display
+                - listitem [ref=e777] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e778] [cursor=pointer]: • No Warranty
+            - generic [ref=e783] [cursor=pointer]: "Price: Not Available"
+        - link "Samsung 310E Add to Compare Samsung 310E 3 97 Ratings & 3 Reviews • 8 MB RAM | 8 MB ROM • 4.57 cm (1.8 inch) Display • 0.2MP Rear Camera • 850 mAh Battery • NO WARRANTY ₹835 ₹1,599 47% off Only few left Bank Offer" [ref=e788] [cursor=pointer]:
+          - /url: /samsung-310e/p/itm12535169ae5ed?pid=MOBHDVZEG5CNUNSD&lid=LSTMOBHDVZEG5CNUNSDEFZAHO&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_9&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHDVZEG5CNUNSD.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e789] [cursor=pointer]:
+            - img "Samsung 310E" [ref=e793] [cursor=pointer]
+            - generic [ref=e800] [cursor=pointer]: Add to Compare
+            - img [ref=e803] [cursor=pointer]
+          - generic [ref=e805] [cursor=pointer]:
+            - generic [ref=e806] [cursor=pointer]:
+              - generic [ref=e807] [cursor=pointer]: Samsung 310E
+              - generic [ref=e808] [cursor=pointer]:
+                - generic [ref=e810] [cursor=pointer]:
+                  - text: "3"
+                  - img [ref=e811] [cursor=pointer]
+                - generic [ref=e813] [cursor=pointer]:
+                  - generic [ref=e814] [cursor=pointer]: 97 Ratings
+                  - generic [ref=e815] [cursor=pointer]: "&"
+                  - generic [ref=e816] [cursor=pointer]: 3 Reviews
+              - list [ref=e818] [cursor=pointer]:
+                - listitem [ref=e819] [cursor=pointer]: • 8 MB RAM | 8 MB ROM
+                - listitem [ref=e820] [cursor=pointer]: • 4.57 cm (1.8 inch) Display
+                - listitem [ref=e821] [cursor=pointer]: • 0.2MP Rear Camera
+                - listitem [ref=e822] [cursor=pointer]: • 850 mAh Battery
+                - listitem [ref=e823] [cursor=pointer]: • NO WARRANTY
+            - generic [ref=e824] [cursor=pointer]:
+              - generic [ref=e826] [cursor=pointer]:
+                - generic [ref=e827] [cursor=pointer]: ₹835
+                - generic [ref=e828] [cursor=pointer]: ₹1,599
+                - generic [ref=e830] [cursor=pointer]: 47% off
+              - generic [ref=e833] [cursor=pointer]: Only few left
+              - generic [ref=e836] [cursor=pointer]: Bank Offer
+        - link "Samsung 1200 Add to Compare Samsung 1200 3.1 4,661 Ratings & 317 Reviews • 32 MB RAM | 32 MB ROM • 3.81 cm (1.5 inch) Display • 800 mAh Battery • NO WARRANTY ₹838 ₹1,959 57% off Only few left Bank Offer" [ref=e841] [cursor=pointer]:
+          - /url: /samsung-1200/p/itm3fa319b0e0888?pid=MOBH7UYGAZVYKHUF&lid=LSTMOBH7UYGAZVYKHUFLNVA8X&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_10&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH7UYGAZVYKHUF.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e842] [cursor=pointer]:
+            - img "Samsung 1200" [ref=e846] [cursor=pointer]
+            - generic [ref=e853] [cursor=pointer]: Add to Compare
+            - img [ref=e856] [cursor=pointer]
+          - generic [ref=e858] [cursor=pointer]:
+            - generic [ref=e859] [cursor=pointer]:
+              - generic [ref=e860] [cursor=pointer]: Samsung 1200
+              - generic [ref=e861] [cursor=pointer]:
+                - generic [ref=e863] [cursor=pointer]:
+                  - text: "3.1"
+                  - img [ref=e864] [cursor=pointer]
+                - generic [ref=e866] [cursor=pointer]:
+                  - generic [ref=e867] [cursor=pointer]: 4,661 Ratings
+                  - generic [ref=e868] [cursor=pointer]: "&"
+                  - generic [ref=e869] [cursor=pointer]: 317 Reviews
+              - list [ref=e871] [cursor=pointer]:
+                - listitem [ref=e872] [cursor=pointer]: • 32 MB RAM | 32 MB ROM
+                - listitem [ref=e873] [cursor=pointer]: • 3.81 cm (1.5 inch) Display
+                - listitem [ref=e874] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e875] [cursor=pointer]: • NO WARRANTY
+            - generic [ref=e876] [cursor=pointer]:
+              - generic [ref=e878] [cursor=pointer]:
+                - generic [ref=e879] [cursor=pointer]: ₹838
+                - generic [ref=e880] [cursor=pointer]: ₹1,959
+                - generic [ref=e882] [cursor=pointer]: 57% off
+              - generic [ref=e885] [cursor=pointer]: Only few left
+              - generic [ref=e888] [cursor=pointer]: Bank Offer
+        - link "Samsung Guru Music 2 B310ED Currently unavailable Add to Compare Samsung Guru Music 2 B310ED 3.1 22,607 Ratings & 1,577 Reviews • 32 MB RAM | 32 MB ROM | Expandable Upto 100 MB • 4.57 cm (1.8 inch) VGA Display • 0MP | 0MP Front Camera • 800 mAh Battery • NA Processor • 1 Year Seller Warranty ₹838 ₹1,899 55% off Bank Offer" [ref=e893] [cursor=pointer]:
+          - /url: /samsung-guru-music-2-b310ed/p/itm1a9e227b47cb8?pid=MOBH88FYGHGAFPHX&lid=LSTMOBH88FYGHGAFPHXAQPQZN&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&spotlightTagId=default_BestsellerId_tyy%2F4io&srno=s_1_11&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH88FYGHGAFPHX.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e894] [cursor=pointer]:
+            - generic [ref=e895] [cursor=pointer]:
+              - img "Samsung Guru Music 2 B310ED" [ref=e898] [cursor=pointer]
+              - generic:
+                - generic: Currently unavailable
+            - generic [ref=e905] [cursor=pointer]: Add to Compare
+            - img [ref=e908] [cursor=pointer]
+          - generic [ref=e910] [cursor=pointer]:
+            - generic [ref=e911] [cursor=pointer]:
+              - generic [ref=e912] [cursor=pointer]: Samsung Guru Music 2 B310ED
+              - generic [ref=e913] [cursor=pointer]:
+                - generic [ref=e915] [cursor=pointer]:
+                  - text: "3.1"
+                  - img [ref=e916] [cursor=pointer]
+                - generic [ref=e918] [cursor=pointer]:
+                  - generic [ref=e919] [cursor=pointer]: 22,607 Ratings
+                  - generic [ref=e920] [cursor=pointer]: "&"
+                  - generic [ref=e921] [cursor=pointer]: 1,577 Reviews
+              - list [ref=e923] [cursor=pointer]:
+                - listitem [ref=e924] [cursor=pointer]: • 32 MB RAM | 32 MB ROM | Expandable Upto 100 MB
+                - listitem [ref=e925] [cursor=pointer]: • 4.57 cm (1.8 inch) VGA Display
+                - listitem [ref=e926] [cursor=pointer]: • 0MP | 0MP Front Camera
+                - listitem [ref=e927] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e928] [cursor=pointer]: • NA Processor
+                - listitem [ref=e929] [cursor=pointer]: • 1 Year Seller Warranty
+            - generic [ref=e930] [cursor=pointer]:
+              - generic [ref=e932] [cursor=pointer]:
+                - generic [ref=e933] [cursor=pointer]: ₹838
+                - generic [ref=e934] [cursor=pointer]: ₹1,899
+                - generic [ref=e936] [cursor=pointer]: 55% off
+              - generic [ref=e939] [cursor=pointer]: Bank Offer
+        - link "Samsung Guru1200 Add to Compare Samsung Guru1200 3 1,868 Ratings & 153 Reviews • 10 MB RAM | 10 MB ROM • 4.57 cm (1.8 inch) Display • 800 mAh Battery • No Warranty ₹847 ₹1,498 43% off Only few left Bank Offer" [ref=e944] [cursor=pointer]:
+          - /url: /samsung-guru1200/p/itm58a99285b0f27?pid=MOBHBPZMCG56WJKC&lid=LSTMOBHBPZMCG56WJKCTWPSMB&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_12&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHBPZMCG56WJKC.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e945] [cursor=pointer]:
+            - img "Samsung Guru1200" [ref=e949] [cursor=pointer]
+            - generic [ref=e956] [cursor=pointer]: Add to Compare
+            - img [ref=e959] [cursor=pointer]
+          - generic [ref=e961] [cursor=pointer]:
+            - generic [ref=e962] [cursor=pointer]:
+              - generic [ref=e963] [cursor=pointer]: Samsung Guru1200
+              - generic [ref=e964] [cursor=pointer]:
+                - generic [ref=e966] [cursor=pointer]:
+                  - text: "3"
+                  - img [ref=e967] [cursor=pointer]
+                - generic [ref=e969] [cursor=pointer]:
+                  - generic [ref=e970] [cursor=pointer]: 1,868 Ratings
+                  - generic [ref=e971] [cursor=pointer]: "&"
+                  - generic [ref=e972] [cursor=pointer]: 153 Reviews
+              - list [ref=e974] [cursor=pointer]:
+                - listitem [ref=e975] [cursor=pointer]: • 10 MB RAM | 10 MB ROM
+                - listitem [ref=e976] [cursor=pointer]: • 4.57 cm (1.8 inch) Display
+                - listitem [ref=e977] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e978] [cursor=pointer]: • No Warranty
+            - generic [ref=e979] [cursor=pointer]:
+              - generic [ref=e981] [cursor=pointer]:
+                - generic [ref=e982] [cursor=pointer]: ₹847
+                - generic [ref=e983] [cursor=pointer]: ₹1,498
+                - generic [ref=e985] [cursor=pointer]: 43% off
+              - generic [ref=e988] [cursor=pointer]: Only few left
+              - generic [ref=e991] [cursor=pointer]: Bank Offer
+        - link "Samsung Guru1200 Add to Compare Samsung Guru1200 3 1,868 Ratings & 153 Reviews • 10 MB RAM | 10 MB ROM • 4.57 cm (1.8 inch) Display • 800 mAh Battery • 1 year seller domestic warranty ₹869 ₹1,905 54% off Only few left Bank Offer" [ref=e996] [cursor=pointer]:
+          - /url: /samsung-guru1200/p/itm49788e7b3339b?pid=MOBH8F36R9CNWXWJ&lid=LSTMOBH8F36R9CNWXWJICLB7Y&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_13&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH8F36R9CNWXWJ.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e997] [cursor=pointer]:
+            - img "Samsung Guru1200" [ref=e1001] [cursor=pointer]
+            - generic [ref=e1008] [cursor=pointer]: Add to Compare
+            - img [ref=e1011] [cursor=pointer]
+          - generic [ref=e1013] [cursor=pointer]:
+            - generic [ref=e1014] [cursor=pointer]:
+              - generic [ref=e1015] [cursor=pointer]: Samsung Guru1200
+              - generic [ref=e1016] [cursor=pointer]:
+                - generic [ref=e1018] [cursor=pointer]:
+                  - text: "3"
+                  - img [ref=e1019] [cursor=pointer]
+                - generic [ref=e1021] [cursor=pointer]:
+                  - generic [ref=e1022] [cursor=pointer]: 1,868 Ratings
+                  - generic [ref=e1023] [cursor=pointer]: "&"
+                  - generic [ref=e1024] [cursor=pointer]: 153 Reviews
+              - list [ref=e1026] [cursor=pointer]:
+                - listitem [ref=e1027] [cursor=pointer]: • 10 MB RAM | 10 MB ROM
+                - listitem [ref=e1028] [cursor=pointer]: • 4.57 cm (1.8 inch) Display
+                - listitem [ref=e1029] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e1030] [cursor=pointer]: • 1 year seller domestic warranty
+            - generic [ref=e1031] [cursor=pointer]:
+              - generic [ref=e1033] [cursor=pointer]:
+                - generic [ref=e1034] [cursor=pointer]: ₹869
+                - generic [ref=e1035] [cursor=pointer]: ₹1,905
+                - generic [ref=e1037] [cursor=pointer]: 54% off
+              - generic [ref=e1040] [cursor=pointer]: Only few left
+              - generic [ref=e1043] [cursor=pointer]: Bank Offer
+        - link "Samsung 1200 Currently unavailable Add to Compare Samsung 1200 3.1 4,661 Ratings & 317 Reviews • 32 MB RAM | 32 MB ROM • 3.81 cm (1.5 inch) Display • 800 mAh Battery • NO WARRANTY ₹890 ₹1,599 44% off Bank Offer" [ref=e1048] [cursor=pointer]:
+          - /url: /samsung-1200/p/itm3fa319b0e0888?pid=MOBH7N6VE7GBEHND&lid=LSTMOBH7N6VE7GBEHNDQGJKTF&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_14&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH7N6VE7GBEHND.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1049] [cursor=pointer]:
+            - generic [ref=e1050] [cursor=pointer]:
+              - img "Samsung 1200" [ref=e1053] [cursor=pointer]
+              - generic:
+                - generic: Currently unavailable
+            - generic [ref=e1060] [cursor=pointer]: Add to Compare
+            - img [ref=e1063] [cursor=pointer]
+          - generic [ref=e1065] [cursor=pointer]:
+            - generic [ref=e1066] [cursor=pointer]:
+              - generic [ref=e1067] [cursor=pointer]: Samsung 1200
+              - generic [ref=e1068] [cursor=pointer]:
+                - generic [ref=e1070] [cursor=pointer]:
+                  - text: "3.1"
+                  - img [ref=e1071] [cursor=pointer]
+                - generic [ref=e1073] [cursor=pointer]:
+                  - generic [ref=e1074] [cursor=pointer]: 4,661 Ratings
+                  - generic [ref=e1075] [cursor=pointer]: "&"
+                  - generic [ref=e1076] [cursor=pointer]: 317 Reviews
+              - list [ref=e1078] [cursor=pointer]:
+                - listitem [ref=e1079] [cursor=pointer]: • 32 MB RAM | 32 MB ROM
+                - listitem [ref=e1080] [cursor=pointer]: • 3.81 cm (1.5 inch) Display
+                - listitem [ref=e1081] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e1082] [cursor=pointer]: • NO WARRANTY
+            - generic [ref=e1083] [cursor=pointer]:
+              - generic [ref=e1085] [cursor=pointer]:
+                - generic [ref=e1086] [cursor=pointer]: ₹890
+                - generic [ref=e1087] [cursor=pointer]: ₹1,599
+                - generic [ref=e1089] [cursor=pointer]: 44% off
+              - generic [ref=e1092] [cursor=pointer]: Bank Offer
+        - link "Samsung SM-B310EZDDINS Add to Compare Samsung SM-B310EZDDINS 3.2 9,558 Ratings & 593 Reviews • 100 MB RAM | 100 MB ROM | Expandable Upto 100 MB • 4.57 cm (1.8 inch) VGA Display • 0MP | 0MP Front Camera • 800 mAh Battery • NA Processor • No Warranty ₹893 ₹1,897 52% off Only few left Bank Offer" [ref=e1097] [cursor=pointer]:
+          - /url: /samsung-sm-b310ezddins/p/itm1085fbe90ba3b?pid=MOBFXZXGCNBAKUSA&lid=LSTMOBFXZXGCNBAKUSARINW5E&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_15&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBFXZXGCNBAKUSA.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1098] [cursor=pointer]:
+            - img "Samsung SM-B310EZDDINS" [ref=e1102] [cursor=pointer]
+            - generic [ref=e1109] [cursor=pointer]: Add to Compare
+            - img [ref=e1112] [cursor=pointer]
+          - generic [ref=e1114] [cursor=pointer]:
+            - generic [ref=e1115] [cursor=pointer]:
+              - generic [ref=e1116] [cursor=pointer]: Samsung SM-B310EZDDINS
+              - generic [ref=e1117] [cursor=pointer]:
+                - generic [ref=e1119] [cursor=pointer]:
+                  - text: "3.2"
+                  - img [ref=e1120] [cursor=pointer]
+                - generic [ref=e1122] [cursor=pointer]:
+                  - generic [ref=e1123] [cursor=pointer]: 9,558 Ratings
+                  - generic [ref=e1124] [cursor=pointer]: "&"
+                  - generic [ref=e1125] [cursor=pointer]: 593 Reviews
+              - list [ref=e1127] [cursor=pointer]:
+                - listitem [ref=e1128] [cursor=pointer]: • 100 MB RAM | 100 MB ROM | Expandable Upto 100 MB
+                - listitem [ref=e1129] [cursor=pointer]: • 4.57 cm (1.8 inch) VGA Display
+                - listitem [ref=e1130] [cursor=pointer]: • 0MP | 0MP Front Camera
+                - listitem [ref=e1131] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e1132] [cursor=pointer]: • NA Processor
+                - listitem [ref=e1133] [cursor=pointer]: • No Warranty
+            - generic [ref=e1134] [cursor=pointer]:
+              - generic [ref=e1136] [cursor=pointer]:
+                - generic [ref=e1137] [cursor=pointer]: ₹893
+                - generic [ref=e1138] [cursor=pointer]: ₹1,897
+                - generic [ref=e1140] [cursor=pointer]: 52% off
+              - generic [ref=e1143] [cursor=pointer]: Only few left
+              - generic [ref=e1146] [cursor=pointer]: Bank Offer
+        - link "Samsung Guru Music 2 B310ED Add to Compare Samsung Guru Music 2 B310ED 3.1 22,607 Ratings & 1,577 Reviews • 32 MB RAM | 32 MB ROM • 4.57 cm (1.8 inch) Display • 800 mAh Battery • NO WARRANTY ₹895 ₹1,999 55% off Only few left Bank Offer" [ref=e1151] [cursor=pointer]:
+          - /url: /samsung-guru-music-2-b310ed/p/itm4459f74bdb310?pid=MOBH8NT5UAHD3ZDC&lid=LSTMOBH8NT5UAHD3ZDCN4J5HL&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_16&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH8NT5UAHD3ZDC.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1152] [cursor=pointer]:
+            - img "Samsung Guru Music 2 B310ED" [ref=e1156] [cursor=pointer]
+            - generic [ref=e1163] [cursor=pointer]: Add to Compare
+            - img [ref=e1166] [cursor=pointer]
+          - generic [ref=e1168] [cursor=pointer]:
+            - generic [ref=e1169] [cursor=pointer]:
+              - generic [ref=e1170] [cursor=pointer]: Samsung Guru Music 2 B310ED
+              - generic [ref=e1171] [cursor=pointer]:
+                - generic [ref=e1173] [cursor=pointer]:
+                  - text: "3.1"
+                  - img [ref=e1174] [cursor=pointer]
+                - generic [ref=e1176] [cursor=pointer]:
+                  - generic [ref=e1177] [cursor=pointer]: 22,607 Ratings
+                  - generic [ref=e1178] [cursor=pointer]: "&"
+                  - generic [ref=e1179] [cursor=pointer]: 1,577 Reviews
+              - list [ref=e1181] [cursor=pointer]:
+                - listitem [ref=e1182] [cursor=pointer]: • 32 MB RAM | 32 MB ROM
+                - listitem [ref=e1183] [cursor=pointer]: • 4.57 cm (1.8 inch) Display
+                - listitem [ref=e1184] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e1185] [cursor=pointer]: • NO WARRANTY
+            - generic [ref=e1186] [cursor=pointer]:
+              - generic [ref=e1188] [cursor=pointer]:
+                - generic [ref=e1189] [cursor=pointer]: ₹895
+                - generic [ref=e1190] [cursor=pointer]: ₹1,999
+                - generic [ref=e1192] [cursor=pointer]: 55% off
+              - generic [ref=e1195] [cursor=pointer]: Only few left
+              - generic [ref=e1198] [cursor=pointer]: Bank Offer
+        - link "Samsung Guru Music 2 Add to Compare Samsung Guru Music 2 3.1 4,384 Ratings & 255 Reviews • 10 MB RAM | 10 MB ROM • 5.08 cm (2 inch) VGA Display • 1100 mAh Battery • 1 year seller domestic warranty ₹897 ₹1,800 50% off Only few left Bank Offer" [ref=e1203] [cursor=pointer]:
+          - /url: /samsung-guru-music-2/p/itme2ac9119f5a0f?pid=MOBH8F36WYNWJKRP&lid=LSTMOBH8F36WYNWJKRPAVBEBF&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_17&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH8F36WYNWJKRP.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1204] [cursor=pointer]:
+            - img "Samsung Guru Music 2" [ref=e1208] [cursor=pointer]
+            - generic [ref=e1215] [cursor=pointer]: Add to Compare
+            - img [ref=e1218] [cursor=pointer]
+          - generic [ref=e1220] [cursor=pointer]:
+            - generic [ref=e1221] [cursor=pointer]:
+              - generic [ref=e1222] [cursor=pointer]: Samsung Guru Music 2
+              - generic [ref=e1223] [cursor=pointer]:
+                - generic [ref=e1225] [cursor=pointer]:
+                  - text: "3.1"
+                  - img [ref=e1226] [cursor=pointer]
+                - generic [ref=e1228] [cursor=pointer]:
+                  - generic [ref=e1229] [cursor=pointer]: 4,384 Ratings
+                  - generic [ref=e1230] [cursor=pointer]: "&"
+                  - generic [ref=e1231] [cursor=pointer]: 255 Reviews
+              - list [ref=e1233] [cursor=pointer]:
+                - listitem [ref=e1234] [cursor=pointer]: • 10 MB RAM | 10 MB ROM
+                - listitem [ref=e1235] [cursor=pointer]: • 5.08 cm (2 inch) VGA Display
+                - listitem [ref=e1236] [cursor=pointer]: • 1100 mAh Battery
+                - listitem [ref=e1237] [cursor=pointer]: • 1 year seller domestic warranty
+            - generic [ref=e1238] [cursor=pointer]:
+              - generic [ref=e1240] [cursor=pointer]:
+                - generic [ref=e1241] [cursor=pointer]: ₹897
+                - generic [ref=e1242] [cursor=pointer]: ₹1,800
+                - generic [ref=e1244] [cursor=pointer]: 50% off
+              - generic [ref=e1247] [cursor=pointer]: Only few left
+              - generic [ref=e1250] [cursor=pointer]: Bank Offer
+        - link "Samsung Guru Music 2 Add to Compare Samsung Guru Music 2 3.1 4,384 Ratings & 255 Reviews • 10 MB RAM | 10 MB ROM • 5.08 cm (2 inch) Display • 1100 mAh Battery • 1 year seller domestic warranty ₹898 ₹1,899 52% off Only few left Bank Offer" [ref=e1255] [cursor=pointer]:
+          - /url: /samsung-guru-music-2/p/itme2ac9119f5a0f?pid=MOBH8F36Y462DMZD&lid=LSTMOBH8F36Y462DMZDOFL9DN&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_18&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH8F36Y462DMZD.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1256] [cursor=pointer]:
+            - img "Samsung Guru Music 2" [ref=e1260] [cursor=pointer]
+            - generic [ref=e1267] [cursor=pointer]: Add to Compare
+            - img [ref=e1270] [cursor=pointer]
+          - generic [ref=e1272] [cursor=pointer]:
+            - generic [ref=e1273] [cursor=pointer]:
+              - generic [ref=e1274] [cursor=pointer]: Samsung Guru Music 2
+              - generic [ref=e1275] [cursor=pointer]:
+                - generic [ref=e1277] [cursor=pointer]:
+                  - text: "3.1"
+                  - img [ref=e1278] [cursor=pointer]
+                - generic [ref=e1280] [cursor=pointer]:
+                  - generic [ref=e1281] [cursor=pointer]: 4,384 Ratings
+                  - generic [ref=e1282] [cursor=pointer]: "&"
+                  - generic [ref=e1283] [cursor=pointer]: 255 Reviews
+              - list [ref=e1285] [cursor=pointer]:
+                - listitem [ref=e1286] [cursor=pointer]: • 10 MB RAM | 10 MB ROM
+                - listitem [ref=e1287] [cursor=pointer]: • 5.08 cm (2 inch) Display
+                - listitem [ref=e1288] [cursor=pointer]: • 1100 mAh Battery
+                - listitem [ref=e1289] [cursor=pointer]: • 1 year seller domestic warranty
+            - generic [ref=e1290] [cursor=pointer]:
+              - generic [ref=e1292] [cursor=pointer]:
+                - generic [ref=e1293] [cursor=pointer]: ₹898
+                - generic [ref=e1294] [cursor=pointer]: ₹1,899
+                - generic [ref=e1296] [cursor=pointer]: 52% off
+              - generic [ref=e1299] [cursor=pointer]: Only few left
+              - generic [ref=e1302] [cursor=pointer]: Bank Offer
+        - link "Samsung SM 1200 MOBILE Add to Compare Samsung SM 1200 MOBILE 2.5 6 Ratings & 0 Reviews • 8 MB RAM | 8 MB ROM • 4.06 cm (1.6 inch) Display • 0.1MP Rear Camera • 800 mAh Battery • NO WarrantY ₹898 ₹1,399 35% off Only few left Bank Offer" [ref=e1307] [cursor=pointer]:
+          - /url: /samsung-sm-1200-mobile/p/itmbd2b22ffb8de0?pid=MOBHDKHDMKHHRGAT&lid=LSTMOBHDKHDMKHHRGATKXJFTI&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_19&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHDKHDMKHHRGAT.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1308] [cursor=pointer]:
+            - img "Samsung SM 1200 MOBILE" [ref=e1312] [cursor=pointer]
+            - generic [ref=e1319] [cursor=pointer]: Add to Compare
+            - img [ref=e1322] [cursor=pointer]
+          - generic [ref=e1324] [cursor=pointer]:
+            - generic [ref=e1325] [cursor=pointer]:
+              - generic [ref=e1326] [cursor=pointer]: Samsung SM 1200 MOBILE
+              - generic [ref=e1327] [cursor=pointer]:
+                - generic [ref=e1329] [cursor=pointer]:
+                  - text: "2.5"
+                  - img [ref=e1330] [cursor=pointer]
+                - generic [ref=e1332] [cursor=pointer]:
+                  - generic [ref=e1333] [cursor=pointer]: 6 Ratings
+                  - generic [ref=e1334] [cursor=pointer]: "&"
+                  - generic [ref=e1335] [cursor=pointer]: 0 Reviews
+              - list [ref=e1337] [cursor=pointer]:
+                - listitem [ref=e1338] [cursor=pointer]: • 8 MB RAM | 8 MB ROM
+                - listitem [ref=e1339] [cursor=pointer]: • 4.06 cm (1.6 inch) Display
+                - listitem [ref=e1340] [cursor=pointer]: • 0.1MP Rear Camera
+                - listitem [ref=e1341] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e1342] [cursor=pointer]: • NO WarrantY
+            - generic [ref=e1343] [cursor=pointer]:
+              - generic [ref=e1345] [cursor=pointer]:
+                - generic [ref=e1346] [cursor=pointer]: ₹898
+                - generic [ref=e1347] [cursor=pointer]: ₹1,399
+                - generic [ref=e1349] [cursor=pointer]: 35% off
+              - generic [ref=e1352] [cursor=pointer]: Only few left
+              - generic [ref=e1355] [cursor=pointer]: Bank Offer
+        - link "Samsung SM 1207 Add to Compare Samsung SM 1207 3.2 6,112 Ratings & 357 Reviews • 32 MB RAM | 32 MB ROM • 3.81 cm (1.5 inch) Display • 800 mAh Battery • No Brand Warranty ₹898 ₹1,499 40% off Only few left Bank Offer" [ref=e1360] [cursor=pointer]:
+          - /url: /samsung-sm-1207/p/itm5bb7134be8099?pid=MOBHBY5S5HUWRHYY&lid=LSTMOBHBY5S5HUWRHYYZWRMKC&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_20&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHBY5S5HUWRHYY.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1361] [cursor=pointer]:
+            - img "Samsung SM 1207" [ref=e1365] [cursor=pointer]
+            - generic [ref=e1372] [cursor=pointer]: Add to Compare
+            - img [ref=e1375] [cursor=pointer]
+          - generic [ref=e1377] [cursor=pointer]:
+            - generic [ref=e1378] [cursor=pointer]:
+              - generic [ref=e1379] [cursor=pointer]: Samsung SM 1207
+              - generic [ref=e1380] [cursor=pointer]:
+                - generic [ref=e1382] [cursor=pointer]:
+                  - text: "3.2"
+                  - img [ref=e1383] [cursor=pointer]
+                - generic [ref=e1385] [cursor=pointer]:
+                  - generic [ref=e1386] [cursor=pointer]: 6,112 Ratings
+                  - generic [ref=e1387] [cursor=pointer]: "&"
+                  - generic [ref=e1388] [cursor=pointer]: 357 Reviews
+              - list [ref=e1390] [cursor=pointer]:
+                - listitem [ref=e1391] [cursor=pointer]: • 32 MB RAM | 32 MB ROM
+                - listitem [ref=e1392] [cursor=pointer]: • 3.81 cm (1.5 inch) Display
+                - listitem [ref=e1393] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e1394] [cursor=pointer]: • No Brand Warranty
+            - generic [ref=e1395] [cursor=pointer]:
+              - generic [ref=e1397] [cursor=pointer]:
+                - generic [ref=e1398] [cursor=pointer]: ₹898
+                - generic [ref=e1399] [cursor=pointer]: ₹1,499
+                - generic [ref=e1401] [cursor=pointer]: 40% off
+              - generic [ref=e1404] [cursor=pointer]: Only few left
+              - generic [ref=e1407] [cursor=pointer]: Bank Offer
+        - link "Samsung SM 310E BLACK Add to Compare Samsung SM 310E BLACK 3 571 Ratings & 42 Reviews • 8 MB RAM | 8 MB ROM | Expandable Upto 32 MB • 4.83 cm (1.9 inch) VGA Display • 0.2MP Rear Camera • 800 mAh Battery • NO ₹899 ₹1,899 52% off Only few left Bank Offer" [ref=e1412] [cursor=pointer]:
+          - /url: /samsung-sm-310e-black/p/itm0c4ebb59cb764?pid=MOBHDH65UYQGWHUZ&lid=LSTMOBHDH65UYQGWHUZWYU3U3&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_21&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHDH65UYQGWHUZ.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1413] [cursor=pointer]:
+            - img "Samsung SM 310E BLACK" [ref=e1417] [cursor=pointer]
+            - generic [ref=e1424] [cursor=pointer]: Add to Compare
+            - img [ref=e1427] [cursor=pointer]
+          - generic [ref=e1429] [cursor=pointer]:
+            - generic [ref=e1430] [cursor=pointer]:
+              - generic [ref=e1431] [cursor=pointer]: Samsung SM 310E BLACK
+              - generic [ref=e1432] [cursor=pointer]:
+                - generic [ref=e1434] [cursor=pointer]:
+                  - text: "3"
+                  - img [ref=e1435] [cursor=pointer]
+                - generic [ref=e1437] [cursor=pointer]:
+                  - generic [ref=e1438] [cursor=pointer]: 571 Ratings
+                  - generic [ref=e1439] [cursor=pointer]: "&"
+                  - generic [ref=e1440] [cursor=pointer]: 42 Reviews
+              - list [ref=e1442] [cursor=pointer]:
+                - listitem [ref=e1443] [cursor=pointer]: • 8 MB RAM | 8 MB ROM | Expandable Upto 32 MB
+                - listitem [ref=e1444] [cursor=pointer]: • 4.83 cm (1.9 inch) VGA Display
+                - listitem [ref=e1445] [cursor=pointer]: • 0.2MP Rear Camera
+                - listitem [ref=e1446] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e1447] [cursor=pointer]: • NO
+            - generic [ref=e1448] [cursor=pointer]:
+              - generic [ref=e1450] [cursor=pointer]:
+                - generic [ref=e1451] [cursor=pointer]: ₹899
+                - generic [ref=e1452] [cursor=pointer]: ₹1,899
+                - generic [ref=e1454] [cursor=pointer]: 52% off
+              - generic [ref=e1457] [cursor=pointer]: Only few left
+              - generic [ref=e1460] [cursor=pointer]: Bank Offer
+        - link "Samsung Guru Music 2 B310ED Add to Compare Samsung Guru Music 2 B310ED 3 448 Ratings & 27 Reviews • 16 GB RAM | 16 GB ROM • 5.08 cm (2 inch) Display • 0.3MP Rear Camera • 1000 mAh Battery • 1 Year Manufacturer Warranty ₹911 ₹1,599 43% off Only few left Bank Offer" [ref=e1465] [cursor=pointer]:
+          - /url: /samsung-guru-music-2-b310ed/p/itmc77fb727f1cf5?pid=MOBHDFT9GTFDDXP6&lid=LSTMOBHDFT9GTFDDXP6OPJFPJ&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_22&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHDFT9GTFDDXP6.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1466] [cursor=pointer]:
+            - img "Samsung Guru Music 2 B310ED" [ref=e1470] [cursor=pointer]
+            - generic [ref=e1477] [cursor=pointer]: Add to Compare
+            - img [ref=e1480] [cursor=pointer]
+          - generic [ref=e1482] [cursor=pointer]:
+            - generic [ref=e1483] [cursor=pointer]:
+              - generic [ref=e1484] [cursor=pointer]: Samsung Guru Music 2 B310ED
+              - generic [ref=e1485] [cursor=pointer]:
+                - generic [ref=e1487] [cursor=pointer]:
+                  - text: "3"
+                  - img [ref=e1488] [cursor=pointer]
+                - generic [ref=e1490] [cursor=pointer]:
+                  - generic [ref=e1491] [cursor=pointer]: 448 Ratings
+                  - generic [ref=e1492] [cursor=pointer]: "&"
+                  - generic [ref=e1493] [cursor=pointer]: 27 Reviews
+              - list [ref=e1495] [cursor=pointer]:
+                - listitem [ref=e1496] [cursor=pointer]: • 16 GB RAM | 16 GB ROM
+                - listitem [ref=e1497] [cursor=pointer]: • 5.08 cm (2 inch) Display
+                - listitem [ref=e1498] [cursor=pointer]: • 0.3MP Rear Camera
+                - listitem [ref=e1499] [cursor=pointer]: • 1000 mAh Battery
+                - listitem [ref=e1500] [cursor=pointer]: • 1 Year Manufacturer Warranty
+            - generic [ref=e1501] [cursor=pointer]:
+              - generic [ref=e1503] [cursor=pointer]:
+                - generic [ref=e1504] [cursor=pointer]: ₹911
+                - generic [ref=e1505] [cursor=pointer]: ₹1,599
+                - generic [ref=e1507] [cursor=pointer]: 43% off
+              - generic [ref=e1510] [cursor=pointer]: Only few left
+              - generic [ref=e1513] [cursor=pointer]: Bank Offer
+        - link "Samsung Guru Music 2- B310ED Add to Compare Samsung Guru Music 2- B310ED 3.1 91 Ratings & 6 Reviews • 32 MB RAM | 32 MB ROM • 4.57 cm (1.8 inch) Display • 800 mAh Battery • No Warranty ₹913 ₹1,899 51% off Only few left Bank Offer" [ref=e1518] [cursor=pointer]:
+          - /url: /samsung-guru-music-2-b310ed/p/itm8751b1a7e0dfe?pid=MOBH8WFYX3B6XSBC&lid=LSTMOBH8WFYX3B6XSBCJ5WN9G&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_23&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBH8WFYX3B6XSBC.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1519] [cursor=pointer]:
+            - img "Samsung Guru Music 2- B310ED" [ref=e1523] [cursor=pointer]
+            - generic [ref=e1530] [cursor=pointer]: Add to Compare
+            - img [ref=e1533] [cursor=pointer]
+          - generic [ref=e1535] [cursor=pointer]:
+            - generic [ref=e1536] [cursor=pointer]:
+              - generic [ref=e1537] [cursor=pointer]: Samsung Guru Music 2- B310ED
+              - generic [ref=e1538] [cursor=pointer]:
+                - generic [ref=e1540] [cursor=pointer]:
+                  - text: "3.1"
+                  - img [ref=e1541] [cursor=pointer]
+                - generic [ref=e1543] [cursor=pointer]:
+                  - generic [ref=e1544] [cursor=pointer]: 91 Ratings
+                  - generic [ref=e1545] [cursor=pointer]: "&"
+                  - generic [ref=e1546] [cursor=pointer]: 6 Reviews
+              - list [ref=e1548] [cursor=pointer]:
+                - listitem [ref=e1549] [cursor=pointer]: • 32 MB RAM | 32 MB ROM
+                - listitem [ref=e1550] [cursor=pointer]: • 4.57 cm (1.8 inch) Display
+                - listitem [ref=e1551] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e1552] [cursor=pointer]: • No Warranty
+            - generic [ref=e1553] [cursor=pointer]:
+              - generic [ref=e1555] [cursor=pointer]:
+                - generic [ref=e1556] [cursor=pointer]: ₹913
+                - generic [ref=e1557] [cursor=pointer]: ₹1,899
+                - generic [ref=e1559] [cursor=pointer]: 51% off
+              - generic [ref=e1562] [cursor=pointer]: Only few left
+              - generic [ref=e1565] [cursor=pointer]: Bank Offer
+        - link "Samsung Guru Music 2 B310ED Add to Compare Samsung Guru Music 2 B310ED 3.1 22,607 Ratings & 1,577 Reviews • 32 MB RAM | 32 MB ROM | Expandable Upto 32 MB • 4.57 cm (1.8 inch) VGA Display • 800 mAh Battery • No Warranty ₹926 ₹1,599 42% off Only few left Bank Offer" [ref=e1570] [cursor=pointer]:
+          - /url: /samsung-guru-music-2-b310ed/p/itm519b6093383c5?pid=MOBHBPPGHSQDKVUQ&lid=LSTMOBHBPPGHSQDKVUQYXKWWP&marketplace=FLIPKART&q=Samsung+mobile&store=tyy%2F4io&srno=s_1_24&otracker=search&otracker1=search&fm=Search&iid=287ad09d-987f-48b9-90bd-676818cc9d26.MOBHBPPGHSQDKVUQ.SEARCH&ppt=sp&ppn=sp&ssid=g8a6q83t1c0000001757059962950&qH=1a29bc62c5ebf24a
+          - generic [ref=e1571] [cursor=pointer]:
+            - img "Samsung Guru Music 2 B310ED" [ref=e1575] [cursor=pointer]
+            - generic [ref=e1582] [cursor=pointer]: Add to Compare
+            - img [ref=e1585] [cursor=pointer]
+          - generic [ref=e1587] [cursor=pointer]:
+            - generic [ref=e1588] [cursor=pointer]:
+              - generic [ref=e1589] [cursor=pointer]: Samsung Guru Music 2 B310ED
+              - generic [ref=e1590] [cursor=pointer]:
+                - generic [ref=e1592] [cursor=pointer]:
+                  - text: "3.1"
+                  - img [ref=e1593] [cursor=pointer]
+                - generic [ref=e1595] [cursor=pointer]:
+                  - generic [ref=e1596] [cursor=pointer]: 22,607 Ratings
+                  - generic [ref=e1597] [cursor=pointer]: "&"
+                  - generic [ref=e1598] [cursor=pointer]: 1,577 Reviews
+              - list [ref=e1600] [cursor=pointer]:
+                - listitem [ref=e1601] [cursor=pointer]: • 32 MB RAM | 32 MB ROM | Expandable Upto 32 MB
+                - listitem [ref=e1602] [cursor=pointer]: • 4.57 cm (1.8 inch) VGA Display
+                - listitem [ref=e1603] [cursor=pointer]: • 800 mAh Battery
+                - listitem [ref=e1604] [cursor=pointer]: • No Warranty
+            - generic [ref=e1605] [cursor=pointer]:
+              - generic [ref=e1607] [cursor=pointer]:
+                - generic [ref=e1608] [cursor=pointer]: ₹926
+                - generic [ref=e1609] [cursor=pointer]: ₹1,599
+                - generic [ref=e1611] [cursor=pointer]: 42% off
+              - generic [ref=e1614] [cursor=pointer]: Only few left
+              - generic [ref=e1617] [cursor=pointer]: Bank Offer
+        - generic [ref=e1620]:
+          - generic [ref=e1621]: Page 1 of 44
+          - navigation [ref=e1622]:
+            - link "1" [ref=e1623] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=1
+            - link "2" [ref=e1624] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=2
+            - link "3" [ref=e1625] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=3
+            - link "4" [ref=e1626] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=4
+            - link "5" [ref=e1627] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=5
+            - link "6" [ref=e1628] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=6
+            - link "7" [ref=e1629] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=7
+            - link "8" [ref=e1630] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=8
+            - link "9" [ref=e1631] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=9
+            - link "10" [ref=e1632] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=10
+            - link "Next" [ref=e1633] [cursor=pointer]:
+              - /url: /search?q=Samsung+mobile&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&sort=price_asc&page=2
+              - generic [ref=e1634] [cursor=pointer]: Next
+        - generic [ref=e1636]:
+          - generic [ref=e1637]: Did you find what you were looking for?
+          - generic [ref=e1638]:
+            - generic [ref=e1639] [cursor=pointer]: "Yes"
+            - generic [ref=e1640] [cursor=pointer]: "No"
+    - generic [ref=e1642]:
+      - generic [ref=e1643]: Reviews for Popular Mobiles
+      - generic [ref=e1644]:
+        - generic [ref=e1645]:
+          - generic [ref=e1647]:
+            - img "Samsung Guru Music 2 B310ED"
+          - generic [ref=e1648]:
+            - link "1. Samsung Guru Music 2 B310ED 3 448 Ratings&27 Reviews ₹911 43% off" [ref=e1649] [cursor=pointer]:
+              - /url: /samsung-guru-music-2-b310ed/p/itmc77fb727f1cf5?pid=MOBHDFT9GTFDDXP6&marketplace=FLIPKART
+              - generic [ref=e1651] [cursor=pointer]: 1. Samsung Guru Music 2 B310ED
+              - generic [ref=e1652] [cursor=pointer]:
+                - generic [ref=e1653] [cursor=pointer]:
+                  - text: "3"
+                  - img [ref=e1654] [cursor=pointer]
+                - generic [ref=e1655] [cursor=pointer]:
+                  - generic [ref=e1656] [cursor=pointer]: 448 Ratings
+                  - generic [ref=e1657] [cursor=pointer]:
+                    - generic [ref=e1658] [cursor=pointer]: "&"
+                    - generic [ref=e1659] [cursor=pointer]: 27 Reviews
+              - generic [ref=e1661] [cursor=pointer]:
+                - generic [ref=e1662] [cursor=pointer]: ₹911
+                - generic [ref=e1664] [cursor=pointer]: 43% off
+            - list [ref=e1665]:
+              - listitem [ref=e1666]: 16 GB RAM | 16 GB ROM
+              - listitem [ref=e1667]: 5.08 cm (2 inch) Display
+              - listitem [ref=e1668]: 0.3MP Rear Camera
+        - generic [ref=e1669]:
+          - generic [ref=e1670]: Most Helpful Review
+          - generic [ref=e1672]:
+            - generic [ref=e1673]:
+              - generic [ref=e1674]:
+                - text: "2"
+                - img [ref=e1675]
+              - paragraph [ref=e1676]: Expected a better product
+            - generic [ref=e1680]: There are others numbers already feeded In my phone .is it seconds one
+            - generic [ref=e1682]:
+              - paragraph [ref=e1683]: Lakku Anjani kumar
+              - img [ref=e1684]
+              - paragraph [ref=e1688]:
+                - generic [ref=e1689]: Certified Buyer
+              - paragraph [ref=e1690]: 1 month ago
+        - generic [ref=e1691]:
+          - generic [ref=e1692]: Recent Review
+          - generic [ref=e1694]:
+            - generic [ref=e1695]:
+              - generic [ref=e1696]:
+                - text: "2"
+                - img [ref=e1697]
+              - paragraph [ref=e1698]: Slightly disappointed
+            - generic [ref=e1702]: Suddenly mobile tobe is off
+            - generic [ref=e1704]:
+              - paragraph [ref=e1705]: Bholu Parmar
+              - img [ref=e1706]
+              - paragraph [ref=e1710]:
+                - generic [ref=e1711]: Certified Buyer
+              - paragraph [ref=e1712]: 15 days ago
+      - generic [ref=e1713]:
+        - generic [ref=e1714]:
+          - generic [ref=e1716]:
+            - img "Samsung SM-B310 EZBAPKS"
+          - generic [ref=e1717]:
+            - link "2. Samsung SM-B310 EZBAPKS 3.3 118 Ratings&7 Reviews ₹798 46% off" [ref=e1718] [cursor=pointer]:
+              - /url: /samsung-sm-b310-ezbapks/p/itmc06737032a511?pid=MOBHE36HF4FKKSVF&marketplace=FLIPKART
+              - generic [ref=e1720] [cursor=pointer]: 2. Samsung SM-B310 EZBAPKS
+              - generic [ref=e1721] [cursor=pointer]:
+                - generic [ref=e1722] [cursor=pointer]:
+                  - text: "3.3"
+                  - img [ref=e1723] [cursor=pointer]
+                - generic [ref=e1724] [cursor=pointer]:
+                  - generic [ref=e1725] [cursor=pointer]: 118 Ratings
+                  - generic [ref=e1726] [cursor=pointer]:
+                    - generic [ref=e1727] [cursor=pointer]: "&"
+                    - generic [ref=e1728] [cursor=pointer]: 7 Reviews
+              - generic [ref=e1730] [cursor=pointer]:
+                - generic [ref=e1731] [cursor=pointer]: ₹798
+                - generic [ref=e1733] [cursor=pointer]: 46% off
+            - list [ref=e1734]:
+              - listitem [ref=e1735]: 100 MB RAM | 100 MB ROM | Expandable Upto 100 MB
+              - listitem [ref=e1736]: 4.57 cm (1.8 inch) VGA Display
+              - listitem [ref=e1737]: 0MP | 0MP Front Camera
+        - generic [ref=e1738]:
+          - generic [ref=e1739]: Most Helpful Review
+          - generic [ref=e1741]:
+            - generic [ref=e1742]:
+              - generic [ref=e1743]:
+                - text: "5"
+                - img [ref=e1744]
+              - paragraph [ref=e1745]: Excellent
+            - generic [ref=e1749]: Very good product sir thankyou
+            - generic [ref=e1751]:
+              - paragraph [ref=e1752]: Flipkart Customer
+              - img [ref=e1753]
+              - paragraph [ref=e1757]:
+                - generic [ref=e1758]: Certified Buyer
+              - paragraph [ref=e1759]: 6 days ago
+        - generic [ref=e1760]:
+          - generic [ref=e1761]: Recent Review
+          - generic [ref=e1763]:
+            - generic [ref=e1764]:
+              - generic [ref=e1765]:
+                - text: "5"
+                - img [ref=e1766]
+              - paragraph [ref=e1767]: Excellent
+            - generic [ref=e1771]: Very good product sir thankyou
+            - generic [ref=e1773]:
+              - paragraph [ref=e1774]: Flipkart Customer
+              - img [ref=e1775]
+              - paragraph [ref=e1779]:
+                - generic [ref=e1780]: Certified Buyer
+              - paragraph [ref=e1781]: 6 days ago
+      - generic [ref=e1782]:
+        - generic [ref=e1783]:
+          - generic [ref=e1785]:
+            - img "Samsung SM-B310EZDDINS"
+          - generic [ref=e1786]:
+            - link "3. Samsung SM-B310EZDDINS 3.2 9,558 Ratings&593 Reviews ₹893 52% off" [ref=e1787] [cursor=pointer]:
+              - /url: /samsung-sm-b310ezddins/p/itm1085fbe90ba3b?pid=MOBFXZXGCNBAKUSA&marketplace=FLIPKART
+              - generic [ref=e1789] [cursor=pointer]: 3. Samsung SM-B310EZDDINS
+              - generic [ref=e1790] [cursor=pointer]:
+                - generic [ref=e1791] [cursor=pointer]:
+                  - text: "3.2"
+                  - img [ref=e1792] [cursor=pointer]
+                - generic [ref=e1793] [cursor=pointer]:
+                  - generic [ref=e1794] [cursor=pointer]: 9,558 Ratings
+                  - generic [ref=e1795] [cursor=pointer]:
+                    - generic [ref=e1796] [cursor=pointer]: "&"
+                    - generic [ref=e1797] [cursor=pointer]: 593 Reviews
+              - generic [ref=e1799] [cursor=pointer]:
+                - generic [ref=e1800] [cursor=pointer]: ₹893
+                - generic [ref=e1802] [cursor=pointer]: 52% off
+            - list [ref=e1803]:
+              - listitem [ref=e1804]: 100 MB RAM | 100 MB ROM | Expandable Upto 100 MB
+              - listitem [ref=e1805]: 4.57 cm (1.8 inch) VGA Display
+              - listitem [ref=e1806]: 0MP | 0MP Front Camera
+        - generic [ref=e1807]:
+          - generic [ref=e1808]: Most Helpful Review
+          - generic [ref=e1810]:
+            - generic [ref=e1811]:
+              - generic [ref=e1812]:
+                - text: "2"
+                - img [ref=e1813]
+              - paragraph [ref=e1814]: Slightly disappointed
+            - generic [ref=e1818]: Battery is very poor it's a not Samsung it's a dummy phone
+            - generic [ref=e1820]:
+              - paragraph [ref=e1821]: mohammed arif
+              - img [ref=e1822]
+              - paragraph [ref=e1826]:
+                - generic [ref=e1827]: Certified Buyer
+              - paragraph [ref=e1828]: Jun, 2024
+        - generic [ref=e1829]:
+          - generic [ref=e1830]: Recent Review
+          - generic [ref=e1832]:
+            - generic [ref=e1833]:
+              - generic [ref=e1834]:
+                - text: "1"
+                - img [ref=e1835]
+              - paragraph [ref=e1836]: Horrible
+            - generic [ref=e1840]: Worst product .please don't buy that one...
+            - generic [ref=e1842]:
+              - paragraph [ref=e1843]: Kanha Sahoo
+              - img [ref=e1844]
+              - paragraph [ref=e1848]:
+                - generic [ref=e1849]: Certified Buyer
+              - paragraph [ref=e1850]: 3 days ago
+      - generic [ref=e1851]:
+        - generic [ref=e1852]:
+          - generic [ref=e1854]:
+            - img "Samsung Galaxy F05 (Twilight Blue, 64 GB)"
+          - generic [ref=e1855]:
+            - link "4. Samsung Galaxy F05 (Twiligh... 4.2 66,200 Ratings&3,701 Reviews ₹6,249 37% off" [ref=e1856] [cursor=pointer]:
+              - /url: /samsung-galaxy-f05-twilight-blue-64-gb/p/itm84a914081ab93?pid=MOBH4GTXZ9ZRQ3SU&marketplace=FLIPKART
+              - generic [ref=e1858] [cursor=pointer]: 4. Samsung Galaxy F05 (Twiligh...
+              - generic [ref=e1859] [cursor=pointer]:
+                - generic [ref=e1860] [cursor=pointer]:
+                  - text: "4.2"
+                  - img [ref=e1861] [cursor=pointer]
+                - generic [ref=e1862] [cursor=pointer]:
+                  - generic [ref=e1863] [cursor=pointer]: 66,200 Ratings
+                  - generic [ref=e1864] [cursor=pointer]:
+                    - generic [ref=e1865] [cursor=pointer]: "&"
+                    - generic [ref=e1866] [cursor=pointer]: 3,701 Reviews
+              - generic [ref=e1868] [cursor=pointer]:
+                - generic [ref=e1869] [cursor=pointer]: ₹6,249
+                - generic [ref=e1871] [cursor=pointer]: 37% off
+            - list [ref=e1872]:
+              - listitem [ref=e1873]: 4 GB RAM | 64 GB ROM | Expandable Upto 1 TB
+              - listitem [ref=e1874]: 17.12 cm (6.74 inch) HD+ Display
+              - listitem [ref=e1875]: 50MP + 2MP | 8MP Front Camera
+        - generic [ref=e1876]:
+          - generic [ref=e1877]: Most Helpful Review
+          - generic [ref=e1879]:
+            - generic [ref=e1880]:
+              - generic [ref=e1881]:
+                - text: "4"
+                - img [ref=e1882]
+              - paragraph [ref=e1883]: Good quality product
+            - generic [ref=e1887]: Nice phone and amazing look and UI
+            - generic [ref=e1889]:
+              - paragraph [ref=e1890]: Rohan Singh
+              - img [ref=e1891]
+              - paragraph [ref=e1895]:
+                - generic [ref=e1896]: Certified Buyer
+              - paragraph [ref=e1897]: 11 months ago
+        - generic [ref=e1898]:
+          - generic [ref=e1899]: Recent Review
+          - generic [ref=e1901]:
+            - generic [ref=e1902]:
+              - generic [ref=e1903]:
+                - text: "4"
+                - img [ref=e1904]
+              - paragraph [ref=e1905]: Good choice
+            - generic [ref=e1909]: Good mobile phone under this price and nice performance
+            - generic [ref=e1911]:
+              - paragraph [ref=e1912]: Flipkart Customer
+              - img [ref=e1913]
+              - paragraph [ref=e1917]:
+                - generic [ref=e1918]: Certified Buyer
+              - paragraph [ref=e1919]: 1 day ago
+      - generic [ref=e1920]:
+        - generic [ref=e1921]:
+          - generic [ref=e1923]:
+            - img "Samsung Galaxy A06 (Black, 64 GB)"
+          - generic [ref=e1924]:
+            - link "5. Samsung Galaxy A06 (Black, ... 4.1 195 Ratings&14 Reviews ₹7,531 34% off" [ref=e1925] [cursor=pointer]:
+              - /url: /samsung-galaxy-a06-black-64-gb/p/itmace1bd5edac3f?pid=MOBH3W6HH7GZEMZA&marketplace=FLIPKART
+              - generic [ref=e1927] [cursor=pointer]: 5. Samsung Galaxy A06 (Black, ...
+              - generic [ref=e1928] [cursor=pointer]:
+                - generic [ref=e1929] [cursor=pointer]:
+                  - text: "4.1"
+                  - img [ref=e1930] [cursor=pointer]
+                - generic [ref=e1931] [cursor=pointer]:
+                  - generic [ref=e1932] [cursor=pointer]: 195 Ratings
+                  - generic [ref=e1933] [cursor=pointer]:
+                    - generic [ref=e1934] [cursor=pointer]: "&"
+                    - generic [ref=e1935] [cursor=pointer]: 14 Reviews
+              - generic [ref=e1937] [cursor=pointer]:
+                - generic [ref=e1938] [cursor=pointer]: ₹7,531
+                - generic [ref=e1940] [cursor=pointer]: 34% off
+            - list [ref=e1941]:
+              - listitem [ref=e1942]: 4 GB RAM | 64 GB ROM | Expandable Upto 1 TB
+              - listitem [ref=e1943]: 17.02 cm (6.7 inch) HD+ Display
+              - listitem [ref=e1944]: 50MP + 2MP | 8MP Front Camera
+        - generic [ref=e1945]:
+          - generic [ref=e1946]: Most Helpful Review
+          - generic [ref=e1948]:
+            - generic [ref=e1949]:
+              - generic [ref=e1950]:
+                - text: "2"
+                - img [ref=e1951]
+              - paragraph [ref=e1952]: Not good
+            - generic [ref=e1956]: Battery takes 6 hrs for full charge. Screen quality is poor. Full of ads. Back is very smooth. It can easily slip from your hands
+            - generic [ref=e1958]:
+              - paragraph [ref=e1959]: Vivek George
+              - img [ref=e1960]
+              - paragraph [ref=e1964]:
+                - generic [ref=e1965]: Certified Buyer
+              - paragraph [ref=e1966]: 11 months ago
+        - generic [ref=e1967]:
+          - generic [ref=e1968]: Recent Review
+          - generic [ref=e1970]:
+            - generic [ref=e1971]:
+              - generic [ref=e1972]:
+                - text: "5"
+                - img [ref=e1973]
+              - paragraph [ref=e1974]: Just wow!
+            - generic [ref=e1978]: There is no need to tell about SAMSUNG quality. Weigh less phone, fast charging, elegant design, etc.., It's absolutely fabulous.
+            - generic [ref=e1980]:
+              - paragraph [ref=e1981]: Flipkart Customer
+              - img [ref=e1982]
+              - paragraph [ref=e1986]:
+                - generic [ref=e1987]: Certified Buyer
+              - paragraph [ref=e1988]: 1 month ago
+  - contentinfo [ref=e1989]:
+    - generic [ref=e1991]:
+      - generic [ref=e1992]:
+        - generic [ref=e1993]:
+          - generic [ref=e1994]: ABOUT
+          - link "Contact Us" [ref=e1995] [cursor=pointer]:
+            - /url: /helpcentre?otracker=footer_navlinks
+          - link "About Us" [ref=e1996] [cursor=pointer]:
+            - /url: https://corporate.flipkart.net/corporate-home
+          - link "Careers" [ref=e1997] [cursor=pointer]:
+            - /url: https://www.flipkartcareers.com/?otracker=footer_navlinks
+          - link "Flipkart Stories" [ref=e1998] [cursor=pointer]:
+            - /url: http://stories.flipkart.com/?otracker=footer_navlinks
+          - link "Press" [ref=e1999] [cursor=pointer]:
+            - /url: http://stories.flipkart.com/category/top-stories/news/
+          - link "Corporate Information" [ref=e2000] [cursor=pointer]:
+            - /url: /corporate-information
+        - generic [ref=e2001]:
+          - generic [ref=e2002]: GROUP COMPANIES
+          - link "Myntra" [ref=e2003] [cursor=pointer]:
+            - /url: https://www.myntra.com/
+          - link "Cleartrip" [ref=e2004] [cursor=pointer]:
+            - /url: https://www.cleartrip.com/
+          - link "Shopsy" [ref=e2005] [cursor=pointer]:
+            - /url: https://www.shopsy.in/
+        - generic [ref=e2006]:
+          - generic [ref=e2007]: HELP
+          - link "Payments" [ref=e2008] [cursor=pointer]:
+            - /url: /pages/payments
+          - link "Shipping" [ref=e2009] [cursor=pointer]:
+            - /url: /pages/shipping
+          - link "Cancellation & Returns" [ref=e2010] [cursor=pointer]:
+            - /url: /helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG
+          - link "FAQ" [ref=e2011] [cursor=pointer]:
+            - /url: /helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG
+        - generic [ref=e2012]:
+          - generic [ref=e2013]: CONSUMER POLICY
+          - link "Cancellation & Returns" [ref=e2014] [cursor=pointer]:
+            - /url: /pages/returnpolicy?otracker=footer_navlinks
+          - link "Terms Of Use" [ref=e2015] [cursor=pointer]:
+            - /url: /pages/terms?otracker=footer_navlinks
+          - link "Security" [ref=e2016] [cursor=pointer]:
+            - /url: /pages/paymentsecurity?otracker=footer_navlinks
+          - link "Privacy" [ref=e2017] [cursor=pointer]:
+            - /url: /pages/privacypolicy?otracker=footer_navlinks
+          - link "Sitemap" [ref=e2018] [cursor=pointer]:
+            - /url: /sitemap?otracker=footer_navlinks
+          - link "Grievance Redressal" [ref=e2019] [cursor=pointer]:
+            - /url: /pages/grievance-redressal-mechanism?otracker=footer_navlinks
+          - link "EPR Compliance" [ref=e2020] [cursor=pointer]:
+            - /url: /pages/ewaste-compliance-tnc?otracker=footer_navlinks
+        - generic [ref=e2022]:
+          - generic [ref=e2024]: "Mail Us:"
+          - generic [ref=e2027]:
+            - paragraph [ref=e2028]: Flipkart Internet Private Limited,
+            - paragraph [ref=e2029]: Buildings Alyssa, Begonia &
+            - paragraph [ref=e2030]: Clove Embassy Tech Village,
+            - paragraph [ref=e2031]: Outer Ring Road, Devarabeesanahalli Village,
+            - paragraph [ref=e2032]: Bengaluru, 560103,
+            - paragraph [ref=e2033]: Karnataka, India
+          - generic [ref=e2034]: Social
+          - generic [ref=e2035]:
+            - link [ref=e2037] [cursor=pointer]:
+              - /url: https://www.facebook.com/flipkart
+              - img [ref=e2038] [cursor=pointer]
+            - link [ref=e2040] [cursor=pointer]:
+              - /url: https://www.twitter.com/flipkart
+              - img [ref=e2041] [cursor=pointer]
+            - link [ref=e2043] [cursor=pointer]:
+              - /url: https://www.youtube.com/flipkart
+              - img [ref=e2044] [cursor=pointer]
+            - link [ref=e2046] [cursor=pointer]:
+              - /url: https://www.instagram.com/flipkart
+              - img [ref=e2047] [cursor=pointer]
+        - generic [ref=e2049]:
+          - generic [ref=e2051]: "Registered Office Address:"
+          - generic [ref=e2054]:
+            - paragraph [ref=e2055]: Flipkart Internet Private Limited,
+            - paragraph [ref=e2056]: Buildings Alyssa, Begonia &
+            - paragraph [ref=e2057]: Clove Embassy Tech Village,
+            - paragraph [ref=e2058]: Outer Ring Road, Devarabeesanahalli Village,
+            - paragraph [ref=e2059]: Bengaluru, 560103,
+            - paragraph [ref=e2060]: Karnataka, India
+            - paragraph [ref=e2061]: "CIN : U51109KA2012PTC066107"
+            - paragraph [ref=e2062]:
+              - text: "Telephone:"
+              - link "044-45614700" [ref=e2063] [cursor=pointer]:
+                - /url: tel:044-45614700
+              - text: /
+              - link "044-67415800" [ref=e2064] [cursor=pointer]:
+                - /url: tel:044-67415800
+      - generic [ref=e2066]:
+        - generic [ref=e2067]:
+          - img [ref=e2068]
+          - link "Become a Seller" [ref=e2069] [cursor=pointer]:
+            - /url: https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect
+            - generic [ref=e2070] [cursor=pointer]: Become a Seller
+        - generic [ref=e2071]:
+          - img [ref=e2072]
+          - link "Advertise" [ref=e2073] [cursor=pointer]:
+            - /url: https://brands.flipkart.com
+            - generic [ref=e2074] [cursor=pointer]: Advertise
+        - generic [ref=e2075]:
+          - img [ref=e2076]
+          - link "Gift Cards" [ref=e2077] [cursor=pointer]:
+            - /url: /the-gift-card-store?otracker=footer_navlinks
+            - generic [ref=e2078] [cursor=pointer]: Gift Cards
+        - generic [ref=e2079]:
+          - img [ref=e2080]
+          - link "Help Center" [ref=e2081] [cursor=pointer]:
+            - /url: /helpcentre?otracker=footer_navlinks
+            - generic [ref=e2082] [cursor=pointer]: Help Center
+        - generic [ref=e2083]:
+          - text: © 2007-2025
+          - generic [ref=e2084]: Flipkart.com
+        - img [ref=e2085]
+```

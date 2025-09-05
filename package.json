@@ -13,7 +13,9 @@
     "lint": "echo 'no lint'"
   },
   "dependencies": {
-    "playwright": "^1.55.0"
+  "playwright": "^1.55.0",
+  "langfuse": "^3.33.0",
+  "openai": "^4.56.0"
   },
   "devDependencies": {
     "@playwright/test": "^1.46.0",

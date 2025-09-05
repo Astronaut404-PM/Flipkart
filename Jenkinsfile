@@ -17,9 +17,41 @@ pipeline {
                 bat 'npm install'
             }
         }
+        stage('Preflight Secrets') {
+            steps {
+                withCredentials([
+                    string(credentialsId: 'openai-api-key', variable: 'OPENAI_API_KEY'),
+                    string(credentialsId: 'langfuse-public', variable: 'LANGFUSE_PUBLIC_KEY'),
+                    string(credentialsId: 'langfuse-secret', variable: 'LANGFUSE_SECRET_KEY'),
+                    string(credentialsId: 'langfuse-base-url', variable: 'LANGFUSE_BASE_URL')
+                ]) {
+                    bat '''
+@echo off
+setlocal EnableExtensions
+set "missing="
+if "%OPENAI_API_KEY%"=="" set "missing=1"
+if "%LANGFUSE_PUBLIC_KEY%"=="" set "missing=1"
+if "%LANGFUSE_SECRET_KEY%"=="" set "missing=1"
+if "%LANGFUSE_BASE_URL%"=="" set "missing=1"
+if defined missing (
+  echo Required secrets are not configured. Please set OPENAI_API_KEY, LANGFUSE_PUBLIC_KEY, LANGFUSE_SECRET_KEY, and LANGFUSE_BASE_URL in Jenkins Credentials.
+  exit /b 1
+)
+echo Secrets preflight passed (values are not printed).
+'''
+                }
+            }
+        }
         stage('Run Tests') {
             steps {
-                bat 'npx playwright test'
+                withCredentials([
+                    string(credentialsId: 'openai-api-key', variable: 'OPENAI_API_KEY'),
+                    string(credentialsId: 'langfuse-public', variable: 'LANGFUSE_PUBLIC_KEY'),
+                    string(credentialsId: 'langfuse-secret', variable: 'LANGFUSE_SECRET_KEY'),
+                    string(credentialsId: 'langfuse-base-url', variable: 'LANGFUSE_BASE_URL')
+                ]) {
+                    bat 'npx playwright test'
+                }
             }
         }
         stage('Publish Allure Report') {

@@ -1,4 +1,6 @@
 import { test, expect } from '../utils/fixtures.js';
+import { createLlmTestTrace, attachLangfuseTraceRef } from '../utils/observability/langfuse.js';
+import { llmJsonCheck } from '../utils/observability/llm_check.js';
 import { HomePage } from '../pages/HomePage.js';
 import { LoginPage } from '../pages/LoginPage.js';
 import { testData } from '../utils/testData.js';
@@ -8,6 +10,16 @@ import { testData } from '../utils/testData.js';
 
 test.describe('A. Login & Access Control', () => {
   test('A1: Close login modal if present on home', async ({ page }) => {
+    const ti = test.info();
+  const traceId = createLlmTestTrace({
+      sessionId: `${ti.project.name}-w${ti.workerIndex}-r${ti.retry}`,
+      prompt: 'Open home page and close login modal if visible',
+      expectedOutput: 'Login modal hidden',
+      testName: ti.title,
+      testId: `${ti.file || 'login.spec.js'}::${ti.title}`,
+      metadata: { file: ti.file, spec: 'login.spec.js', area: 'login', action: 'dismiss-modal' }
+    });
+  await attachLangfuseTraceRef(ti, { traceId });
     const home = new HomePage(page);
     await home.open();
     await home.closeInitialLoginModalIfPresent();
@@ -15,6 +27,16 @@ test.describe('A. Login & Access Control', () => {
   });
 
   test('A2: Attempt login with invalid credentials and verify error message', async ({ page }) => {
+    const ti = test.info();
+  const traceId = createLlmTestTrace({
+      sessionId: `${ti.project.name}-w${ti.workerIndex}-r${ti.retry}`,
+      prompt: `Attempt invalid login with email ${testData.invalidOtpLogin.email}`,
+      expectedOutput: 'Validation error or login rejection state visible',
+      testName: ti.title,
+      testId: `${ti.file || 'login.spec.js'}::${ti.title}`,
+      metadata: { file: ti.file, spec: 'login.spec.js', area: 'login', action: 'invalid-login' }
+    });
+  await attachLangfuseTraceRef(ti, { traceId });
     const home = new HomePage(page);
     const login = new LoginPage(page);
 
@@ -35,6 +57,16 @@ test.describe('A. Login & Access Control', () => {
     if (validationVisible) {
       // Step 3a: Validate error message (negative flow)
       await expect(login.errorMessage.first()).toBeVisible();
+      // LLM validation: Is it expected to see an error for invalid email/mobile?
+      const resA2 = await llmJsonCheck(test.info(), {
+        prompt: 'User attempts login with invalid email/mobile. Is an error message expected? Respond JSON: {"expected": true|false}',
+        sessionId: `${test.info().project.name}-w${test.info().workerIndex}-r${test.info().retry}`,
+        attachName: 'llm-invalid-login-expected'
+      });
+      if (resA2) {
+        expect(resA2.ok).toBeTruthy();
+        expect(resA2.parsed?.expected === true).toBeTruthy();
+      }
       return;
     }
 

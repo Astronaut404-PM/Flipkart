@@ -1,0 +1,1139 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e13]:
+    - banner [ref=e17]:
+      - generic [ref=e18]:
+        - link "Flipkart" [ref=e20] [cursor=pointer]:
+          - /url: "#"
+          - img "Flipkart" [ref=e22] [cursor=pointer]
+        - generic [ref=e25]:
+          - button "Search for Products, Brands and More" [ref=e26] [cursor=pointer]:
+            - img "Search Icon" [ref=e27] [cursor=pointer]
+          - textbox "Search for Products, Brands and More" [ref=e31]
+      - generic [ref=e32]:
+        - generic [ref=e35] [cursor=pointer]:
+          - generic [ref=e37] [cursor=pointer]:
+            - link "Login Login" [ref=e38] [cursor=pointer]:
+              - /url: /account/login?ret=/
+              - img "Login" [ref=e39] [cursor=pointer]
+              - generic [ref=e40] [cursor=pointer]: Login
+            - img "Chevron" [ref=e41] [cursor=pointer]
+          - link "Login" [ref=e45] [cursor=pointer]:
+            - /url: /account/login?ret=/
+        - generic [ref=e47] [cursor=pointer]:
+          - link "Cart" [ref=e48] [cursor=pointer]:
+            - /url: /viewcart?marketplace=FLIPKART
+            - img "Cart" [ref=e49] [cursor=pointer]
+          - link "Cart" [ref=e50] [cursor=pointer]:
+            - /url: /viewcart?marketplace=FLIPKART
+        - generic [ref=e52] [cursor=pointer]:
+          - link "Become a Seller" [ref=e53] [cursor=pointer]:
+            - /url: https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect
+            - img "Become a Seller" [ref=e54] [cursor=pointer]
+          - link "Become a Seller" [ref=e55] [cursor=pointer]:
+            - /url: https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect
+        - link "Dropdown with more help links" [ref=e61] [cursor=pointer]:
+          - /url: "#"
+          - img "Dropdown with more help links" [ref=e62] [cursor=pointer]
+    - generic [ref=e63]:
+      - generic [ref=e65]:
+        - generic [ref=e71]:
+          - link "Minutes" [ref=e72] [cursor=pointer]:
+            - /url: /flipkart-minutes-store?marketplace=HYPERLOCAL&fm=neo%2Fmerchandising&iid=M_5c55f286-6f30-4ba2-8ce6-5be4c862d606_1_X1NCR146KC29_MC.HPVQFYHAHC9Q&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Minutes_HPVQFYHAHC9Q&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=HPVQFYHAHC9Q
+            - generic [ref=e74] [cursor=pointer]:
+              - img "Minutes" [ref=e77] [cursor=pointer]
+              - generic [ref=e79] [cursor=pointer]: Minutes
+          - link "Mobiles & Tablets" [ref=e80] [cursor=pointer]:
+            - /url: /mobile-phones-store?param=4111&fm=neo%2Fmerchandising&iid=M_5c55f286-6f30-4ba2-8ce6-5be4c862d606_1_X1NCR146KC29_MC.AH1NTIJZ241Z&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles%2B%26%2BTablets_AH1NTIJZ241Z&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=AH1NTIJZ241Z
+            - generic [ref=e82] [cursor=pointer]:
+              - img "Mobiles & Tablets" [ref=e85] [cursor=pointer]
+              - generic [ref=e87] [cursor=pointer]: Mobiles & Tablets
+          - generic [ref=e90] [cursor=pointer]:
+            - img "Fashion" [ref=e93] [cursor=pointer]
+            - generic [ref=e95] [cursor=pointer]: Fashion
+          - generic [ref=e99] [cursor=pointer]:
+            - img "Electronics" [ref=e102] [cursor=pointer]
+            - generic [ref=e104] [cursor=pointer]: Electronics
+          - generic [ref=e108] [cursor=pointer]:
+            - img "Home & Furniture" [ref=e111] [cursor=pointer]
+            - generic [ref=e113] [cursor=pointer]: Home & Furniture
+          - link "TVs & Appliances" [ref=e115] [cursor=pointer]:
+            - /url: /fk-sasalele-sale-tv-and-appliances-may25-at-store?param=3783&fm=neo%2Fmerchandising&iid=M_5c55f286-6f30-4ba2-8ce6-5be4c862d606_1_X1NCR146KC29_MC.YX88A89LFA7C&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_TVs%2B%26%2BAppliances_YX88A89LFA7C&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=YX88A89LFA7C
+            - generic [ref=e117] [cursor=pointer]:
+              - img "TVs & Appliances" [ref=e120] [cursor=pointer]
+              - generic [ref=e122] [cursor=pointer]: TVs & Appliances
+          - link "Flight Bookings" [ref=e123] [cursor=pointer]:
+            - /url: /travel/flights?param=bsd-2025-booknow&fm=neo%2Fmerchandising&iid=M_5c55f286-6f30-4ba2-8ce6-5be4c862d606_1_X1NCR146KC29_MC.LE8A9JOLY9F3&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Flight%2BBookings_LE8A9JOLY9F3&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=LE8A9JOLY9F3
+            - generic [ref=e125] [cursor=pointer]:
+              - img "Flight Bookings" [ref=e128] [cursor=pointer]
+              - generic [ref=e130] [cursor=pointer]: Flight Bookings
+          - generic [ref=e133] [cursor=pointer]:
+            - img "Beauty, Food.." [ref=e136] [cursor=pointer]
+            - generic [ref=e138] [cursor=pointer]: Beauty, Food..
+          - link "Grocery" [ref=e140] [cursor=pointer]:
+            - /url: /grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_5c55f286-6f30-4ba2-8ce6-5be4c862d606_1_X1NCR146KC29_MC.XO8YX5A5U8SC&otracker=hp_rich_navigation_9_1.navigationCard.RICH_NAVIGATION_Grocery_XO8YX5A5U8SC&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_9_L0_view-all&cid=XO8YX5A5U8SC
+            - generic [ref=e142] [cursor=pointer]:
+              - img "Grocery" [ref=e145] [cursor=pointer]
+              - generic [ref=e147] [cursor=pointer]: Grocery
+        - generic [ref=e157]:
+          - generic [ref=e158]:
+            - link "Image" [ref=e163] [cursor=pointer]:
+              - /url: /samsung-galaxy-a35-5g-awesome-navy-128-gb/p/itm12fccc5bfbaac?pid=MOBGYT2HGFKNMSZQ
+              - img "Image" [ref=e166] [cursor=pointer]
+            - link "Image" [ref=e171] [cursor=pointer]:
+              - /url: /big-billion-days-store?param=56678166
+              - img "Image" [ref=e174] [cursor=pointer]
+            - link "Image" [ref=e179] [cursor=pointer]:
+              - /url: /furniture/mattresses/bed-mattress/pr?sid=wwe%2Crg9%2C6t1&p%5B%5D=facets.price_range.from%3D2999&p%5B%5D=facets.price_range.to%3DMax&param=983752
+              - img "Image" [ref=e182] [cursor=pointer]
+            - link "Image" [ref=e187] [cursor=pointer]:
+              - /url: https://www.flipkart.com/travel/flights?param=TravelDT-HPW-Roundtrip-booknow
+              - img "Image" [ref=e190] [cursor=pointer]
+            - link "Image" [ref=e195] [cursor=pointer]:
+              - /url: https://www.flipkart.com/travel/flights?param=TravelDT-HPW-intl-25k-off
+              - img "Image" [ref=e198] [cursor=pointer]
+            - link "Image" [ref=e203] [cursor=pointer]:
+              - /url: /samsung-galaxy-a35-5g-awesome-navy-128-gb/p/itm12fccc5bfbaac?pid=MOBGYT2HGFKNMSZQ
+              - img "Image" [ref=e206] [cursor=pointer]
+            - link "Image" [ref=e211] [cursor=pointer]:
+              - /url: /big-billion-days-store?param=56678166
+              - img "Image" [ref=e214] [cursor=pointer]
+          - button "Previous Slide" [ref=e215]
+          - button "Next Slide" [ref=e217]
+        - generic [ref=e232]:
+          - generic [ref=e236]: Best of Electronics
+          - generic [ref=e239]:
+            - generic [ref=e240]:
+              - link "Image Best Truewireless Headphones Grab Now" [ref=e245] [cursor=pointer]:
+                - /url: /audio-video/headset/pr?sid=0pm%2Cfcn&p%5B%5D=facets.connectivity%255B%255D%3DBluetooth&sort=popularity&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.price_range.from%3D599&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.headphone_type%255B%255D%3DTrue%2BWireless&param=866&hpid=WqCPtE2MbDEYEbYbttXC1qp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJHcmFiIE5vdyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IkFDQ0c2RFM3V0RKSEdXU0giLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJCZXN0IFRydWV3aXJlbGVzcyBIZWFkcGhvbmVzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D
+                - generic [ref=e247] [cursor=pointer]:
+                  - img "Image" [ref=e250] [cursor=pointer]
+                  - generic [ref=e251] [cursor=pointer]:
+                    - generic [ref=e252] [cursor=pointer]: Best Truewireless Headphones
+                    - generic [ref=e253] [cursor=pointer]: Grab Now
+              - link "Image Projector From ₹6990" [ref=e258] [cursor=pointer]:
+                - /url: /computers/computer-peripherals/projectors/pr?sid=6bo%2Ctia%2C1hx&fm=neo%2Fmerchandising&iid=M_0cc842bf-96c6-4409-b385-b0a904682f33_2_372UD5BXDFYS_MC.ICU0BSHGNPBF&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L2_view-all&cid=ICU0BSHGNPBF&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DEgate&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTY5OTAiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJQcm9qZWN0b3IiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJQUk9INUVUTkpLUjZFMlo4IiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D
+                - generic [ref=e260] [cursor=pointer]:
+                  - img "Image" [ref=e263] [cursor=pointer]
+                  - generic [ref=e264] [cursor=pointer]:
+                    - generic [ref=e265] [cursor=pointer]: Projector
+                    - generic [ref=e266] [cursor=pointer]: From ₹6990
+              - link "Image Fastrack Smartwatches From ₹1,399" [ref=e271] [cursor=pointer]:
+                - /url: /wearable-smart-devices/smart-watches/pr?sid=ajy%2Cbuh&marketplace=FLIPKART&p%5B%5D=facets.brand%255B%255D%3DFastrack&hpid=SVKCw8G6nMCuH4Eqbt2Crap7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTEsMzk5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiU01XSDVHOEhSVk1CN0NKViIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkZhc3RyYWNrIFNtYXJ0d2F0Y2hlcyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+                - generic [ref=e273] [cursor=pointer]:
+                  - img "Image" [ref=e276] [cursor=pointer]
+                  - generic [ref=e277] [cursor=pointer]:
+                    - generic [ref=e278] [cursor=pointer]: Fastrack Smartwatches
+                    - generic [ref=e279] [cursor=pointer]: From ₹1,399
+              - link "Image Best Selling Mobile Speakers From ₹499*" [ref=e284] [cursor=pointer]:
+                - /url: /audio-video/speakers/pr?sid=0pm%2C0o7&sort=popularity&param=8755&p%5B%5D=facets.rating%255B%255D%3D3%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&p%5B%5D=facets.price_range.from%3D599&p%5B%5D=facets.price_range.to%3DMax&p%5B%5D=facets.type%255B%255D%3DHome%2BAudio%2BSpeaker&p%5B%5D=facets.type%255B%255D%3DGaming%2BSpeaker&p%5B%5D=facets.type%255B%255D%3DHome%2BTheatre&p%5B%5D=facets.type%255B%255D%3DLaptop%252FDesktop%2BSpeaker&p%5B%5D=facets.type%255B%255D%3DMobile%252FTablet%2BSpeaker&p%5B%5D=facets.type%255B%255D%3DSoundbar&param=443&hpid=-9HuwFIVtikIZ8W21KTsvKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTQ5OSoiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJBQ0NIOUFGTkdDWks5WkhGIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiQmVzdCBTZWxsaW5nIE1vYmlsZSBTcGVha2VycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+                - generic [ref=e286] [cursor=pointer]:
+                  - img "Image" [ref=e289] [cursor=pointer]
+                  - generic [ref=e290] [cursor=pointer]:
+                    - generic [ref=e291] [cursor=pointer]: Best Selling Mobile Speakers
+                    - generic [ref=e292] [cursor=pointer]: From ₹499*
+              - link "Image Monitors From ₹6599" [ref=e297] [cursor=pointer]:
+                - /url: /computers/monitors/pr?sid=6bo%2C9no&fm=neo%2Fmerchandising&iid=M_ce1a6f68-d7d2-4ae1-875c-0d0877d9a11f_2_372UD5BXDFYS_MC.ECL5SFI77NSY&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=ECL5SFI77NSY&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3Dacer&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTY1OTkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJNb25pdG9ycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6Ik1PTkdIUVM0R1ozQVdHQlYiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19
+                - generic [ref=e299] [cursor=pointer]:
+                  - img "Image" [ref=e302] [cursor=pointer]
+                  - generic [ref=e303] [cursor=pointer]:
+                    - generic [ref=e304] [cursor=pointer]: Monitors
+                    - generic [ref=e305] [cursor=pointer]: From ₹6599
+              - link "Image Projectors From ₹9999" [ref=e310] [cursor=pointer]:
+                - /url: /computers/computer-peripherals/projectors/pr?sid=6bo%2Ctia%2C1hx&fm=neo%2Fmerchandising&iid=M_0cc842bf-96c6-4409-b385-b0a904682f33_2_372UD5BXDFYS_MC.ICU0BSHGNPBF&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_4_L2_view-all&cid=ICU0BSHGNPBF&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DZEBRONICS&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTk5OTkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJQcm9qZWN0b3JzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiUFJPSENEQkRXTkRNM1lDSiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX19fX0%3D
+                - generic [ref=e312] [cursor=pointer]:
+                  - img "Image" [ref=e315] [cursor=pointer]
+                  - generic [ref=e316] [cursor=pointer]:
+                    - generic [ref=e317] [cursor=pointer]: Projectors
+                    - generic [ref=e318] [cursor=pointer]: From ₹9999
+              - link "Image Monitors From ₹7949" [ref=e323] [cursor=pointer]:
+                - /url: /computers/monitors/pr?sid=6bo%2C9no&fm=neo%2Fmerchandising&iid=M_ce1a6f68-d7d2-4ae1-875c-0d0877d9a11f_2_372UD5BXDFYS_MC.ECL5SFI77NSY&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_3_L2_view-all&cid=ECL5SFI77NSY&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DLenovo&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTc5NDkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJNb25pdG9ycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6Ik1PTkdRV1pZWkhIN0NXUFoiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19
+                - generic [ref=e325] [cursor=pointer]:
+                  - img "Image" [ref=e328] [cursor=pointer]
+                  - generic [ref=e329] [cursor=pointer]:
+                    - generic [ref=e330] [cursor=pointer]: Monitors
+                    - generic [ref=e331] [cursor=pointer]: From ₹7949
+              - link "Image Printers From ₹2336" [ref=e336] [cursor=pointer]:
+                - /url: /computers/computer-peripherals/printers-inks/printers/pr?sid=6bo%2Ctia%2Cffn%2Ct64&fm=neo%2Fmerchandising&iid=M_2731d14e-2583-4664-a065-6fc7ea504a6d_2_372UD5BXDFYS_MC.ES1XN5J8PT49&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L2_view-all&cid=ES1XN5J8PT49&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BAssured&p%5B%5D=facets.brand%255B%255D%3DCanon&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTIzMzYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJQcmludGVycyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IlBSTkRRQVI5S1pFS1NLUkYiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19fX19
+                - generic [ref=e338] [cursor=pointer]:
+                  - img "Image" [ref=e341] [cursor=pointer]
+                  - generic [ref=e342] [cursor=pointer]:
+                    - generic [ref=e343] [cursor=pointer]: Printers
+                    - generic [ref=e344] [cursor=pointer]: From ₹2336
+            - button [ref=e345]
+        - link "Image" [ref=e356] [cursor=pointer]:
+          - /url: https://www.flipkart.com/travel/flights?param=Travel_DT-RHS_AW_IndiGo-booknow&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InNvdXJjZUNvbnRlbnRUeXBlIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6InNvdXJjZUNvbnRlbnRUeXBlIiwiaW5mZXJlbmNlVHlwZSI6IlNDVCIsInZhbHVlIjoiSUFEIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fX19fQ%3D%3D&nnc=HR5T6ZZ4KJTJ_IAD
+          - img "Image" [ref=e359] [cursor=pointer]
+        - generic [ref=e366]:
+          - generic [ref=e370]: Beauty, Food, Toys & more
+          - generic [ref=e373]:
+            - generic [ref=e374]:
+              - link "Image Coffee Powder Upto 80% Off" [ref=e379] [cursor=pointer]:
+                - /url: /food-products/coffee-powder/pr?sid=eat%2Cdui&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=1691&hpid=1I_X1PzAakQakM538Nz3KKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDgwJSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJDRkVHTlhZMllWRVFXU0NYIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiQ29mZmVlIFBvd2RlciJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+                - generic [ref=e381] [cursor=pointer]:
+                  - img "Image" [ref=e384] [cursor=pointer]
+                  - generic [ref=e385] [cursor=pointer]:
+                    - generic [ref=e386] [cursor=pointer]: Coffee Powder
+                    - generic [ref=e387] [cursor=pointer]: Upto 80% Off
+              - link "Image Geared Cycles Up to 70% Off" [ref=e392] [cursor=pointer]:
+                - /url: /sports/cycling/cycles/pr?sid=abc%2Culv%2Cixt&p%5B%5D=facets.tyre_size%255B%255D%3D27.5%2Binches&p%5B%5D=facets.tyre_size%255B%255D%3D28%2Binches&p%5B%5D=facets.tyre_size%255B%255D%3D29%2Binches&p%5B%5D=facets.brand%255B%255D%3DHERCULES&p%5B%5D=facets.brand%255B%255D%3DUrban%2BTerrain&p%5B%5D=facets.brand%255B%255D%3DHRX&p%5B%5D=facets.brand%255B%255D%3DLEADER&p%5B%5D=facets.brand%255B%255D%3DHERO&p%5B%5D=facets.brand%255B%255D%3DCRADIAC&p%5B%5D=facets.brand%255B%255D%3DAdrenex%2Bby%2BFlipkart&p%5B%5D=facets.brand%255B%255D%3DWALTX&p%5B%5D=facets.brand%255B%255D%3DVector%2B91&p%5B%5D=facets.brand%255B%255D%3DMontra&p%5B%5D=facets.brand%255B%255D%3DFIREFOX%2BBIKES&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&hpid=Lk-wso-VDfqk58fy3bl2IKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA3MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiQ0NFR1ZYWFRCMkJTOFhZUiIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkdlYXJlZCBDeWNsZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+                - generic [ref=e394] [cursor=pointer]:
+                  - img "Image" [ref=e397] [cursor=pointer]
+                  - generic [ref=e398] [cursor=pointer]:
+                    - generic [ref=e399] [cursor=pointer]: Geared Cycles
+                    - generic [ref=e400] [cursor=pointer]: Up to 70% Off
+              - link "Image Top Selling Stationery From ₹49" [ref=e405] [cursor=pointer]:
+                - /url: /pens-stationery/pr?sid=dgv&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&hpid=B2Ku1G4aX7ZGf37AOgCozap7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuTQ5Il0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiUEVOSEY0TTZOSkZCRUFTRyIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlRvcCBTZWxsaW5nIFN0YXRpb25lcnkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+                - generic [ref=e407] [cursor=pointer]:
+                  - img "Image" [ref=e410] [cursor=pointer]
+                  - generic [ref=e411] [cursor=pointer]:
+                    - generic [ref=e412] [cursor=pointer]: Top Selling Stationery
+                    - generic [ref=e413] [cursor=pointer]: From ₹49
+              - link "Image Remote Control Toys Up to 80% Off" [ref=e418] [cursor=pointer]:
+                - /url: /toys/toy-vehicles/remote-control-toys/pr?sid=tng%2C56a%2Cfq8&p%5B%5D=facets.fulfilled_by%255B%255D%3DFlipkart%2BPlus&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D300000000000&hpid=w0h50eB9gc7vXk_wfN2Za6p7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA4MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiUkNUR1RIWFlUR002RzdURSIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIlJlbW90ZSBDb250cm9sIFRveXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+                - generic [ref=e420] [cursor=pointer]:
+                  - img "Image" [ref=e423] [cursor=pointer]
+                  - generic [ref=e424] [cursor=pointer]:
+                    - generic [ref=e425] [cursor=pointer]: Remote Control Toys
+                    - generic [ref=e426] [cursor=pointer]: Up to 80% Off
+              - link "Image Soft Toys Upto 70% Off" [ref=e431] [cursor=pointer]:
+                - /url: /toys/stuffed-toys/pr?sid=mgl%2C1zt&hpid=aYIiqog0ctRH4fZXM42Ro6p7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDcwJSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJTVEZINVdGU0gzQkpWWlA3IiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiU29mdCBUb3lzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D
+                - generic [ref=e433] [cursor=pointer]:
+                  - img "Image" [ref=e436] [cursor=pointer]
+                  - generic [ref=e437] [cursor=pointer]:
+                    - generic [ref=e438] [cursor=pointer]: Soft Toys
+                    - generic [ref=e439] [cursor=pointer]: Upto 70% Off
+              - link "Image Dry Fruits Upto 75% Off" [ref=e444] [cursor=pointer]:
+                - /url: /food-products/dry-fruit-nut-seed/pr?sid=eat%2Cltb&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=9552&hpid=KM6Pjnf8EGhpAF17AzVGxqp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDc1JSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJOREZIN1ZTQkZVVkNBQ0FHIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiRHJ5IEZydWl0cyJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+                - generic [ref=e446] [cursor=pointer]:
+                  - img "Image" [ref=e449] [cursor=pointer]
+                  - generic [ref=e450] [cursor=pointer]:
+                    - generic [ref=e451] [cursor=pointer]: Dry Fruits
+                    - generic [ref=e452] [cursor=pointer]: Upto 75% Off
+              - link "Image Best of Action Toys Up to 70% Off" [ref=e457] [cursor=pointer]:
+                - /url: /toys/action-toys/pr?sid=tng%2Csv3&p%5B%5D=facets.rating%255B%255D%3D4%25E2%2598%2585%2B%2526%2Babove&hpid=rTHd3P8c2Eh-2fwrqbmKvqp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA3MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiR1RPSENNNjVKVldUUDdNVSIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkJlc3Qgb2YgQWN0aW9uIFRveXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+                - generic [ref=e459] [cursor=pointer]:
+                  - img "Image" [ref=e462] [cursor=pointer]
+                  - generic [ref=e463] [cursor=pointer]:
+                    - generic [ref=e464] [cursor=pointer]: Best of Action Toys
+                    - generic [ref=e465] [cursor=pointer]: Up to 70% Off
+              - link "Image Food Spreads Upto 75% Off" [ref=e470] [cursor=pointer]:
+                - /url: /food-products/food-spreads/pr?sid=eat%2Cxhv&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=3787&hpid=9V0SxtV29n-BM8--0trrxKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDc1JSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJKQVNGWVZIN0paWEtVTkdOIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiRm9vZCBTcHJlYWRzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D
+                - generic [ref=e472] [cursor=pointer]:
+                  - img "Image" [ref=e475] [cursor=pointer]
+                  - generic [ref=e476] [cursor=pointer]:
+                    - generic [ref=e477] [cursor=pointer]: Food Spreads
+                    - generic [ref=e478] [cursor=pointer]: Upto 75% Off
+            - button [ref=e479]
+        - generic [ref=e487]:
+          - generic [ref=e491]: Sports, Healthcare & more
+          - generic [ref=e494]:
+            - generic [ref=e495]:
+              - link "Image Breakfast Cereal Upto 75% Off" [ref=e500] [cursor=pointer]:
+                - /url: /food-products/breakfast-cereal/pr?sid=eat%2Ccpy&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=3470&hpid=DH1hwH8EqJYYki0KGJAkBap7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDc1JSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJDQUZHUFFaWVBUWFBYVVpLIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiQnJlYWtmYXN0IENlcmVhbCJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+                - generic [ref=e502] [cursor=pointer]:
+                  - img "Image" [ref=e505] [cursor=pointer]
+                  - generic [ref=e506] [cursor=pointer]:
+                    - generic [ref=e507] [cursor=pointer]: Breakfast Cereal
+                    - generic [ref=e508] [cursor=pointer]: Upto 75% Off
+              - link "Image Musical Toys Under 199" [ref=e513] [cursor=pointer]:
+                - /url: /toys/musical-toys/pr?sid=tng%2Cdcr&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D199&hpid=Aj6vFh3Yz4g3FuDwd-H046p7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVbmRlciAxOTkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJNVFlIQTNDRjZLR1pIR1c2IiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiTXVzaWNhbCBUb3lzIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fX19fQ%3D%3D
+                - generic [ref=e515] [cursor=pointer]:
+                  - img "Image" [ref=e518] [cursor=pointer]
+                  - generic [ref=e519] [cursor=pointer]:
+                    - generic [ref=e520] [cursor=pointer]: Musical Toys
+                    - generic [ref=e521] [cursor=pointer]: Under 199
+              - link "Image Tea Powder Upto 75% Off" [ref=e526] [cursor=pointer]:
+                - /url: /food-products/tea-powder/pr?sid=eat%2Cfpm&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=3569&hpid=aqMOog2nj99CKG7CbzIZO6p7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDc1JSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJURUFHWEZGRlpUQko5QktYIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiVGVhIFBvd2RlciJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX19fX0%3D
+                - generic [ref=e528] [cursor=pointer]:
+                  - img "Image" [ref=e531] [cursor=pointer]
+                  - generic [ref=e532] [cursor=pointer]:
+                    - generic [ref=e533] [cursor=pointer]: Tea Powder
+                    - generic [ref=e534] [cursor=pointer]: Upto 75% Off
+              - link "Image Puzzles & Cubes From ₹ 79" [ref=e539] [cursor=pointer]:
+                - /url: /toys/indoor-games/pr?sid=tng%2Cgfv&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D500000&hpid=JPO8oBU8-DB7AHuAkSqwRKp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJGcm9tIOKCuSA3OSJdLCJ2YWx1ZVR5cGUiOiJNVUxUSV9WQUxVRUQifX0sImhlcm9QaWQiOnsic2luZ2xlVmFsdWVBdHRyaWJ1dGUiOnsia2V5IjoiaGVyb1BpZCIsImluZmVyZW5jZVR5cGUiOiJQSUQiLCJ2YWx1ZSI6IkNER0dHQVpEVENBWlVIN0UiLCJ2YWx1ZVR5cGUiOiJTSU5HTEVfVkFMVUVEIn19LCJ0aXRsZSI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ0aXRsZSIsImluZmVyZW5jZVR5cGUiOiJUSVRMRSIsInZhbHVlcyI6WyJQdXp6bGVzICYgQ3ViZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+                - generic [ref=e541] [cursor=pointer]:
+                  - img "Image" [ref=e544] [cursor=pointer]
+                  - generic [ref=e545] [cursor=pointer]:
+                    - generic [ref=e546] [cursor=pointer]: Puzzles & Cubes
+                    - generic [ref=e547] [cursor=pointer]: From ₹ 79
+              - link "Image Learning & Educational Games Up to 80% Off" [ref=e552] [cursor=pointer]:
+                - /url: /toys/learning-and-educational-toys/pr?sid=tng%2Cll1&p%5B%5D=facets.price_range.from%3DMin&p%5B%5D=facets.price_range.to%3D300000000000000&hpid=kzX2K4r_ZjNfqO6eO9iHQqp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcCB0byA4MCUgT2ZmIl0sInZhbHVlVHlwZSI6Ik1VTFRJX1ZBTFVFRCJ9fSwiaGVyb1BpZCI6eyJzaW5nbGVWYWx1ZUF0dHJpYnV0ZSI6eyJrZXkiOiJoZXJvUGlkIiwiaW5mZXJlbmNlVHlwZSI6IlBJRCIsInZhbHVlIjoiQkxDR0hIVFRKWDJCSFlDTSIsInZhbHVlVHlwZSI6IlNJTkdMRV9WQUxVRUQifX0sInRpdGxlIjp7Im11bHRpVmFsdWVkQXR0cmlidXRlIjp7ImtleSI6InRpdGxlIiwiaW5mZXJlbmNlVHlwZSI6IlRJVExFIiwidmFsdWVzIjpbIkxlYXJuaW5nICYgRWR1Y2F0aW9uYWwgR2FtZXMiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+                - generic [ref=e554] [cursor=pointer]:
+                  - img "Image" [ref=e557] [cursor=pointer]
+                  - generic [ref=e558] [cursor=pointer]:
+                    - generic [ref=e559] [cursor=pointer]: Learning & Educational Games
+                    - generic [ref=e560] [cursor=pointer]: Up to 80% Off
+              - link "Image Honey Upto 75% Off" [ref=e565] [cursor=pointer]:
+                - /url: /food-products/honey/pr?sid=eat%2Clnz&p%5B%5D=facets.fulfilled_by%255B%255D%3DPlus%2B%2528FAssured%2529&param=3771&hpid=NJ7RvfzVyf386PfAU7hAAqp7_Hsxr70nj65vMAAFKlc%3D&ctx=eyJjYXJkQ29udGV4dCI6eyJhdHRyaWJ1dGVzIjp7InZhbHVlQ2FsbG91dCI6eyJtdWx0aVZhbHVlZEF0dHJpYnV0ZSI6eyJrZXkiOiJ2YWx1ZUNhbGxvdXQiLCJpbmZlcmVuY2VUeXBlIjoiVkFMVUVfQ0FMTE9VVCIsInZhbHVlcyI6WyJVcHRvIDc1JSBPZmYiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19LCJoZXJvUGlkIjp7InNpbmdsZVZhbHVlQXR0cmlidXRlIjp7ImtleSI6Imhlcm9QaWQiLCJpbmZlcmVuY2VUeXBlIjoiUElEIiwidmFsdWUiOiJITllIMlNQTTdGR1pWQlRUIiwidmFsdWVUeXBlIjoiU0lOR0xFX1ZBTFVFRCJ9fSwidGl0bGUiOnsibXVsdGlWYWx1ZWRBdHRyaWJ1dGUiOnsia2V5IjoidGl0bGUiLCJpbmZlcmVuY2VUeXBlIjoiVElUTEUiLCJ2YWx1ZXMiOlsiSG9uZXkiXSwidmFsdWVUeXBlIjoiTVVMVElfVkFMVUVEIn19fX19
+                - generic [ref=e567] [cursor=pointer]:
+                  - img "Image" [ref=e570] [cursor=pointer]
+                  - generic [ref=e571] [cursor=pointer]:
+                    - generic [ref=e572] [cursor=pointer]: Honey
+                    - generic [ref=e573] [cursor=pointer]: Upto 75% Off
+            - button [ref=e574]
+      - generic [ref=e579]: Hang on, loading content
+      - contentinfo [ref=e590]:
+        - generic [ref=e591]:
+          - generic [ref=e592]:
+            - generic [ref=e593]:
+              - text: "Top Stories :"
+              - link "Brand Directory" [ref=e594] [cursor=pointer]:
+                - /url: /brands
+            - generic [ref=e595]:
+              - generic [ref=e596]: "Most searched for on Flipkart:"
+              - link "Upcoming Big Billion Days 2025" [ref=e597] [cursor=pointer]:
+                - /url: https://www.flipkart.com/big-billion-days-store?otracker=undefined_footer
+              - link "Early Bird Offers Live Soon" [ref=e598] [cursor=pointer]:
+                - /url: https://www.flipkart.com/early-bird-deals-store?otracker=undefined_footer
+              - link "Google Pixel 10" [ref=e599] [cursor=pointer]:
+                - /url: /google-pixel-10-obsidian-256-gb/p/itm06bd3add90074?otracker=undefined_footer
+              - link "Google Pixel 10 Pro" [ref=e600] [cursor=pointer]:
+                - /url: /google-pixel-10-pro-obsidian-256-gb/p/itm112fb88d1f5a3?otracker=undefined_footer
+              - link "Google Pixel 10 Pro XL" [ref=e601] [cursor=pointer]:
+                - /url: /google-pixel-10-pro-xl-obsidian-256-gb/p/itmc94b4a1845747?otracker=undefined_footer
+              - link "Ganesh Chaturthi Sale" [ref=e602] [cursor=pointer]:
+                - /url: https://www.flipkart.com/ganesh-chaturthi-offers-store?otracker=undefined_footer
+              - link "Onam Sale" [ref=e603] [cursor=pointer]:
+                - /url: https://www.flipkart.com/onam-offers-store?otracker=undefined_footer
+              - link "Infinix GT 30 5g+" [ref=e604] [cursor=pointer]:
+                - /url: /infinix-gt-30-5g-pulse-green-128-gb/p/itm208df1e1a220e?otracker=undefined_footer
+              - link "Samsung Galaxy Z Flip7 5G" [ref=e605] [cursor=pointer]:
+                - /url: /samsung-galaxy-z-flip7-5g-black-512-gb/p/itmc200512d5867d?otracker=undefined_footer
+              - link "REDMI Note 14 SE 5G" [ref=e606] [cursor=pointer]:
+                - /url: /redmi-note-14-se-5g-crimson-art-128-gb/p/itm10fbd7f3a50f1?otracker=undefined_footer
+              - link "Nothing Phone 3" [ref=e607] [cursor=pointer]:
+                - /url: /nothing-phone-3-white-256-gb/p/itm0c32a18b0df8a?otracker=undefined_footer
+              - link "vivo X200 Fe" [ref=e608] [cursor=pointer]:
+                - /url: /vivo-x200-fe-amber-yellow-256-gb/p/itmbb40443b79937?otracker=undefined_footer
+              - link "Soundbars" [ref=e609] [cursor=pointer]:
+                - /url: /audio-video/~soundbars-/pr?sid=0pm&otracker=undefined_footer
+              - link "Sony Soundbars" [ref=e610] [cursor=pointer]:
+                - /url: /audio-video/speakers/home-audio/soundbars/sony~brand/pr?sid=0pm,0o7,2to,ynx&otracker=undefined_footer
+              - link "Airpods" [ref=e611] [cursor=pointer]:
+                - /url: /audio-video/headset/earphones/wireless-earphones/true-wireless/apple~brand/pr?sid=0pm,fcn,821,a7x,2si&otracker=undefined_footer
+              - link "JBL Soundbars" [ref=e612] [cursor=pointer]:
+                - /url: /audio-video/speakers/home-audio/soundbars/jbl~brand/pr?sid=0pm,0o7,2to,ynx&otracker=undefined_footer
+              - link "Urbn Power Banks" [ref=e613] [cursor=pointer]:
+                - /url: /mobile-accessories/power-banks/urbn~brand/pr?sid=tyy,4mr,fu6&otracker=undefined_footer
+              - link "Boult Wireless Earphones" [ref=e614] [cursor=pointer]:
+                - /url: /audio-video/headset/earphones/wireless-earphones/true-wireless/goboult~brand/pr?sid=0pm,fcn,821,a7x,2si&otracker=undefined_footer
+              - link "Bose Soundbars" [ref=e615] [cursor=pointer]:
+                - /url: /audio-video/speakers/home-audio/soundbars/bose~brand/pr?sid=0pm,0o7,2to,ynx&otracker=undefined_footer
+              - link "Oneplus Wireless Earphones" [ref=e616] [cursor=pointer]:
+                - /url: /audio-video/headset/earphones/wireless-earphones/true-wireless/oneplus~brand/pr?sid=0pm,fcn,821,a7x,2si&otracker=undefined_footer
+              - link "vivo X Fold 5" [ref=e617] [cursor=pointer]:
+                - /url: /vivo-x-fold5-titanium-gray-512-gb/p/itm7a261c3ce8590?otracker=undefined_footer
+              - link "MOTOROLA Edge 60 5G" [ref=e618] [cursor=pointer]:
+                - /url: /motorola-edge-60-5g-pantone-gibraltar-sea-256-gb/p/itmc7ab8f1263d42?otracker=undefined_footer
+              - link "SAMSUNG Galaxy S25 Edge" [ref=e619] [cursor=pointer]:
+                - /url: /samsung-galaxy-s25-edge-5g-titanium-silver-256-gb/p/itm58d92f4e3af14?otracker=undefined_footer
+              - link "MOTOROLA Razr 60" [ref=e620] [cursor=pointer]:
+                - /url: /motorola-razr-60/p/itmbad80b506f2c8?otracker=undefined_footer
+              - link "CMF Phone 2 Pro" [ref=e621] [cursor=pointer]:
+                - /url: /cmf-nothing-phone-2-pro-5g-black-128-gb/p/itmf32457aeff519?otracker=undefined_footer
+              - link "Google Pixel 9A" [ref=e622] [cursor=pointer]:
+                - /url: /google-pixel-9a-obsidian-256-gb/p/itmf9d1fcfa566cf?otracker=undefined_footer
+              - link "SAMSUNG F16" [ref=e623] [cursor=pointer]:
+                - /url: /samsung-galaxy-f16-5g-glam-green-128-gb/p/itm74165546d7c6c?otracker=undefined_footer
+              - link "Mobile" [ref=e624] [cursor=pointer]:
+                - /url: /mobile-phones-store?otracker=undefined_footer
+              - link "POCO M7" [ref=e625] [cursor=pointer]:
+                - /url: /poco-m7-5g/p/itmf030852464eef?otracker=undefined_footer
+              - link "Nothing Phone 3a" [ref=e626] [cursor=pointer]:
+                - /url: /nothing-phone-3a-black-128-gb/p/itm49557c5a65f9c?otracker=undefined_footer
+              - link "iPhone 16e" [ref=e627] [cursor=pointer]:
+                - /url: /apple-iphone-16e-white-128-gb/p/itm7971f594b0906?otracker=undefined_footer
+              - link "SAMSUNG Galaxy S25 Ultra" [ref=e628] [cursor=pointer]:
+                - /url: /samsung-galaxy-s25-ultra-5g-titanium-silverblue-512-gb/p/itm2ce28bbf75993?otracker=undefined_footer
+              - link "SAMSUNG Galaxy S25 Plus" [ref=e629] [cursor=pointer]:
+                - /url: /samsung-galaxy-s25-plus-5g-silver-shadow-256-gb/p/itm8d76a9b476932?otracker=undefined_footer
+              - link "SAMSUNG Galaxy S25" [ref=e630] [cursor=pointer]:
+                - /url: /samsung-galaxy-s25-5g-icyblue-256-gb/p/itm3c1e495903acc?otracker=undefined_footer
+              - link "iPhone 16" [ref=e631] [cursor=pointer]:
+                - /url: /apple-iphone-16-white-128-gb/p/itm7c0281cd247be?otracker=undefined_footer
+              - link "iPhone 16 Plus" [ref=e632] [cursor=pointer]:
+                - /url: /apple-iphone-16-plus-teal-128-gb/p/itmfa939eebe8adf?otracker=undefined_footer
+              - link "iPhone 16 Pro" [ref=e633] [cursor=pointer]:
+                - /url: /apple-iphone-16-pro-white-titanium-128-gb/p/itm50f720fdcec51?otracker=undefined_footer
+              - link "iPhone 16 Pro Max" [ref=e634] [cursor=pointer]:
+                - /url: /apple-iphone-16-pro-max-black-titanium-256-gb/p/itm7e75db4f27bd5?otracker=undefined_footer
+              - link "vivo V50" [ref=e635] [cursor=pointer]:
+                - /url: /vivo-v50-5g-rose-red-128-gb/p/itm12bbdca230795?otracker=undefined_footer
+              - link "OPPO Reno13 Pro" [ref=e636] [cursor=pointer]:
+                - /url: /oppo-reno13-pro-5g-graphite-grey-256-gb/p/itmd9520193f28ac?otracker=undefined_footer
+              - link "POCO X7" [ref=e637] [cursor=pointer]:
+                - /url: /poco-x7-5g/p/itm638304f590e26?otracker=undefined_footer
+              - link "realme 14 Pro Plus" [ref=e638] [cursor=pointer]:
+                - /url: /realme-14-pro-5g-pearl-white-256-gb/p/itmb5105a70ea6a6?otracker=undefined_footer
+              - link "REDMI Note 14 Pro+ 5G" [ref=e639] [cursor=pointer]:
+                - /url: /redmi-note-14-pro-5g-spectre-blue-128-gb/p/itm7fa24a152cbc9?otracker=undefined_footer
+              - link "OPPO Find X8" [ref=e640] [cursor=pointer]:
+                - /url: /oppo-find-x8-5g-space-black-512-gb/p/itm0e193d19d23ff?otracker=undefined_footer
+              - link "Flipkart Exchange" [ref=e641] [cursor=pointer]:
+                - /url: /exchange-store?otracker=undefined_footer
+              - link "Sell Old Phone" [ref=e642] [cursor=pointer]:
+                - /url: /reset-sell-store?otracker=undefined_footer
+              - link "Nothing Phone 2a Plus" [ref=e643] [cursor=pointer]:
+                - /url: /nothing-phone-2a-plus/p/itm0c99b11bfe22d?otracker=undefined_footer
+              - link "CMF by Nothing Phone 1" [ref=e644] [cursor=pointer]:
+                - /url: /cmf-nothing-phone-1-5g/p/itm9bfa0dd29dbcb?otracker=undefined_footer
+              - link "Infinix Note 40 Pro 5G" [ref=e645] [cursor=pointer]:
+                - /url: /infinix-note-40-pro-5g-vintage-green-256-gb/p/itma7197f5eb7e85?otracker=undefined_footer
+              - link "iPhone 15" [ref=e646] [cursor=pointer]:
+                - /url: /apple-iphone-15-black-128-gb/p/itm6ac6485515ae4?otracker=undefined_footer
+              - link "Infinix Note 40 5G" [ref=e647] [cursor=pointer]:
+                - /url: /infinix-note-40-5g/p/itm72c4c7b7d8834?otracker=undefined_footer
+              - link "iPhone 15 Plus" [ref=e648] [cursor=pointer]:
+                - /url: /apple-iphone-15-plus-blue-128-gb/p/itm4022c14383050?otracker=undefined_footer
+              - link "Motorola g04s" [ref=e649] [cursor=pointer]:
+                - /url: /motorola-g04s/p/itm6d82d81cfa8da?otracker=undefined_footer
+              - link "Vivo x 100" [ref=e650] [cursor=pointer]:
+                - /url: /vivo-x100-asteroid-black-256-gb/p/itm60fe0113c39cb?otracker=undefined_footer
+              - link "OnePlus Nord CE 3 Lite 5G" [ref=e651] [cursor=pointer]:
+                - /url: /oneplus-nord-ce-3-lite-5g-pastel-lime-128-gb/p/itm2cd5a4e659035?otracker=undefined_footer
+              - link "SAMSUNG Flip5" [ref=e652] [cursor=pointer]:
+                - /url: /samsung-galaxy-z-flip5-mint-256-gb/p/itm3038611e95123?otracker=undefined_footer
+              - link "SAMSUNG Fold5" [ref=e653] [cursor=pointer]:
+                - /url: /samsung-galaxy-z-fold5-phantom-black-512-gb/p/itm4d14abce6dc2f?otracker=undefined_footer
+              - link "Flipkart Axis Bank Super Elite Credit card" [ref=e654] [cursor=pointer]:
+                - /url: /superelite-credit-card-store?otracker=undefined_footer
+              - link "5G Mobile Phones" [ref=e655] [cursor=pointer]:
+                - /url: /5g-mobile-phones-store?otracker=undefined_footer
+              - link "Moto Edge 40" [ref=e656] [cursor=pointer]:
+                - /url: /motorola-edge-40-jet-black-256-gb/p/itmbe5b18bf1f229?otracker=undefined_footer
+              - link "Grievance Redressal" [ref=e657] [cursor=pointer]:
+                - /url: /pages/grievance-redressal-mechanism?otracker=undefined_footer
+              - link "Help Centre" [ref=e658] [cursor=pointer]:
+                - /url: /helpcentre?otracker=undefined_footer
+              - link "Track Orders" [ref=e659] [cursor=pointer]:
+                - /url: /helpcentre/trackOrder/i/2?otracker=undefined_footer
+              - link "Manage Orders" [ref=e660] [cursor=pointer]:
+                - /url: /helpcentre/manageOrder/i/3?otracker=undefined_footer
+              - link "Return Orders" [ref=e661] [cursor=pointer]:
+                - /url: /helpcentre/returnOrder/i/4?otracker=undefined_footer
+              - link "Gift Cards Store" [ref=e662] [cursor=pointer]:
+                - /url: /the-gift-card-store?otracker=undefined_footer
+              - link "Flipkart Axis Bank Credit Card" [ref=e663] [cursor=pointer]:
+                - /url: /flipkart-axis-bank-credit-card-store?otracker=undefined_footer
+            - generic [ref=e664]:
+              - link "Mobiles" [ref=e665] [cursor=pointer]:
+                - /url: /mobiles
+              - link "Infinix SMART 10" [ref=e666] [cursor=pointer]:
+                - /url: /infinix-smart-10/p/itm0bde9cee1963a?otracker=undefined_footer
+              - link "OPPO Reno 14 Pro" [ref=e667] [cursor=pointer]:
+                - /url: /oppo-reno14-pro-5g/p/itm17be6c392ab4c?otracker=undefined_footer
+              - link "Motorola g64 5G" [ref=e668] [cursor=pointer]:
+                - /url: https://www.flipkart.com/motorola-g64-5g-ambrosia-128-gb/p/itm6dfa6fef0e50a?otracker=undefined_footer
+              - link "OPPO Reno 12" [ref=e669] [cursor=pointer]:
+                - /url: /oppo-reno-12-5g-astro-silver-256-gb/p/itmaa6baddef2662?otracker=undefined_footer
+              - link "Motorola Edge 50 Fusion" [ref=e670] [cursor=pointer]:
+                - /url: /motorola-edge-50-fusion/p/itm7d39b15599c7e?otracker=undefined_footer
+              - link "REDMI 12 5G" [ref=e671] [cursor=pointer]:
+                - /url: /redmi-12-5g-pastel-blue-128-gb/p/itm71f3d06ed5235?otracker=undefined_footer
+              - link "REDMI Note 13 5G" [ref=e672] [cursor=pointer]:
+                - /url: /redmi-note-13-5g-arctic-white-256-gb/p/itm82475e073eb2e?otracker=undefined_footer
+              - link "Realme 12+ 5G" [ref=e673] [cursor=pointer]:
+                - /url: /realme-12-5g-navigator-beige-128-gb/p/itmaf084e49c78e2?otracker=undefined_footer
+              - link "POCO C65" [ref=e674] [cursor=pointer]:
+                - /url: /poco-c65-matte-black-128-gb/p/itm8ea3d87aa6c0c?otracker=undefined_footer
+              - link "Motorola G84" [ref=e675] [cursor=pointer]:
+                - /url: /motorola-g84-5g-marshmallow-blue-256-gb/p/itm7807a599d2202?otracker=undefined_footer
+              - link "Realme C53" [ref=e676] [cursor=pointer]:
+                - /url: /realme-c53-champion-gold-128-gb/p/itm5df90168ecd05?otracker=undefined_footer
+              - link "Infinix Smart 8" [ref=e677] [cursor=pointer]:
+                - /url: /infinix-smart-8-rainbow-blue-64-gb/p/itmb5696a34ad441?otracker=undefined_footer
+              - link "Samsung Galaxy S23 5G" [ref=e678] [cursor=pointer]:
+                - /url: /samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?otracker=undefined_footer
+              - link "Samsung Galaxy S21 FE 5G Qualcomm" [ref=e679] [cursor=pointer]:
+                - /url: /samsung-galaxy-s21-fe-5g-snapdragon-888-olive-256-gb/p/itmb3a0b1e650a0e?otracker=undefined_footer
+              - link "vivo V30" [ref=e680] [cursor=pointer]:
+                - /url: /vivo-v30-5g-peacock-green-256-gb/p/itme3a94b78a025f?otracker=undefined_footer
+              - link "Samsung Galaxy S24 5G" [ref=e681] [cursor=pointer]:
+                - /url: /samsung-galaxy-s24-5g-amber-yellow-256-gb/p/itmebc700bb8d159?otracker=undefined_footer
+              - link "Samsung Galaxy S24+ 5G" [ref=e682] [cursor=pointer]:
+                - /url: /samsung-galaxy-s24-5g-cobalt-violet-512-gb/p/itmdbe5ac49590db?otracker=undefined_footer
+              - link "SAMSUNG Galaxy S21 FE 5G" [ref=e683] [cursor=pointer]:
+                - /url: /samsung-galaxy-s21-fe-5g-snapdragon-888-lavender-256-gb/p/itmb457a6d3826ee?pid=MOBGSXD7TV34MYXX&otracker=undefined_footer
+              - link "Infinix HOT 30i" [ref=e684] [cursor=pointer]:
+                - /url: /infinix-hot-30i-diamond-white-64-gb/p/itm8b42a43b35895?otracker=undefined_footer
+              - link "Realme 10 Pro 5G" [ref=e685] [cursor=pointer]:
+                - /url: /realme-10-pro-5g-dark-matter-128-gb/p/itm1e672d12a252e?otracker=undefined_footer
+              - link "REDMI Note 12 Pro 5G" [ref=e686] [cursor=pointer]:
+                - /url: /redmi-note-12-pro-5g-onyx-black-128-gb/p/itmbc9fd7adaa32a?otracker=undefined_footer
+              - link "Motorola 5g Phone" [ref=e687] [cursor=pointer]:
+                - /url: /q/motorola-5g-phone?otracker=undefined_footer
+              - link "Realme 5g Smartphone" [ref=e688] [cursor=pointer]:
+                - /url: /q/realme-5g-smartphone?otracker=undefined_footer
+              - link "Apple 5g Phone" [ref=e689] [cursor=pointer]:
+                - /url: /q/apple-5g-phone?otracker=undefined_footer
+              - link "Iqoo 5g Phones" [ref=e690] [cursor=pointer]:
+                - /url: /q/iqoo-5g-phones?otracker=undefined_footer
+              - link "Oneplus 5g Phones" [ref=e691] [cursor=pointer]:
+                - /url: /q/oneplus-5g-phones?otracker=undefined_footer
+              - link "Vivo 5g Phones" [ref=e692] [cursor=pointer]:
+                - /url: /q/vivo-5g-phones?otracker=undefined_footer
+              - link "Oppo 5g Smart Phones" [ref=e693] [cursor=pointer]:
+                - /url: /q/oppo-5g-smart-phones?otracker=undefined_footer
+              - link "4G Mobile" [ref=e694] [cursor=pointer]:
+                - /url: /4g-mobile-phones-store?otracker=undefined_footer
+              - link "Nokia Mobile" [ref=e695] [cursor=pointer]:
+                - /url: /nokia-mobile-phones-store?otracker=undefined_footer
+              - link "Samsung Mobile" [ref=e696] [cursor=pointer]:
+                - /url: /samsung-mobile-store?otracker=undefined_footer
+              - link "Oppo Mobile" [ref=e697] [cursor=pointer]:
+                - /url: /oppo-mobile-phones-store?otracker=undefined_footer
+              - link "Vivo Mobile" [ref=e698] [cursor=pointer]:
+                - /url: /mobiles/vivo~brand/pr?sid=tyy,4io&otracker=undefined_footer
+              - link "Apple Mobile" [ref=e699] [cursor=pointer]:
+                - /url: /mobiles/apple~brand/pr?sid=tyy,4io&otracker=undefined_footer
+            - generic [ref=e700]:
+              - link "Camera" [ref=e701] [cursor=pointer]:
+                - /url: /cameras
+              - link "GoPro Action Camera" [ref=e702] [cursor=pointer]:
+                - /url: /gopro-hero-sports-action-camera/p/itmf3s4abpfgawhc?otracker=undefined_footer
+              - link "Nikon Camera" [ref=e703] [cursor=pointer]:
+                - /url: /cameras/nikon~brand/pr?sid=jek,p31&otracker=undefined_footer
+              - link "Canon Camera" [ref=e704] [cursor=pointer]:
+                - /url: /cameras/canon~brand/pr?sid=jek,p31&otracker=undefined_footer
+              - link "Sony Camera" [ref=e705] [cursor=pointer]:
+                - /url: /q/sony-cameras?otracker=undefined_footer
+              - link "Canon DSLR" [ref=e706] [cursor=pointer]:
+                - /url: /q/canon-dslr-cameras?otracker=undefined_footer
+              - link "Nikon DSLR" [ref=e707] [cursor=pointer]:
+                - /url: /cameras/dslr-mirrorless/nikon~brand/pr?sid=jek,p31,trv&otracker=undefined_footer
+            - generic [ref=e708]:
+              - link "Laptops" [ref=e709] [cursor=pointer]:
+                - /url: /brands/laptops?sid=6bo,b5g
+              - link "Asus ROG Ally" [ref=e710] [cursor=pointer]:
+                - /url: /avita-liber-core-i7-10th-gen-16-gb-1-tb-ssd-windows-10-home-ns14a8inr671-pag-thin-light-laptop/p/itmbe8a49652ca6f?pid=COMGQKQ7GGNFR8N4&otracker=undefined_footer
+              - link "MacBook Pro M2" [ref=e711] [cursor=pointer]:
+                - /url: /apple-2022-macbook-pro-m2-8-gb-256-gb-ssd-mac-os-monterey-mneh3hn-a/p/itmaea892f7dd66e?otracker=undefined_footer
+              - link "Premium Laptop" [ref=e712] [cursor=pointer]:
+                - /url: /q/premium-laptops?otracker=undefined_footer
+              - link "ASUS ROG Strix SCAR 16 (2023) Core i9 13th Gen" [ref=e713] [cursor=pointer]:
+                - /url: asus-rog-strix-scar-16-2023-core-i9-13th-gen-32-gb-1-tb-ssd-windows-11-home-12-gb-graphics-nvidia-geforce-rtx-4080-g634jz-n4062ws-gaming-laptop/p/itma62818795454d?otracker=undefined_footer
+              - link "ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen" [ref=e714] [cursor=pointer]:
+                - /url: /asus-rog-zephyrus-m16-2023-core-i9-13th-gen-32-gb-2-tb-ssd-windows-11-home-16-gb-graphics-nvidia-geforce-rtx-4090-gu604vy-nm058ws-gaming-laptop/p/itm7ad23e5445edf?otracker=undefined_footer
+              - link "ASUS Zenbook 14 OLED (2022)" [ref=e715] [cursor=pointer]:
+                - /url: /asus-zenbook-14-oled-2022-core-i5-12th-gen-16-gb-512-gb-ssd-windows-11-home-ux3402za-km531ws-thin-light-laptop/p/itm92e2e0518b654?otracker=undefined_footer
+              - link "Realme Book Prime Core i5 11th Gen" [ref=e716] [cursor=pointer]:
+                - /url: /realme-book-prime-core-i5-11th-gen-16-gb-512-gb-ssd-windows-11-home-cloudpro002-thin-light-laptop/p/itm7d1b1a9d3579b?otracker=undefined_footer
+              - link "Microsoft Surface Go Pentium 128GB" [ref=e717] [cursor=pointer]:
+                - /url: /microsoft-surface-go-pentium-gold-8-gb-128-gb-ssd-windows-10-home-s-mode-1824-2-1-laptop/p/itmfb6pyjzy9y8n4?otracker=undefined_footer
+              - link "Apple Laptops" [ref=e718] [cursor=pointer]:
+                - /url: /laptops/apple~brand/pr?sid=6bo,b5g&otracker=undefined_footer
+              - link "Acer Laptops" [ref=e719] [cursor=pointer]:
+                - /url: /laptops/acer~brand/pr?sid=6bo,b5g&otracker=undefined_footer
+              - link "Lenovo Laptops" [ref=e720] [cursor=pointer]:
+                - /url: /laptops/lenovo~brand/pr?sid=6bo,b5g&otracker=undefined_footer
+              - link "Dell Laptops" [ref=e721] [cursor=pointer]:
+                - /url: /laptops/dell~brand/pr?sid=6bo,b5g&otracker=undefined_footer
+              - link "Asus Laptops" [ref=e722] [cursor=pointer]:
+                - /url: /laptops/asus~brand/pr?sid=6bo,b5g&otracker=undefined_footer
+              - link "HP Laptops" [ref=e723] [cursor=pointer]:
+                - /url: /laptops/hp~brand/pr?sid=6bo,b5g&otracker=undefined_footer
+              - link "Gaming Laptops" [ref=e724] [cursor=pointer]:
+                - /url: /gaming-laptops-store?otracker=undefined_footer
+              - link "2 in 1 Laptops" [ref=e725] [cursor=pointer]:
+                - /url: /laptops/~2-in-1-laptops/pr?sid=6bo,b5g&otracker=undefined_footer
+              - link "Laptops" [ref=e726] [cursor=pointer]:
+                - /url: /laptops-store?otracker=undefined_footer
+              - link "Dell latest laptops 2022" [ref=e727] [cursor=pointer]:
+                - /url: /q/dell-latest-laptops-2022?otracker=undefined_footer
+              - link "HP latest laptops 2022" [ref=e728] [cursor=pointer]:
+                - /url: /q/hp-latest-laptops-2022?otracker=undefined_footer
+              - link "Infinix INBook Y1 Plus" [ref=e729] [cursor=pointer]:
+                - /url: /infinix-inbook-y1-plus-intel-core-i3-10th-gen-8-gb-256-gb-ssd-windows-11-home-xl28-thin-light-laptop/p/itm6c066be25ddde?otracker=undefined_footer
+              - link "SAMSUNG Galaxy Book3" [ref=e730] [cursor=pointer]:
+                - /url: /samsung-galaxy-book3-core-i7-13th-gen-16-gb-512-gb-ssd-windows-11-home-thin-light-laptop/p/itmf5efb3b1c35fa?otracker=undefined_footer
+              - link "12th Gen Intel Core Laptops" [ref=e731] [cursor=pointer]:
+                - /url: /q/12th-gen-intel-core-laptops?otracker=undefined_footer
+            - generic [ref=e732]:
+              - link "TVs" [ref=e733] [cursor=pointer]:
+                - /url: /televisions
+              - link "TV" [ref=e734] [cursor=pointer]:
+                - /url: /television-store?otracker=undefined_footer
+              - link "LG TV" [ref=e735] [cursor=pointer]:
+                - /url: /televisions/lg~brand/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "Sony TV" [ref=e736] [cursor=pointer]:
+                - /url: /televisions/sony~brand/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "Samsung TV" [ref=e737] [cursor=pointer]:
+                - /url: /televisions/samsung~brand/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "TCL TV" [ref=e738] [cursor=pointer]:
+                - /url: /televisions/tcl~brand/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "Mi TV" [ref=e739] [cursor=pointer]:
+                - /url: /televisions/mi~brand/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "Panasonic TV" [ref=e740] [cursor=pointer]:
+                - /url: /televisions/panasonic~brand/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "OnePlus TVs" [ref=e741] [cursor=pointer]:
+                - /url: /televisions/oneplus~brand/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "Iffalcon Tv" [ref=e742] [cursor=pointer]:
+                - /url: /televisions/iffalcon~brand/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "32 Inch TV" [ref=e743] [cursor=pointer]:
+                - /url: /q/32-inches-led-tv?otracker=undefined_footer
+              - link "40 Inch TV" [ref=e744] [cursor=pointer]:
+                - /url: /q/40-inches-led-tv?otracker=undefined_footer
+              - link "43 Inch TV" [ref=e745] [cursor=pointer]:
+                - /url: /q/43-inch-smart-tv?otracker=undefined_footer
+              - link "50 Inch TV" [ref=e746] [cursor=pointer]:
+                - /url: /q/50-inches-led-tv?otracker=undefined_footer
+              - link "55 Inch TV" [ref=e747] [cursor=pointer]:
+                - /url: /q/55-inches-led-tv?otracker=undefined_footer
+              - link "65 Inch TV" [ref=e748] [cursor=pointer]:
+                - /url: /q/65-inch-led-tv?otracker=undefined_footer
+              - link "75 Inch TV" [ref=e749] [cursor=pointer]:
+                - /url: /q/75-inch-tv?otracker=undefined_footer
+              - link "LED TV" [ref=e750] [cursor=pointer]:
+                - /url: /televisions/led~screen-type/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "OLED TV" [ref=e751] [cursor=pointer]:
+                - /url: /televisions/~oled-tvs/pr?sid=ckf,czl&otracker=undefined_footer
+              - link "QLED TV" [ref=e752] [cursor=pointer]:
+                - /url: /q/qled-tv?otracker=undefined_footer
+            - generic [ref=e753]:
+              - generic [ref=e754]: "Large Appliances:"
+              - link "Television" [ref=e755] [cursor=pointer]:
+                - /url: /television-store?otracker=undefined_footer
+              - link "Washing Machines" [ref=e756] [cursor=pointer]:
+                - /url: /washing-machines/pr?sid=j9e,abm,8qx&otracker=undefined_footer
+              - link "Refrigerators" [ref=e757] [cursor=pointer]:
+                - /url: /refrigerators/pr?sid=j9e,abm,hzg&otracker=undefined_footer
+              - link "Air Conditioners" [ref=e758] [cursor=pointer]:
+                - /url: /air-conditioners/pr?sid=j9e,abm,c54&otracker=undefined_footer
+              - link "Coffee Machine" [ref=e759] [cursor=pointer]:
+                - /url: /coffee-makers/pr?sid=j9e,m38,wqo&otracker=undefined_footer
+              - link "Electric Cookers" [ref=e760] [cursor=pointer]:
+                - /url: /electric-cookers/pr?sid=j9e,m38,9m9&otracker=undefined_footer
+              - link "Electric Jug(Heater) / Travel Kettles" [ref=e761] [cursor=pointer]:
+                - /url: /electric-jugheatertravel-kettles/pr?sid=j9e,m38,xrv&otracker=undefined_footer
+              - link "Induction Cooktops" [ref=e762] [cursor=pointer]:
+                - /url: /induction-cooktops/pr?sid=j9e,m38,575&otracker=undefined_footer
+              - link "Inverters / stabilizer" [ref=e763] [cursor=pointer]:
+                - /url: /inverters/pr?sid=j9e,abm,7no&otracker=undefined_footer
+              - link "Irons / Iron Box" [ref=e764] [cursor=pointer]:
+                - /url: /iron/pr?sid=j9e,abm,a0u&otracker=undefined_footer
+              - link "Mixer Grinder Juicer" [ref=e765] [cursor=pointer]:
+                - /url: /mixerjuicergrinders/pr?sid=j9e,m38,7ek&otracker=undefined_footer
+              - link "Wet Grinders" [ref=e766] [cursor=pointer]:
+                - /url: /wet-grinders/pr?sid=j9e,m38,htd&otracker=undefined_footer
+              - link "French Press" [ref=e767] [cursor=pointer]:
+                - /url: /q/french-press?otracker=undefined_footer
+              - link "Milk/Coffee Frother" [ref=e768] [cursor=pointer]:
+                - /url: /q/coffee-frother?otracker=undefined_footer
+              - link "Chimneys" [ref=e769] [cursor=pointer]:
+                - /url: /chimney/pr?sid=j9e,m38,tgz&otracker=undefined_footer
+              - link "Microwave Ovens" [ref=e770] [cursor=pointer]:
+                - /url: /microwave-ovens/pr?sid=j9e,m38,o49&otracker=undefined_footer
+              - link "Vacuum Cleaners" [ref=e771] [cursor=pointer]:
+                - /url: /vacuum-cleaners/pr?sid=j9e,abm,ul2&otracker=undefined_footer
+              - link "Water Purifier" [ref=e772] [cursor=pointer]:
+                - /url: /water-purifiers/pr?sid=j9e,abm,i45&otracker=undefined_footer
+              - link "Fan" [ref=e773] [cursor=pointer]:
+                - /url: /fans/pr?sid=j9e,abm,lbz&otracker=undefined_footer
+            - generic [ref=e774]:
+              - link "Clothing" [ref=e775] [cursor=pointer]:
+                - /url: /clothing
+              - link "Sarees" [ref=e776] [cursor=pointer]:
+                - /url: /sarees-store?otracker=undefined_footer
+              - link "Men's Jeans" [ref=e777] [cursor=pointer]:
+                - /url: https://www.flipkart.com/mens-jeans-store?otracker=undefined_footer
+              - link "Lehenga" [ref=e778] [cursor=pointer]:
+                - /url: /lehenga-online-at-store?otracker=undefined_footer
+              - link "Tops" [ref=e779] [cursor=pointer]:
+                - /url: /womens-tops/pr?sid=clo,ash,ohw,36j&otracker=undefined_footer
+              - link "Apron for Doctors" [ref=e780] [cursor=pointer]:
+                - /url: /q/apron-for-doctors?otracker=undefined_footer
+              - link "Mens Footwear" [ref=e781] [cursor=pointer]:
+                - /url: /mens-footwear/pr?sid=osp,cil&otracker=undefined_footer
+              - link "Sunglasses" [ref=e782] [cursor=pointer]:
+                - /url: /sunglasses/pr?sid=26x&otracker=undefined_footer
+              - link "Bridal Blouse" [ref=e783] [cursor=pointer]:
+                - /url: /q/bridal-blouse?otracker=undefined_footer
+              - link "Men's Jackets" [ref=e784] [cursor=pointer]:
+                - /url: /mens-jackets/pr?sid=clo,qvw,z0g,jbm&otracker=undefined_footer
+              - link "Half saree blouse designs" [ref=e785] [cursor=pointer]:
+                - /url: /q/half-saree-blouse-designs?otracker=undefined_footer
+              - link "Designer blouses" [ref=e786] [cursor=pointer]:
+                - /url: /q/designer-blouses?otracker=undefined_footer
+              - link "Women's Haldi Dress" [ref=e787] [cursor=pointer]:
+                - /url: /q/haldi-outfit-for-women?otracker=undefined_footer
+              - link "Women's Mehndi Dress" [ref=e788] [cursor=pointer]:
+                - /url: /q/mehndi-outfit-women?otracker=undefined_footer
+              - link "Lavender Saree" [ref=e789] [cursor=pointer]:
+                - /url: /q/lavender-colour-saree?otracker=undefined_footer
+              - link "Blouse designs" [ref=e790] [cursor=pointer]:
+                - /url: /q/blouse-designs?otracker=undefined_footer
+              - link "Shirts" [ref=e791] [cursor=pointer]:
+                - /url: /mens-shirts/pr?sid=clo,ash,axc,mmk&otracker=undefined_footer
+              - link "Cotton saree blouse designs" [ref=e792] [cursor=pointer]:
+                - /url: /q/cotton-saree-blouse-designs?otracker=undefined_footer
+              - link "Tshirts" [ref=e793] [cursor=pointer]:
+                - /url: /mens-tshirts/pr?sid=clo,ash,ank,edy&otracker=undefined_footer
+              - link "Dresses" [ref=e794] [cursor=pointer]:
+                - /url: /womens-dresses/pr?sid=clo,odx,maj,jhy&otracker=undefined_footer
+              - link "One pieces" [ref=e795] [cursor=pointer]:
+                - /url: /q/one-pieces?otracker=undefined_footer
+              - link "Readymade saree" [ref=e796] [cursor=pointer]:
+                - /url: /q/ready-to-wear-saree?otracker=undefined_footer
+              - link "Groom wedding sherwani" [ref=e797] [cursor=pointer]:
+                - /url: /q/groom-wedding-sherwani?otracker=undefined_footer
+              - link "Designer Salwar Suits" [ref=e798] [cursor=pointer]:
+                - /url: /q/designer-salwar-suits?otracker=undefined_footer
+              - link "Bra" [ref=e799] [cursor=pointer]:
+                - /url: /bras/pr?sid=clo,qfl,v5v,kzg&otracker=undefined_footer
+              - link "Cotton simple blouse designs" [ref=e800] [cursor=pointer]:
+                - /url: /q/cotton-simple-blouse-designs?otracker=undefined_footer
+              - link "Banarasi saree blouse designs" [ref=e801] [cursor=pointer]:
+                - /url: /q/banarasi-saree-blouse-designs?otracker=undefined_footer
+              - link "Stylish blouse astin design" [ref=e802] [cursor=pointer]:
+                - /url: /q/stylish-blouse-astin-design?otracker=undefined_footer
+              - link "Track Pant" [ref=e803] [cursor=pointer]:
+                - /url: /mens-track-pants/pr?sid=clo,vua,jlk,6ql&otracker=undefined_footer
+              - link "Blouse neck designs" [ref=e804] [cursor=pointer]:
+                - /url: /q/blouse-neck-designs?otracker=undefined_footer
+              - link "Mens Kurta" [ref=e805] [cursor=pointer]:
+                - /url: /q/kurta-for-men?otracker=undefined_footer
+              - link "Party Dresses" [ref=e806] [cursor=pointer]:
+                - /url: /womens-dresses/party~occasion/pr?sid=clo,odx,maj,jhy&otracker=undefined_footer
+              - link "Palazzo Suits" [ref=e807] [cursor=pointer]:
+                - /url: /womens-ethnic-sets/kurta-and-palazzo-set~type/pr?sid=clo,cfv,itg,tys&otracker=undefined_footer
+              - link "Anarkali" [ref=e808] [cursor=pointer]:
+                - /url: /womens-kurtas-kurtis/anarkali~type/pr?sid=clo,cfv,cib,rkt&otracker=undefined_footer
+              - link "Gowns" [ref=e809] [cursor=pointer]:
+                - /url: /womens-gowns/pr?sid=clo,odx,od7,0xx&otracker=undefined_footer
+              - link "Cut out dress" [ref=e810] [cursor=pointer]:
+                - /url: /q/cut-out-dress?otracker=undefined_footer
+              - link "Salwar Suits" [ref=e811] [cursor=pointer]:
+                - /url: /q/salwar-suit?otracker=undefined_footer
+              - link "Kurtis" [ref=e812] [cursor=pointer]:
+                - /url: /womens-kurtas-kurtis/pr?sid=clo,cfv,cib,rkt&otracker=undefined_footer
+              - link "Designer Sarees" [ref=e813] [cursor=pointer]:
+                - /url: /q/designer-sarees?otracker=undefined_footer
+              - link "Leggings" [ref=e814] [cursor=pointer]:
+                - /url: /q/leggings?otracker=undefined_footer
+              - link "Shorts" [ref=e815] [cursor=pointer]:
+                - /url: /mens-shorts/pr?sid=clo,vua,e8g,kc7&otracker=undefined_footer
+              - link "Georgette Sarees" [ref=e816] [cursor=pointer]:
+                - /url: /q/georgette-sarees?otracker=undefined_footer
+              - link "Ethnic Wear" [ref=e817] [cursor=pointer]:
+                - /url: /q/ethnic-wear?otracker=undefined_footer
+              - link "uppada pattu sarees" [ref=e818] [cursor=pointer]:
+                - /url: /q/uppada-pattu-sarees?otracker=undefined_footer
+              - link "Blouse back design" [ref=e819] [cursor=pointer]:
+                - /url: /q/blouse-back-design?otracker=undefined_footer
+              - link "Jodhpur pants" [ref=e820] [cursor=pointer]:
+                - /url: /q/jodhpur-pants?otracker=undefined_footer
+            - generic [ref=e821]:
+              - generic [ref=e822]: "Footwear:"
+              - link "Adidas Shoes" [ref=e823] [cursor=pointer]:
+                - /url: /mens-footwear/sports-shoes/adidas~brand/pr?sid=osp,cil,1cu&otracker=undefined_footer
+              - link "Reebok Shoes" [ref=e824] [cursor=pointer]:
+                - /url: /mens-footwear/reebok~brand/pr?sid=osp,cil&otracker=undefined_footer
+              - link "Nike Shoes" [ref=e825] [cursor=pointer]:
+                - /url: /mens-footwear/nike~brand/pr?sid=osp,cil&otracker=undefined_footer
+              - link "Puma Shoes" [ref=e826] [cursor=pointer]:
+                - /url: /mens-footwear/puma~brand/pr?sid=osp,cil&otracker=undefined_footer
+              - link "Boots" [ref=e827] [cursor=pointer]:
+                - /url: /mens-footwear/casual-shoes/boots~type/pr?sid=osp,cil,e1f&otracker=undefined_footer
+              - link "Bata Shoes" [ref=e828] [cursor=pointer]:
+                - /url: /q/bata-shoes?otracker=undefined_footer
+              - link "Crocs" [ref=e829] [cursor=pointer]:
+                - /url: /q/crocs?otracker=undefined_footer
+              - link "Woodland Shoes" [ref=e830] [cursor=pointer]:
+                - /url: /q/woodland-shoes?otracker=undefined_footer
+              - link "Skechers Shoes" [ref=e831] [cursor=pointer]:
+                - /url: /mens-footwear/skechers~brand/pr?sid=osp,cil&otracker=undefined_footer
+              - link "Sneakers" [ref=e832] [cursor=pointer]:
+                - /url: /mens-footwear/casual-shoes/sneakers~type/pr?sid=osp%2Ccil%2Ce1f&otracker=undefined_footer
+              - link "Womens Boots" [ref=e833] [cursor=pointer]:
+                - /url: /womens-footwear/boots/pr?sid=osp,iko,xgp&otracker=undefined_footer
+              - link "Sports Shoes" [ref=e834] [cursor=pointer]:
+                - /url: /mens-footwear/sports-shoes/pr?sid=osp%2Ccil%2C1cu&otracker=undefined_footer
+              - link "Loafers" [ref=e835] [cursor=pointer]:
+                - /url: /mens-footwear/casual-shoes/loafers~type/pr?sid=osp%2Ccil%2Ce1f&otracker=undefined_footer
+              - link "Sandals" [ref=e836] [cursor=pointer]:
+                - /url: /mens-footwear/sandals-floaters/pr?sid=osp%2Ccil%2Ce83&otracker=undefined_footer
+              - link "Lotto Sports Shoes" [ref=e837] [cursor=pointer]:
+                - /url: /mens-footwear/sports-shoes/lotto~brand/pr?sid=osp%2Ccil%2C1cu&otracker=undefined_footer
+              - link "Casual Shoes" [ref=e838] [cursor=pointer]:
+                - /url: /mens-footwear/casual-shoes/pr?sid=osp,cil,e1f&otracker=undefined_footer
+              - link "Womens Skechers Shoes" [ref=e839] [cursor=pointer]:
+                - /url: /womens-footwear/skechers~brand/pr?sid=osp,iko&otracker=undefined_footer
+              - link "Asics Sports Shoes" [ref=e840] [cursor=pointer]:
+                - /url: /mens-footwear/sports-shoes/asics~brand/pr?sid=osp%2Ccil%2C1cu&otracker=undefined_footer
+              - link "Formal Shoes" [ref=e841] [cursor=pointer]:
+                - /url: /mens-footwear/formal-shoes/pr?sid=osp,cil,ssb&otracker=undefined_footer
+              - link "School Shoes" [ref=e842] [cursor=pointer]:
+                - /url: /q/school-shoes?otracker=undefined_footer
+            - generic [ref=e843]:
+              - link "Groceries" [ref=e844] [cursor=pointer]:
+                - /url: /grocery-supermart-store?marketplace=GROCERY
+              - link "PhonePe Grocery Voucher" [ref=e845] [cursor=pointer]:
+                - /url: /redeem-flipkart-grocery-coupon-voucher-phonepe-store?marketplace=GROCERY&otracker=undefined_footer
+              - link "Hand Wash" [ref=e846] [cursor=pointer]:
+                - /url: /grocery/personal-baby-care/soaps-body-wash/hand-wash/pr?sid=73z%2Cnjl%2Csn6%2C6vr&marketplace=GROCERY&otracker=undefined_footer
+              - link "Soap" [ref=e847] [cursor=pointer]:
+                - /url: /grocery/personal-baby-care/soaps-body-wash/soaps/pr?sid=73z%2Cnjl%2Csn6%2Cr6y&marketplace=GROCERY&otracker=undefined_footer
+              - link "Cashew Nuts" [ref=e848] [cursor=pointer]:
+                - /url: /grocery/staples/dry-fruits-nuts-seeds/cashew-nuts/pr?sid=73z%2Cbpe%2Cdtp%2Cghn&marketplace=GROCERY&otracker=undefined_footer
+              - link "Sunflower Oil" [ref=e849] [cursor=pointer]:
+                - /url: /grocery/staples/ghee-oils/sunflower-oil/pr?sid=73z,bpe,4wu,4vo&marketplace=GROCERY&otracker=undefined_footer
+              - link "Eggs" [ref=e850] [cursor=pointer]:
+                - /url: /grocery/dairy-eggs/eggs/pr?sid=73z%2Cesa%2Chh7&marketplace=GROCERY&otracker=undefined_footer
+              - link "Toilet Cleaner" [ref=e851] [cursor=pointer]:
+                - /url: /grocery/household-care/floor-other-cleaners/toilet-cleaners/pr?sid=73z,cwl,u3c,ijq&marketplace=GROCERY&otracker=undefined_footer
+              - link "Harpic Toilet Cleaner" [ref=e852] [cursor=pointer]:
+                - /url: /grocery/household-care/floor-other-cleaners/toilet-cleaners/harpic~brand/pr?sid=73z%2Ccwl%2Cu3c%2Cijq&marketplace=GROCERY&otracker=undefined_footer
+              - link "Dettol Soap" [ref=e853] [cursor=pointer]:
+                - /url: /grocery/personal-baby-care/soaps-body-wash/soaps/dettol~brand/pr?sid=73z,njl,sn6,r6y&marketplace=GROCERY&otracker=undefined_footer
+              - link "Mustard Oil" [ref=e854] [cursor=pointer]:
+                - /url: /grocery/staples/ghee-oils/mustard-oil/pr?sid=73z%2Cbpe%2C4wu%2Ctmu&marketplace=GROCERY&otracker=undefined_footer
+              - link "Biscuits" [ref=e855] [cursor=pointer]:
+                - /url: /grocery/snacks-beverages/biscuits/pr?sid=73z%2Cujs%2Ceb9&marketplace=GROCERY&otracker=undefined_footer
+              - link "Cheese" [ref=e856] [cursor=pointer]:
+                - /url: /grocery/dairy-eggs/dairy/cheese/pr?sid=73z%2Cesa%2Cdt6%2C4ku&marketplace=GROCERY&otracker=undefined_footer
+              - link "Patanjali Atta" [ref=e857] [cursor=pointer]:
+                - /url: /grocery/staples/atta-flours/wheat-atta/patanjali~brand/pr?sid=73z%2Cbpe%2C9da%2C1fd&marketplace=GROCERY&otracker=undefined_footer
+              - link "Fortune Oil" [ref=e858] [cursor=pointer]:
+                - /url: /grocery/staples/ghee-oils/sunflower-oil/fortune~brand/pr?sid=73z,bpe,4wu,4vo&marketplace=GROCERY&otracker=undefined_footer
+              - link "Aashirvaad Atta" [ref=e859] [cursor=pointer]:
+                - /url: /grocery/staples/atta-flours/wheat-atta/aashirvaad~brand/pr?sid=73z%2Cbpe%2C9da%2C1fd&marketplace=GROCERY&otracker=undefined_footer
+              - link "Tea" [ref=e860] [cursor=pointer]:
+                - /url: /grocery/snacks-beverages/tea/pr?sid=73z%2Cujs%2Camr&marketplace=GROCERY&otracker=undefined_footer
+            - generic [ref=e861]:
+              - link "Best Selling on Flipkart" [ref=e862] [cursor=pointer]:
+                - /url: /
+              - link "Headphones" [ref=e863] [cursor=pointer]:
+                - /url: /headphones-store?otracker=undefined_footer
+              - link "Best Gas Geyser" [ref=e864] [cursor=pointer]:
+                - /url: /q/best-gas-geyser?otracker=undefined_footer
+              - link "Kitchen Geyser" [ref=e865] [cursor=pointer]:
+                - /url: /q/kitchen-geyser?otracker=undefined_footer
+              - link "Nutri Blenders" [ref=e866] [cursor=pointer]:
+                - /url: /q/nutri-blenders?otracker=undefined_footer
+              - link "Portable Air Cooler" [ref=e867] [cursor=pointer]:
+                - /url: /q/portable-air-cooler?otracker=undefined_footer
+              - link "Best Air Cooler" [ref=e868] [cursor=pointer]:
+                - /url: /q/best-air-cooler?otracker=undefined_footer
+              - link "Bags" [ref=e869] [cursor=pointer]:
+                - /url: /bags-online-store?otracker=undefined_footer
+              - link "Hitachi Refrigerator 3 Door" [ref=e870] [cursor=pointer]:
+                - /url: /q/hitachi-refrigerator-3-door?otracker=undefined_footer
+              - link "Books" [ref=e871] [cursor=pointer]:
+                - /url: /books-store?otracker=undefined_footer
+              - link "Toys" [ref=e872] [cursor=pointer]:
+                - /url: /toys-online-store?otracker=undefined_footer
+              - link "Candles" [ref=e873] [cursor=pointer]:
+                - /url: /home-decor/diyas-candles-holders/candles/pr?sid=arb,mvm,p0s&otracker=undefined_footer
+              - link "Jewellery" [ref=e874] [cursor=pointer]:
+                - /url: /jewellery-store?otracker=undefined_footer
+              - link "Helmets" [ref=e875] [cursor=pointer]:
+                - /url: /automotive/car-bike-accessories/helmets-riding-gear/helmets-locks/helmets/pr?sid=0hx,bwd,bgt,c0x,wnn&otracker=undefined_footer
+              - link "Wall Clocks" [ref=e876] [cursor=pointer]:
+                - /url: /home-decor/clocks/wall-clocks/pr?sid=arb,kjw,bm1&otracker=undefined_footer
+              - link "Baby Food" [ref=e877] [cursor=pointer]:
+                - /url: /baby-care/baby-food/pr?sid=kyh,arw&otracker=undefined_footer
+              - link "Rings" [ref=e878] [cursor=pointer]:
+                - /url: /rings-store?otracker=undefined_footer
+              - link "Chocolates" [ref=e879] [cursor=pointer]:
+                - /url: /food-nutrition/confectioneries-sweets/chocolates/pr?sid=7jv,iyp,s4n&otracker=undefined_footer
+              - link "Cycles" [ref=e880] [cursor=pointer]:
+                - /url: /sports/cycling/cycles/pr?sid=abc,ulv,ixt&otracker=undefined_footer
+              - link "Calculators" [ref=e881] [cursor=pointer]:
+                - /url: /buy-calculators-at-store?otracker=undefined_footer
+              - link "Lipsticks" [ref=e882] [cursor=pointer]:
+                - /url: /beauty-and-grooming/makeup/lips/lipstick/pr?sid=g9b,ffi,tv5,una&otracker=undefined_footer
+              - link "Mask" [ref=e883] [cursor=pointer]:
+                - /url: /health-care/home-medical-supplies/health-monitors/pollution-masks/pr?sid=hlc%2C20m%2Cled%2Cdew&otracker=undefined_footer
+              - link "Bangles" [ref=e884] [cursor=pointer]:
+                - /url: /bangles-store?otracker=undefined_footer
+              - link "Vertiv UPS" [ref=e885] [cursor=pointer]:
+                - /url: /laptop-accessories/ups/pr?sid=6bo%2Cai3%2Cpi1&otracker=undefined_footer
+              - link "Fastrack Watches" [ref=e886] [cursor=pointer]:
+                - /url: /watches/fastrack~brand/pr?sid=r18&otracker=undefined_footer
+              - link "Wallets" [ref=e887] [cursor=pointer]:
+                - /url: /bags-wallets-belts/wallets-clutches/wallets/pr?sid=reh%2Ccca%2Ch76&otracker=undefined_footer
+              - link "Earrings" [ref=e888] [cursor=pointer]:
+                - /url: /earrings-store?otracker=undefined_footer
+              - link "Gold Coins" [ref=e889] [cursor=pointer]:
+                - /url: /jewellery/~gold-coins/pr?sid=mcr&otracker=undefined_footer
+              - link "Realme Pad Mini" [ref=e890] [cursor=pointer]:
+                - /url: /realme-pad-mini-3-gb-ram-32-rom-8-68-inch-4g-tablet-grey/p/itmdb6b41e4b36ef?otracker=undefined_footer
+              - link "Handbags" [ref=e891] [cursor=pointer]:
+                - /url: /handbags/pr?sid=reh,ihu,m08&otracker=undefined_footer
+              - link "conekt SW2 Smartwatch" [ref=e892] [cursor=pointer]:
+                - /url: /conekt-sw2-smartwatch/p/itmaa5781a80aec1?otracker=undefined_footer
+              - link "Mivi DuoPods a350" [ref=e893] [cursor=pointer]:
+                - /url: /q/mivi-duopods-a350?otracker=undefined_footer
+              - link "Speaker Cleaner" [ref=e894] [cursor=pointer]:
+                - /url: /q/mobile-speaker-cleaner?otracker=undefined_footer
+            - generic [ref=e895]:
+              - link "Furniture" [ref=e896] [cursor=pointer]:
+                - /url: /furniture/pr?sid=wwe
+              - link "Furniture" [ref=e897] [cursor=pointer]:
+                - /url: /furniture-store?otracker=undefined_footer
+              - link "Sofas" [ref=e898] [cursor=pointer]:
+                - /url: /furniture/sofas/sofa-sets/pr?sid=wwe,c3z,r0c&otracker=undefined_footer
+              - link "Beds" [ref=e899] [cursor=pointer]:
+                - /url: /furniture/beds/pr?sid=wwe,7p7&otracker=undefined_footer
+              - link "Dining sets" [ref=e900] [cursor=pointer]:
+                - /url: /furniture/dining-tables-sets/pr?sid=wwe,ur9&otracker=undefined_footer
+              - link "Wardrobes" [ref=e901] [cursor=pointer]:
+                - /url: /furniture/wardrobes/pr?sid=wwe,fc3&otracker=undefined_footer
+              - link "Mattresses" [ref=e902] [cursor=pointer]:
+                - /url: /furniture/mattresses/pr?sid=wwe,rg9&otracker=undefined_footer
+              - link "TV Units" [ref=e903] [cursor=pointer]:
+                - /url: /furniture/tv-units-cabinets/pr?sid=wwe,243&otracker=undefined_footer
+              - link "Tables" [ref=e904] [cursor=pointer]:
+                - /url: /furniture/tables/pr?sid=wwe,ki7&otracker=undefined_footer
+              - link "Chairs" [ref=e905] [cursor=pointer]:
+                - /url: /furniture/chairs/pr?sid=wwe,y7b&otracker=undefined_footer
+              - link "Shelves" [ref=e906] [cursor=pointer]:
+                - /url: /furniture/shelves/pr?sid=wwe,vmc&otracker=undefined_footer
+              - link "Bean Bags" [ref=e907] [cursor=pointer]:
+                - /url: /furniture/bean-bags/pr?sid=wwe,4n6&otracker=undefined_footer
+              - link "Office Chairs" [ref=e908] [cursor=pointer]:
+                - /url: /furniture/chairs/office-study-chairs/pr?sid=wwe,y7b,foc&otracker=undefined_footer
+              - link "Computer Table" [ref=e909] [cursor=pointer]:
+                - /url: /q/computer-tables?otracker=undefined_footer
+              - link "Office Tables" [ref=e910] [cursor=pointer]:
+                - /url: /furniture/tables/office-study-table/pr?sid=wwe,ki7,l1t&otracker=undefined_footer
+              - link "Red Sofa" [ref=e911] [cursor=pointer]:
+                - /url: /furniture/sofas/sofa-sets/red~primary-color/pr?sid=wwe,c3z,r0c&otracker=undefined_footer
+              - link "Wakefit Beds" [ref=e912] [cursor=pointer]:
+                - /url: /furniture/beds/beds/wakefit~brand/pr?sid=wwe,7p7,4yf&otracker=undefined_footer
+              - link "White Sofa" [ref=e913] [cursor=pointer]:
+                - /url: /furniture/sofas/sofa-sets/white~primary-color/pr?sid=wwe,c3z,r0c&otracker=undefined_footer
+              - link "Wakefit Mattress" [ref=e914] [cursor=pointer]:
+                - /url: /furniture/mattresses/wakefit~brand/pr?sid=wwe%2Crg9&otracker=undefined_footer
+              - link "Green Sofa" [ref=e915] [cursor=pointer]:
+                - /url: /furniture/sofas/sofa-sets/green~primary-color/pr?sid=wwe,c3z,r0c&otracker=undefined_footer
+              - link "Black Sofa" [ref=e916] [cursor=pointer]:
+                - /url: /furniture/sofas/sofa-sets/black~primary-color/pr?sid=wwe,c3z,r0c&otracker=undefined_footer
+              - link "Brown Sofa" [ref=e917] [cursor=pointer]:
+                - /url: /furniture/sofas/sofa-sets/brown~primary-color/pr?sid=wwe,c3z,r0c&otracker=undefined_footer
+            - generic [ref=e918]:
+              - generic [ref=e919]: "BGMH:"
+              - link "Car Accessories" [ref=e920] [cursor=pointer]:
+                - /url: /car-accessories-at-store?otracker=undefined_footer
+              - link "Bike Accessories" [ref=e921] [cursor=pointer]:
+                - /url: /bike-accessories-at-store?otracker=undefined_footer
+              - link "Car Dashcams" [ref=e922] [cursor=pointer]:
+                - /url: /automotive-accessories/vehicle-safety-security-and-guards/vehicle-parking-security-and-navigation/car-security-cameras/pr?sid=1mt,kiq,t8u,w2o&otracker=undefined_footer
+              - link "Vehicle Battery" [ref=e923] [cursor=pointer]:
+                - /url: /automotive-accessories/spares-tools-and-maintenance-service-parts/vehicle-battery-and-jumper/vehicle-batteries/pr?sid=1mt,m2b,dnc,8tu&otracker=undefined_footer
+              - link "Engine Oil" [ref=e924] [cursor=pointer]:
+                - /url: /automotive-accessories/oils-and-lubricants/engine-oil/pr?sid=1mt,0mi,p2g&otracker=undefined_footer
+              - link "Car Air Fresheners" [ref=e925] [cursor=pointer]:
+                - /url: automotive-accessories/car-air-purifiers-and-air-fresheners/pr?sid=1mt,bpx&otracker=undefined_footer
+              - link "Shampoo" [ref=e926] [cursor=pointer]:
+                - /url: /beauty-and-grooming/hair-care-and-accessory/hair-care/shampoo/pr?sid=g9b,lcf,qqm,t36&otracker=undefined_footer
+              - link "Whey Protein" [ref=e927] [cursor=pointer]:
+                - /url: /health-care/health-supplements/protein-supplement/whey-protein~type/pr?sid=hlc,etg,1rx&otracker=undefined_footer
+              - link "Homeopathy" [ref=e928] [cursor=pointer]:
+                - /url: https://www.flipkart.com/health-care/home-medicines/general-wellness/homeopathy/pr?sid=hlc,ah4,iav,raa&otracker=undefined_footer
+              - link "Cricket" [ref=e929] [cursor=pointer]:
+                - /url: /sports/cricket/pr?sid=abc,5lf&otracker=undefined_footer
+              - link "Cycles" [ref=e930] [cursor=pointer]:
+                - /url: /sports/cycling/cycles/pr?sid=abc,ulv,ixt&otracker=undefined_footer
+              - link "Footballs" [ref=e931] [cursor=pointer]:
+                - /url: /sports/football/footballs/pr?sid=abc,gxg,eha&otracker=undefined_footer
+              - link "Treadmills" [ref=e932] [cursor=pointer]:
+                - /url: /exercise-fitness/fitness-equipment/treadmills/pr?sid=qoc,amf,oyq&otracker=undefined_footer
+              - link "Fitness Accessories" [ref=e933] [cursor=pointer]:
+                - /url: /exercise-fitness/fitness-accessories/pr?sid=qoc,acb&otracker=undefined_footer
+              - link "Online Guitar" [ref=e934] [cursor=pointer]:
+                - /url: /q/online-guitar?otracker=undefined_footer
+              - link "Books Store" [ref=e935] [cursor=pointer]:
+                - /url: /books-store?otracker=undefined_footer
+              - link "Musical Instrument Store" [ref=e936] [cursor=pointer]:
+                - /url: /musical-instruments-store?otracker=undefined_footer
+              - link "Energy Drinks" [ref=e937] [cursor=pointer]:
+                - /url: /health-care/health-supplements/energy-drinks/pr?sid=hlc,etg,2yn&otracker=undefined_footer
+              - link "Toys" [ref=e938] [cursor=pointer]:
+                - /url: /toys-online-store?otracker=undefined_footer
+              - link "Milk Drink Mixes" [ref=e939] [cursor=pointer]:
+                - /url: /health-care/health-supplements/milk-drink-mixes/pr?sid=hlc,etg,sxm&otracker=undefined_footer
+              - link "Protein Supplements" [ref=e940] [cursor=pointer]:
+                - /url: /health-care/health-supplements/protein-supplement/pr?sid=hlc,etg,1rx&otracker=undefined_footer
+          - generic [ref=e943]:
+            - 'heading "Flipkart: The One-stop Shopping Destination" [level=1] [ref=e944]'
+            - text: E-commerce is revolutionizing the way we all shop in India. Why do you want to hop from one store to another in search of the latest phone when you can find it on the Internet in a single click? Not only mobiles. Flipkart houses everything you can possibly imagine, from trending electronics like laptops, tablets, smartphones, and mobile accessories to in-vogue fashion staples like shoes, clothing and lifestyle accessories; from modern furniture like sofa sets, dining tables, and wardrobes to appliances that make your life easy like washing machines, TVs, ACs, mixer grinder juicers and other time-saving kitchen and small appliances; from home furnishings like cushion covers, mattresses and bedsheets to toys and musical instruments, we got them all covered. You name it, and you can stay assured about finding them all here. For those of you with erratic working hours, Flipkart is your best bet. Shop in your PJs, at night or in the wee hours of the morning. This e-commerce never shuts down.
+            - text: What's more, with our year-round shopping festivals and events, our prices are irresistible. We're sure you'll find yourself picking up more than what you had in mind. If you are wondering why you should shop from Flipkart when there are multiple options available to you, well, the below will answer your question.
+            - heading "Flipkart Plus" [level=2] [ref=e945]
+            - text: A world of limitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscription fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non-plus members earn 2 supercoins. Early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more!
+            - text: "What's more, you can even use the Flipkart supercoins for a number of exciting services, like:"
+            - text: An annual Zomato Gold membership
+            - text: An annual Hotstar Premium membership
+            - text: 6 months Gaana plus subscription
+            - text: Rupees 550 instant discount on flights on ixigo
+            - text: Check out https://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.
+            - heading "No Cost EMI" [level=2] [ref=e946]
+            - text: In an attempt to make high-end products accessible to all, our No Cost EMI plan enables you to shop with us under EMI, without shelling out any processing fee. Applicable on select mobiles, laptops, large and small appliances, furniture, electronics and watches, you can now shop without burning a hole in your pocket. If you've been eyeing a product for a long time, chances are it may be up for a no cost EMI. Take a look ASAP! Terms and conditions apply.
+            - heading "EMI on Debit Cards" [level=2] [ref=e947]
+            - text: Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt to make online shopping accessible to everyone, Flipkart introduces EMI on Debit Cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers! Terms and conditions apply.
+            - heading "Mobile Exchange Offers" [level=2] [ref=e948]
+            - text: Get an instant discount on the phone that you have been eyeing on. Exchange your old mobile for a new one after the Flipkart experts calculate the value of your old phone, provided it is in a working condition without damage to the screen. If a phone is applicable for an exchange offer, you will see the 'Buy with Exchange' option on the product description of the phone. So, be smart, always opt for an exchange wherever possible. Terms and conditions apply.
+            - heading "What Can You Buy From Flipkart?" [level=2] [ref=e949]
+            - heading "Mobile Phones" [level=2] [ref=e950]
+            - text: From budget phones to state-of-the-art smartphones, we have a mobile for everybody out there. Whether you're looking for larger, fuller screens, power-packed batteries, blazing-fast processors, beautification apps, high-tech selfie cameras or just large internal space, we take care of all the essentials. Shop from top brands in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo, and Honor to name a few. Rest assured, you're buying from only the most reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run around service centres. This plan entails you to a number of post-purchase solutions, starting at as low as Rupees 99 only! Broken screens, liquid damage to phone, hardware and software glitches, and replacements -
+            - generic [ref=e951]: the Flipkart Complete Mobile Protection
+            - text: covers a comprehensive range of post-purchase problems, with door-to-door services.
+            - heading "Electronic Devices and Accessories" [level=2] [ref=e952]
+            - text: When it comes to laptops, we are not far behind. Filter among dozens of super-fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a flash. All you students out there, confused about what laptop to get? Our
+            - generic [ref=e953]: Back To College Store
+            - text: segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, multitasking) with recommendations from top brands and industry experts, facilitating a shopping experience that is quicker and simpler.
+            - text: "Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store. Photography lovers, you couldn't land at a better page than ours. Cutting-edge DSLR cameras, ever reliable point-and-shoot cameras, millennial favourite instant cameras or action cameras for adventure junkies: our range of cameras is as much for beginners as it is for professionals. Canon, Nikon, GoPro, Sony, and Fujifilm are some big names you'll find in our store."
+            - text: Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember.
+            - text: How about jazzing up your phone with our quirky designer cases and covers? Our wide-ranging mobile accessories starting from headphones, power banks, memory cards, mobile chargers, to selfie sticks can prove to be ideal travel companions for you and your phone; never again worry about running out of charge or memory on your next vacation.
+            - heading "Large Appliances" [level=2] [ref=e954]
+            - text: Sleek TVs, power-saving refrigerators, rapid-cooling ACs, resourceful washing machines - discover everything you need to run a house under one roof. Our
+            - generic [ref=e955]: Dependable TV and Appliance Store
+            - text: ensures zero transit damage, with a replacement guarantee if anything goes wrong; delivery and installation as per your convenience and a double warranty (Official Brand Warranty along with an extended Flipkart Warranty) - rest assured, value for money is what is promised and delivered. Shop from market leaders in the country like Samsung, LG, Whirlpool, Midea, Mi, Vu, Panasonic, Godrej, Sony, Daikin, and Hitachi among many others.
+            - text: For certain product categories, Customers meeting the eligibility criteria will have the option to buy larger quantities. To know more on the eligibility criteria and terms and conditions, please reach out to
+            - link "Purchases.oni@flipkart.com" [ref=e956] [cursor=pointer]:
+              - /url: mailto:Purchases.oni@flipkart.com
+            - text: .
+            - heading "Small Home Appliances" [level=2] [ref=e957]
+            - text: "Find handy and practical home appliances designed to make your life simpler: electric kettles, OTGs, microwave ovens, sandwich makers, hand blenders, coffee makers, and many more other time-saving appliances that are truly crafted for a quicker lifestyle. Live life king size with these appliances at home."
+            - heading "Lifestyle" [level=2] [ref=e958]
+            - text: Flipkart,
+            - generic [ref=e959]: "'India ka Fashion Capital'"
+            - text: ", is your one-stop fashion destination for anything and everything you need to look good. Our exhaustive range of Western and Indian wear, summer and winter clothing, formal and casual footwear, bridal and artificial jewellery, long-lasting make-up, grooming tools and accessories are sure to sweep you off your feet. Shop from crowd favourites like Vero Moda, Forever 21, Only, Arrow, Woodland, Nike, Puma, Revlon, Mac, and Sephora among dozens of other top-of-the-ladder names. From summer staple maxi dresses, no-nonsense cigarette pants, traditional Bandhani kurtis to street-smart biker jackets, you can rely on us for a wardrobe that is up to date. Explore our in-house brands like Metronaut, Anmi, and Denizen, to name a few, for carefully curated designs that are the talk of the town. Get ready to be spoiled for choice.Festivals, office get-togethers, weddings, brunches, or nightwear - Flipkart will have your back each time."
+            - heading "Home and Furniture" [level=2] [ref=e960]
+            - text: Moving to a new place is never easy, especially if you're buying new furniture. Beds, sofa sets, dining tables, wardrobes, and TV units - it's not easy to set up everything again. With the hundreds of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture will stand the test of time? These are questions you must ask before you choose a store. Well, our
+            - generic [ref=e961]: Durability Certified Furniture Store
+            - text: has not only curated a range of furniture keeping in mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they last you for up to 10 years. Yes, all our furniture has gone through 35 stability and load tests so that you receive only the best-quality furniture.
+            - generic [ref=e962]: Be FurniSure
+            - text: ", always. Names to look out for are Nilkamal, Godrej Interio, Urban Ladder, HomeTown, Durian and Perfect Homes."
+            - text: You may have your furniture all set up, but they could end up looking flat and incomplete without complementary decor. Curtains, cushion covers, bed sheets, wall shelves, paintings, floor lamps - find everything that turns a house to an inviting home under one roof at Flipkart.
+            - heading "Baby and Kids" [level=2] [ref=e963]
+            - text: "Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you're an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collection. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko, and Johnson & Johnson: we host only the most-trusted names in the business for your baby."
+            - heading "Books, Sports and Games" [level=2] [ref=e964]
+            - text: Work hard and no play? We don't believe in that. Get access to best-selling fiction and non-fiction books by your favourite authors, thrilling English and Indian blockbusters, most-wanted gaming consoles, and a tempting range of fitness and sports gadgets and equipment bound to inspire you to get moving.
+            - heading "Grocery/Supermart" [level=2] [ref=e965]
+            - text: Launching into the grocery vertical, Flipkart introduces
+            - generic [ref=e966]: Supermart
+            - text: that is out to bring everyday essentials close to you. From pulses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 Rupee only - our
+            - generic [ref=e967]: 1 Rupee Store
+            - text: presents new products every day for a nominal price of 1 Rupee only. Terms and conditions apply.
+          - generic [ref=e968]:
+            - generic [ref=e969]:
+              - generic [ref=e970]:
+                - generic [ref=e971]: ABOUT
+                - link "Contact Us" [ref=e972] [cursor=pointer]:
+                  - /url: /helpcentre?otracker=footer_navlinks
+                - link "About Us" [ref=e973] [cursor=pointer]:
+                  - /url: https://corporate.flipkart.net/corporate-home
+                - link "Careers" [ref=e974] [cursor=pointer]:
+                  - /url: https://www.flipkartcareers.com/?otracker=footer_navlinks
+                - link "Flipkart Stories" [ref=e975] [cursor=pointer]:
+                  - /url: http://stories.flipkart.com/?otracker=footer_navlinks
+                - link "Press" [ref=e976] [cursor=pointer]:
+                  - /url: http://stories.flipkart.com/category/top-stories/news/
+                - link "Corporate Information" [ref=e977] [cursor=pointer]:
+                  - /url: /corporate-information
+              - generic [ref=e978]:
+                - generic [ref=e979]: GROUP COMPANIES
+                - link "Myntra" [ref=e980] [cursor=pointer]:
+                  - /url: https://www.myntra.com/
+                - link "Cleartrip" [ref=e981] [cursor=pointer]:
+                  - /url: https://www.cleartrip.com/
+                - link "Shopsy" [ref=e982] [cursor=pointer]:
+                  - /url: https://www.shopsy.in
+              - generic [ref=e983]:
+                - generic [ref=e984]: HELP
+                - link "Payments" [ref=e985] [cursor=pointer]:
+                  - /url: /pages/payments
+                - link "Shipping" [ref=e986] [cursor=pointer]:
+                  - /url: /pages/shipping
+                - link "Cancellation & Returns" [ref=e987] [cursor=pointer]:
+                  - /url: /helpcentre?catalog=55c9c6edb000002e002c1701&view=CATALOG
+                - link "FAQ" [ref=e988] [cursor=pointer]:
+                  - /url: /helpcentre?catalog=55c9c8e2b0000023002c1702&view=CATALOG
+              - generic [ref=e989]:
+                - generic [ref=e990]: CONSUMER POLICY
+                - link "Cancellation & Returns" [ref=e991] [cursor=pointer]:
+                  - /url: /pages/returnpolicy?otracker=footer_navlinks
+                - link "Terms Of Use" [ref=e992] [cursor=pointer]:
+                  - /url: /pages/terms?otracker=footer_navlinks
+                - link "Security" [ref=e993] [cursor=pointer]:
+                  - /url: /pages/paymentsecurity?otracker=footer_navlinks
+                - link "Privacy" [ref=e994] [cursor=pointer]:
+                  - /url: /pages/privacypolicy?otracker=footer_navlinks
+                - link "Sitemap" [ref=e995] [cursor=pointer]:
+                  - /url: /sitemap?otracker=footer_navlinks
+                - link "Grievance Redressal" [ref=e996] [cursor=pointer]:
+                  - /url: /pages/grievance-redressal-mechanism?otracker=footer_navlinks
+                - link "EPR Compliance" [ref=e997] [cursor=pointer]:
+                  - /url: /pages/ewaste-compliance-tnc?otracker=footer_navlinks
+              - generic [ref=e998]:
+                - generic [ref=e999]: "Mail Us:"
+                - generic [ref=e1000]:
+                  - paragraph [ref=e1001]: Flipkart Internet Private Limited,
+                  - paragraph [ref=e1002]: Buildings Alyssa, Begonia &
+                  - paragraph [ref=e1003]: Clove Embassy Tech Village,
+                  - paragraph [ref=e1004]: Outer Ring Road, Devarabeesanahalli Village,
+                  - paragraph [ref=e1005]: Bengaluru, 560103,
+                  - paragraph [ref=e1006]: Karnataka, India
+                - generic [ref=e1007]: "Social:"
+                - generic [ref=e1008]:
+                  - link "Facebook" [ref=e1010] [cursor=pointer]:
+                    - /url: https://www.facebook.com/flipkart
+                    - img "Facebook" [ref=e1011] [cursor=pointer]
+                  - link "Twitter" [ref=e1013] [cursor=pointer]:
+                    - /url: https://www.twitter.com/flipkart
+                    - img "Twitter" [ref=e1014] [cursor=pointer]
+                  - link "YouTube" [ref=e1016] [cursor=pointer]:
+                    - /url: https://www.youtube.com/flipkart
+                    - img "YouTube" [ref=e1017] [cursor=pointer]
+                  - link "Instagram" [ref=e1019] [cursor=pointer]:
+                    - /url: https://www.instagram.com/flipkart
+                    - img "Instagram" [ref=e1020] [cursor=pointer]
+              - generic [ref=e1021]:
+                - generic [ref=e1022]: "Registered Office Address:"
+                - generic [ref=e1023]:
+                  - paragraph [ref=e1024]: Flipkart Internet Private Limited,
+                  - paragraph [ref=e1025]: Buildings Alyssa, Begonia &
+                  - paragraph [ref=e1026]: Clove Embassy Tech Village,
+                  - paragraph [ref=e1027]: Outer Ring Road, Devarabeesanahalli Village,
+                  - paragraph [ref=e1028]: Bengaluru, 560103,
+                  - paragraph [ref=e1029]: Karnataka, India
+                  - paragraph [ref=e1030]: "CIN : U51109KA2012PTC066107"
+                  - paragraph
+                  - paragraph [ref=e1031]:
+                    - text: "Telephone:"
+                    - link "044-45614700" [ref=e1032] [cursor=pointer]:
+                      - /url: tel:044-45614700
+                    - text: /
+                    - link "044-67415800" [ref=e1033] [cursor=pointer]:
+                      - /url: tel:044-67415800
+            - generic [ref=e1034]:
+              - generic [ref=e1035]:
+                - img "Become a Seller" [ref=e1036]
+                - link "Become a Seller" [ref=e1037] [cursor=pointer]:
+                  - /url: https://seller.flipkart.com/?utm_source=fkwebsite&utm_medium=websitedirect
+                  - generic [ref=e1038] [cursor=pointer]: Become a Seller
+              - generic [ref=e1039]:
+                - img "Advertise" [ref=e1040]
+                - link "Advertise" [ref=e1041] [cursor=pointer]:
+                  - /url: https://brands.flipkart.com
+                  - generic [ref=e1042] [cursor=pointer]: Advertise
+              - generic [ref=e1043]:
+                - img "Gift Cards" [ref=e1044]
+                - link "Gift Cards" [ref=e1045] [cursor=pointer]:
+                  - /url: /the-gift-card-store?otracker=footer_navlinks
+                  - generic [ref=e1046] [cursor=pointer]: Gift Cards
+              - generic [ref=e1047]:
+                - img "Help Center" [ref=e1048]
+                - link "Help Center" [ref=e1049] [cursor=pointer]:
+                  - /url: /helpcentre?otracker=footer_navlinks
+                  - generic [ref=e1050] [cursor=pointer]: Help Center
+              - generic [ref=e1051]:
+                - text: © 2007-2025
+                - generic [ref=e1052]: Flipkart.com
+              - img "Payment methods" [ref=e1053]
+  - contentinfo
+```
