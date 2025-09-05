@@ -60,6 +60,41 @@ echo Secrets preflight passed (values are not printed).
                 bat 'npx allure open allure-report'
             }
         }
+                stage('Cleanup') {
+                        steps {
+                                powershell '''
+                                $ErrorActionPreference = 'SilentlyContinue'
+                                Write-Host 'Cleanup: attempting to stop server via PID file if present...'
+
+                                if (Test-Path 'server.pid') {
+                                    $pidText = Get-Content 'server.pid' | Select-Object -First 1
+                                    if ($pidText -match '^[0-9]+$') {
+                                        $pid = [int]$pidText
+                                        Write-Host "Stopping process PID $pid"
+                                        Stop-Process -Id $pid -Force -ErrorAction SilentlyContinue
+                                    }
+                                    Remove-Item -Force 'server.pid' -ErrorAction SilentlyContinue
+                                }
+
+                                $port = $env:SERVER_PORT
+                                if (-not $port -or -not ($port -match '^[0-9]+$')) { $port = 8080 }
+                                Write-Host "Cleanup: attempting to free port $port..."
+                                $owners = Get-NetTCPConnection -LocalPort $port -State Listen -ErrorAction SilentlyContinue | Select-Object -ExpandProperty OwningProcess -Unique
+                                if ($owners) {
+                                    foreach ($op in $owners) {
+                                        try {
+                                            Stop-Process -Id $op -Force -ErrorAction SilentlyContinue
+                                            Write-Host "Stopped process on port $port (PID $op)"
+                                        } catch {}
+                                    }
+                                } else {
+                                    Write-Host "No listener found on port $port"
+                                }
+
+                                exit 0
+                                '''
+                        }
+                }
     }
     post {
         always {
